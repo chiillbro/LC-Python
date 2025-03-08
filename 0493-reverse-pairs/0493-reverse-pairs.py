@@ -28,18 +28,11 @@ class Solution:
             else:
                 merged.append(nums[right])
                 right += 1
-            
-        
-        while left <= mid:
-            merged.append(nums[left])
-            left += 1
-        
-        while right <= high:
-            merged.append(nums[right])
-            right += 1
-        
-        for i in range(low, high + 1):
-            nums[i] = merged[i - low]
+
+        merged.extend(nums[left:mid + 1] or nums[right:high+1])
+        nums[low:high+1] = merged
+
+
     
     def _countPairs(self, nums, low, mid, high):
         count = 0
