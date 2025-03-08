@@ -1,0 +1,48 @@
+class Solution:
+    def countSmaller(self, nums: List[int]) -> List[int]:
+        # def sort(indexed_nums):
+        #     half = len(indexed_nums) // 2
+        #     if half:
+        #         left, right = sort(indexed_nums[:half]), sort(indexed_nums[half:])
+        #         for i in range(len(enum))[::-1]:
+        #             if not right or (left and left[-1][1] > right[-1][1]):
+        #                 counts[left[-1][0]] += len(right)
+        #                 indexed_nums[i] = left.pop()
+        #             else:
+        #                 indexed_nums[i] = right.pop()
+        #     return indexed_nums
+
+        def merge_sort(arr):
+            if len(arr) <= 1: return arr
+
+            mid = len(arr) // 2
+            left = merge_sort(arr[:mid])
+            right = merge_sort(arr[mid:])
+            
+            merged = []
+            i = j = 0
+
+            while i < len(left) and j < len(right):
+                if left[i][1] <= right[j][1]:
+                    counts[left[i][0]] += j
+                    merged.append(left[i])
+                    i += 1
+                else:
+                    merged.append(right[j])
+                    j += 1
+            
+            while i < len(left):
+                counts[left[i][0]] += j
+                merged.append(left[i])
+                i += 1
+            
+            merged.extend(right[j:])
+
+            return merged
+
+
+        counts = [0] * len(nums)
+        indexed_nums = list(enumerate(nums))
+
+        merge_sort(indexed_nums)
+        return counts
