@@ -6,6 +6,7 @@ LeetCode DSA Practice with Python
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [1319-unique-number-of-occurrences](https://github.com/chiillbro/LC-Python/tree/master/1319-unique-number-of-occurrences) |
@@ -48,4 +49,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [1319-unique-number-of-occurrences](https://github.com/chiillbro/LC-Python/tree/master/1319-unique-number-of-occurrences) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
