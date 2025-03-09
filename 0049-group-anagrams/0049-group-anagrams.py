@@ -3,8 +3,11 @@ class Solution:
         anagrams = defaultdict(list)
 
         for word in strs:
-            sorted_word = tuple(sorted(word))
+            # sorted_word = tuple(sorted(word))
+            key = [0] * 26
+            for c in word:
+                key[ord(c) - ord('a')] += 1
 
-            anagrams[sorted_word].append(word)
+            anagrams[tuple(key)].append(word)
         return list(anagrams.values())
 
