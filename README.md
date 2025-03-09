@@ -83,6 +83,7 @@ LeetCode DSA Practice with Python
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 ## Sorting
 |  |
@@ -104,4 +105,12 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
