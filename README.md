@@ -72,6 +72,7 @@ LeetCode DSA Practice with Python
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0104-maximum-depth-of-binary-tree) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 ## Matrix
 |  |
@@ -85,4 +86,16 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0104-maximum-depth-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
