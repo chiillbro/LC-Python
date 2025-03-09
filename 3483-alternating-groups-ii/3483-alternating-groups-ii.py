@@ -22,9 +22,9 @@ class Solution:
         for i in range(N):
             alt[i] = 1 if colors[i] != colors[(i+1)%N] else 0
         
-        prefix = [0] * (2*N + 1)
+        prefix = [0] * (N + k + 1)
 
-        for i in range(2*N):
+        for i in range(N + k):
             prefix[i+1] = prefix[i] + alt[i % N]
         
         for i in range(N):
