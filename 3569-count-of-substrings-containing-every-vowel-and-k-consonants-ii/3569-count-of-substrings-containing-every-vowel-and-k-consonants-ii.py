@@ -12,6 +12,7 @@ class Solution:
             else:
                 cons_count += 1
             
+            # **Shrink the window from the left** until we have at most k consonants.
             while cons_count > k:
                 if word[high] in vowel_set:
                     freq_map[word[high]] -= 1
@@ -21,15 +22,20 @@ class Solution:
                     cons_count -= 1
                 
                 high += 1
-                low = high
+                low = high # reset the left boundary to hi
                 
+            # **Optionally extend the window** if it can be widened while preserving validity.
             while cons_count == k and high < N:
                 if word[high] in vowel_set and freq_map[word[high]] > 1:
+                    # If the next character is a vowel that appears more than once,
+                    # we can remove one copy (virtually) and move hi.
                     freq_map[word[high]] -= 1
                     high += 1
                 else:
                     break
             
+            # If the current window has exactly k consonants and all vowels are present,
+            # then every substring starting from index lo to hi (in a certain range) ending at hi is valid.
             if cons_count == k and len(freq_map) == 5:
                 res += (high - low + 1)
 
