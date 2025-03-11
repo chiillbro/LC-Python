@@ -14,7 +14,4 @@ class Solution:
                     count_map.pop(s[l])
                 l += 1
         
-        return res
-        
-        return res
-                    
+        return res        
