@@ -15,6 +15,8 @@ class Solution:
             else:
                 low  = mid + 1
         
+        if first == -1: return [-1, -1]
+        
         low, high = 0, N - 1
         while low <= high:
             mid = low + (high - low) // 2
