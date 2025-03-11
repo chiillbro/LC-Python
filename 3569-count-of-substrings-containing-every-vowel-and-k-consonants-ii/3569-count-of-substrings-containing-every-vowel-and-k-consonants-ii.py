@@ -6,8 +6,6 @@ class Solution:
         # freq_map = defaultdict(int)
         # cons_count = 0
         # left = res = 0
-        # prev_count = 0
-        # prev_left = -1
 
         # for right in range(N):
         #     char = word[right]
@@ -47,11 +45,11 @@ class Solution:
                     res += N - r
                     if word[l] in 'aeiou':
                         vowel[word[l]] -= 1
+                        if vowel[word[l]] == 0:
+                            vowel.pop(word[l])
                     else:
                         non_vowel -= 1
                     
-                    if vowel[word[l]] == 0:
-                        vowel.pop(word[l])
                     l += 1
             return res
 
