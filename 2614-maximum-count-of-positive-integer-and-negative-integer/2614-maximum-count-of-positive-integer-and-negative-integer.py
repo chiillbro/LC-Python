@@ -33,8 +33,8 @@ class Solution:
             else:
                 low = mid + 1
         
-        # if lower_bound == 0 and nums[lower_bound - 1] != 0:
-        #     return N
+        if lower_bound == 0 and nums[-1] < 0:
+            return N
         
         low, high = 0, N - 1
         while low <= high:
