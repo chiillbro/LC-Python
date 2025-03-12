@@ -11,6 +11,7 @@ LeetCode DSA Practice with Python
 | [0033-search-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/chiillbro/LC-Python/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
@@ -25,6 +26,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/chiillbro/LC-Python/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
