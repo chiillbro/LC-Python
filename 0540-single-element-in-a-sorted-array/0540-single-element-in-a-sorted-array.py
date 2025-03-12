@@ -19,12 +19,12 @@ class Solution:
                 return nums[mid]
 
             if mid & 1 == 0:
-                if mid < N - 1 and nums[mid] == nums[mid + 1]:
+                if nums[mid] == nums[mid + 1]:
                     low = mid + 1
-                elif mid > 0 and nums[mid] == nums[mid - 1]:
+                else:
                     high = mid - 1
             else:
-                if mid < N - 1 and nums[mid] == nums[mid + 1]:
+                if nums[mid] == nums[mid + 1]:
                     high = mid - 1
-                elif mid > 0 and nums[mid] == nums[mid - 1]:
+                else:
                     low = mid + 1
