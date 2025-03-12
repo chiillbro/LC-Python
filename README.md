@@ -8,6 +8,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0011-container-with-most-water](https://github.com/chiillbro/LC-Python/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0033-search-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
@@ -21,6 +22,7 @@ LeetCode DSA Practice with Python
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
