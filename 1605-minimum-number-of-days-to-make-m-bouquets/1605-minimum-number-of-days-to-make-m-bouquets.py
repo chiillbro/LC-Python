@@ -5,7 +5,7 @@ class Solution:
         if m * k == 1: return min(bloomDay)
         low, high = min(bloomDay), max(bloomDay)
 
-        def canForm(d):
+        def canFormBouquets(d):
             count = 0
             i = 0
             while i < N:
@@ -20,7 +20,7 @@ class Solution:
         
         while low <= high:
             mid = low + (high - low) // 2
-            if canForm(mid): high = mid - 1
+            if canFormBouquets(mid): high = mid - 1
             else: low = mid + 1
         
         return low
