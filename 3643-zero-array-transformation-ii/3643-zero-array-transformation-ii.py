@@ -57,14 +57,14 @@ class Solution:
     #     total_sum = 0
     #     difference_sum = [0] * (N + 1)
 
-    #     for query_idx in range(k):
-    #         l, r, v = queries[query_idx]
+    #     for q in range(k):
+    #         l, r, v = queries[q]
     #         difference_sum[l] += v
     #         difference_sum[r+1] -= v
         
-    #     for num_idx in range(N):
-    #         total_sum += difference_sum[num_idx]
-    #         if total_sum < nums[num_idx]:
+    #     for i, num in enumerate(nums):
+    #         total_sum += difference_sum[i]
+    #         if total_sum < num:
     #             return False
     #     return True
 
