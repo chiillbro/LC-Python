@@ -38,8 +38,8 @@ class Solution:
         difference_array = [0] * (N+1)
         k = 0
 
-        for i in range(N):
-            while total_sum + difference_array[i] < nums[i]:
+        for i, num in enumerate(nums):
+            while total_sum + difference_array[i] < num:
                 k += 1
                 if k > len(queries):
                     return -1
