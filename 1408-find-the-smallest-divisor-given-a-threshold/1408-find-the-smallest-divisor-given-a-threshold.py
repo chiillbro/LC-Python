@@ -5,7 +5,8 @@ class Solution:
         def canDivide(k):
             _sum = 0
             for num in nums:
-                _sum += math.ceil(num/k)
+                # _sum += math.ceil(num/k)
+                _sum += (num + k - 1) // k
                 if _sum > threshold: return False
             
             return _sum <= threshold
