@@ -12,7 +12,7 @@ class Solution:
 
         ans = -1
         while low <= high:
-            mid = low + ((high - low) >> 1)
+            mid = low + (high - low) // 2
 
             if canDivide(mid): 
                 ans = mid
