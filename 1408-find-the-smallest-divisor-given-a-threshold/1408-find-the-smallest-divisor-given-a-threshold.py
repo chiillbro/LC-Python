@@ -12,7 +12,7 @@ class Solution:
 
         ans = -1
         while low <= high:
-            mid = low + ((high - low) >> 1)
+            mid = low + ((high - low) >> 1) # using a bit-shift is a fast way to divide by 2
 
             if canDivide(mid): 
                 ans = mid
