@@ -1,5 +1,7 @@
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
+
+        # ** Same Variant as Allocate Books problem **
         N = len(nums)
 
         def canSplit(length):
