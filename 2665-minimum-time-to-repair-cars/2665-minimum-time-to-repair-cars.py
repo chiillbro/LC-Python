@@ -1,17 +1,20 @@
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
         N = len(ranks)
-        # maxRank = max(ranks)
-        # freq = [0] * (maxRank + 1)
-        # for rank in ranks:
-        #     freq[rank] += 1
-        ranks.sort()
+        maxRank = max(ranks)
+
+        # This is a brilliant approach to create freq array to use ranks in sorted fashion without actually sorting(TC O(n logn)) it
+        freq = [0] * (maxRank + 1)
+        for rank in ranks:
+            freq[rank] += 1
+        # ranks.sort()
 
         def canRepair(time):
             cars_repaired = 0
             
-            for rank in ranks:
-                cars_repaired += int(math.sqrt(time // rank))
+            for rank in range(1, maxRank + 1):
+                if freq[rank]:
+                    cars_repaired += freq[rank] * int(math.sqrt(time // rank))
             
             return cars_repaired >= cars
 
