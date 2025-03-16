@@ -1,18 +1,34 @@
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
-        # The minimum possible time is 1,
-        # and the maximum possible time is when the slowest mechanic (highest rank) repairs all cars.
+        N = len(ranks)
+        # maxRank = max(ranks)
+
+        # ranks.sort()
+        # This is a brilliant approach to create freq array to use ranks in sorted fashion without actually sorting(TC O(n logn)) it
+        # freq = [0] * (maxRank + 1)
+        # for rank in ranks:
+        #     freq[rank] += 1
+
+        def canRepair(time):
+            cars_repaired = 0
+            
+            # for rank in range(1, maxRank + 1):
+            #     if freq[rank]:
+            #         cars_repaired += freq[rank] * int(math.sqrt(time // rank))
+            for rank in ranks:
+                cars_repaired += int((time // rank) ** 0.5)
+            
+            return cars_repaired >= cars
+
+        # low, high = 1, min(ranks) * (cars * cars)
         low, high = 1, cars * cars * ranks[0]
 
-        # Perform binary search to find the minimum time required.
-        while low < high:
-            mid = (low + high) // 2
-            cars_repaired = sum(int((mid / rank) ** 0.5) for rank in ranks)
+        while low <= high:
+            mid = (high + low) >> 1
 
-            # If the total cars repaired is less than required, increase the time.
-            if cars_repaired < cars:
-                low = mid + 1
+            if canRepair(mid):
+                high = mid - 1
             else:
-                high = mid  # Otherwise, try a smaller time.
-
+                low = mid + 1
+        
         return low
