@@ -1,16 +1,17 @@
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
         N = len(ranks)
-        maxRank = max(ranks)
-        freq = [0] * (maxRank + 1)
-        for rank in ranks:
-            freq[rank] += 1
+        # maxRank = max(ranks)
+        # freq = [0] * (maxRank + 1)
+        # for rank in ranks:
+        #     freq[rank] += 1
+        ranks.sort()
 
         def canRepair(time):
             cars_repaired = 0
             
-            for rank in range(1, maxRank + 1):
-                cars_repaired += freq[rank] * int(math.sqrt(time // rank))
+            for rank in ranks:
+                cars_repaired += int(math.sqrt(time // rank))
             
             return cars_repaired >= cars
 
