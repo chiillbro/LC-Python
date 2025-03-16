@@ -55,7 +55,7 @@ class Solution:
         if n1 > n2:
             return self.findMedianSortedArrays(nums2, nums1)
         low, high = 0, n1
-        elements = (N + 1) // 2
+        elements = (N + 1) >> 1
 
         while low <= high:
             mid1 = (low + high) >> 1
@@ -70,7 +70,7 @@ class Solution:
             if mid2 > 0: l2 = nums2[mid2 - 1]
 
             if l1 <= r2 and l2 <= r1:
-                if N & 1 == 0:
+                if not N & 1:
                     return (min(r1, r2) + max(l1, l2)) / 2.0
                 else:
                     return max(l1, l2)
