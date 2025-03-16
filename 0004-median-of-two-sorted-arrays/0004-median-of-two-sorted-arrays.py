@@ -49,6 +49,9 @@ class Solution:
         #     return (num1 + num2) / 2.0
         # else:
         #     return float(num2)
+
+
+        # ** Binary Search Approach : As the problem asked O(log (n1 + n2)) **
         if n1 > n2:
             return self.findMedianSortedArrays(nums2, nums1)
         low, high = 0, n1
