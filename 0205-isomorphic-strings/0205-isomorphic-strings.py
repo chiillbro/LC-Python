@@ -15,4 +15,16 @@ class Solution:
         
         # return True
 
-        return len(set(s)) == len(set(t)) == len(set(zip(s,t)))
+        char_map = {}
+
+        for sc, tc in zip(s,t):
+            if sc in char_map:
+                if char_map[sc] != tc:
+                    return False
+            
+            elif tc in char_map.values():
+                return False
+
+            char_map[sc] = tc
+        return True
+        # return len(set(s)) == len(set(t)) == len(set(zip(s,t)))
