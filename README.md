@@ -143,6 +143,7 @@ LeetCode DSA Practice with Python
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
@@ -201,4 +202,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
