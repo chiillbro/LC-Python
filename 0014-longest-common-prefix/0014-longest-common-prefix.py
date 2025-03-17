@@ -33,9 +33,18 @@ class Trie:
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         N = len(strs)
-        trie = Trie()
-        for word in strs:
-            trie.insert(word)
+        # trie = Trie()
+        # for word in strs:
+        #     trie.insert(word)
         
-        return trie.findLcp(N)
+        # return trie.findLcp(N)
+        pref = strs[0]
+
+        for s in strs[1:]:
+            while not s.startswith(pref):
+                pref = pref[:-1]
+                if not pref:
+                    return ""
+
+        return pref
         
