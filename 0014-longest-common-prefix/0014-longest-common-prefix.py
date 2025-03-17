@@ -20,11 +20,11 @@ class Trie:
 
         lcp = []
 
-        while node and len(node.children) == 1:
-            char = next(iter(node.children))
-            if node.children[char].count == total_words:
+        while len(node.children) == 1:
+            char, child = next(iter(node.children.items()))
+            if child.count == total_words:
                 lcp.append(char)
-                node = node.children[char]
+                node = child
             else:
                 break
         return ''.join(lcp)
