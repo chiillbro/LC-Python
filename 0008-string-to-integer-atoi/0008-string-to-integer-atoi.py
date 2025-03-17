@@ -4,7 +4,7 @@ class Solution:
         if not s:
             return 0
 
-        lower_threshold, upper_threshold = -2 ** 31, 2 ** 31 - 1
+        lower_threshold, upper_threshold = -pow(2, 31), pow(2, 31) - 1
 
         i, n = 0, len(s)
         sign = 1
