@@ -14,7 +14,7 @@ class Solution:
             row, val = max_el
             if (mid == 0 or mat[row][mid - 1] < val) and (mid == n - 1 or mat[row][mid + 1] < val):
                 return [row, mid]
-            elif mid != 0 and mat[row][mid - 1] > val:
+            elif mid > 0 and mat[row][mid - 1] > val:
                 high = mid - 1
             else:
                 low = mid + 1
