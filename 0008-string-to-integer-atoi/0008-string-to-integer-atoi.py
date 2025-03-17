@@ -1,28 +1,28 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        s = s.strip()
+        s = s.lstrip()
         if not s:
             return 0
-        
-        res = ""
 
         lower_threshold, upper_threshold = -2 ** 31, 2 ** 31 - 1
 
-        for i, char in enumerate(s):
-            if res and not char.isdigit():
-                break
-            
-            if not res and char not in ('+', '-') and not char.isdigit():
-                break
+        i, n = 0, len(s)
+        sign = 1
 
-            res += char
+        res = 0
+
+        if s[i] in ('+', '-'):
+            sign = -1 if s[i] == '-' else 1
+            i = 1
         
-        if not res or (len(res) == 1 and not res.isdigit()):
-            return 0
+        while i < n and s[i].isdigit():
+            digit = int(s[i])
 
-        if lower_threshold <= int(res) <= upper_threshold:
-            return int(res)
-        elif int(res) < lower_threshold:
-            return lower_threshold
-        else:
-            return upper_threshold
+            if res > (upper_threshold - digit) // 10:
+                return upper_threshold if sign == 1 else lower_threshold
+            else:
+                res = res * 10 + digit
+            
+            i += 1
+        
+        return max(lower_threshold, min(sign * res, upper_threshold))
