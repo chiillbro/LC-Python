@@ -213,6 +213,7 @@ LeetCode DSA Practice with Python
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
@@ -226,6 +227,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
