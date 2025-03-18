@@ -1,7 +1,5 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-
-        return self.solve(s.lstrip())
         # s = s.lstrip()
         # if not s:
         #     return 0
@@ -28,6 +26,10 @@ class Solution:
         #     i += 1
         
         # return max(-threshold, min(sign * res, threshold - 1))
+
+        # ** Recursive Solution **
+
+        return self.solve(s.lstrip())
 
     def solve(self, s : str, ans : str ='') -> int:
         if s and len(ans) == 0 and s[0] in '+-':
