@@ -214,6 +214,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
+| [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 ## Stack
@@ -225,6 +226,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
+| [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
 |  |
@@ -238,4 +240,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
