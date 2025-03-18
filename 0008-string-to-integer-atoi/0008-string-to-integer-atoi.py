@@ -4,7 +4,7 @@ class Solution:
         if not s:
             return 0
 
-        lower_threshold, upper_threshold = -pow(2, 31), pow(2, 31) - 1
+        threshold = pow(2, 31)
 
         i, n = 0, len(s)
         sign = 1
@@ -18,11 +18,11 @@ class Solution:
         while i < n and s[i].isdigit():
             digit = int(s[i])
 
-            if res > (upper_threshold - digit) // 10:
-                return upper_threshold if sign == 1 else lower_threshold
+            if res > (threshold - 1 - digit) // 10:
+                return threshold - 1 if sign == 1 else -threshold
             else:
                 res = res * 10 + digit
             
             i += 1
         
-        return max(lower_threshold, min(sign * res, upper_threshold))
+        return max(-threshold, min(sign * res, threshold - 1))
