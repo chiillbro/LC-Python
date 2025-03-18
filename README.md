@@ -33,6 +33,7 @@ LeetCode DSA Practice with Python
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
+| [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/chiillbro/LC-Python/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/chiillbro/LC-Python/tree/master/2690-house-robber-iv) |
@@ -97,6 +98,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Hash Table
@@ -210,6 +212,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
+| [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 ## Stack
 |  |
 | ------- |
