@@ -8,10 +8,10 @@ class Solution:
             if i == n:
                 res.append(sol[:])
                 return
-            backtrack(i + 1)
+            backtrack(i + 1, sol)
 
             sol.append(nums[i])
-            backtrack(i + 1)
+            backtrack(i + 1, sol)
             sol.pop()
         
         backtrack(0)
