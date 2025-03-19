@@ -13,5 +13,5 @@ class Solution:
                 n -= 1
             else:
                 x *= x
-                n //= 2
+                n >>= 1
         return 1 / (res * x) if sign == -1 else res * x
