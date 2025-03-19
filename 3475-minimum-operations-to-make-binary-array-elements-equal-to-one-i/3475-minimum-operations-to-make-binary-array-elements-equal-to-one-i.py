@@ -13,16 +13,26 @@ class Solution:
 
         # ** Second Approach: Using Deque by tracking flips **
 
-        flip_queue = deque()
+        # flip_queue = deque()
 
-        for i in range(len(nums)):
-            while flip_queue and i > flip_queue[0] + 2:
-                flip_queue.popleft()
+        # for i in range(len(nums)):
+        #     while flip_queue and i > flip_queue[0] + 2:
+        #         flip_queue.popleft()
             
-            if (nums[i] + len(flip_queue)) % 2 == 0:
-                if i + 2 >= len(nums):
-                    return -1
-                count += 1
-                flip_queue.append(i)
+        #     if (nums[i] + len(flip_queue)) % 2 == 0:
+        #         if i + 2 >= len(nums):
+        #             return -1
+        #         count += 1
+        #         flip_queue.append(i)
         
+        # return count
+        n = len(nums)
+        for i in range(n-2):
+            if nums[i] == 0:
+                nums[i] = 1
+                nums[i + 1] ^= 1
+                nums[i + 2] ^= 1
+                count += 1
+        if not nums[n - 2] or not nums[n-1]:
+            return -1
         return count
