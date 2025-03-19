@@ -4,17 +4,17 @@ class Solution:
         n = len(nums)
 
         # ** Approach one : using Backtracking **
-        def backtrack(i : int, sol : List[int] = []):
+        def backtrack(i : int, sol : List[int]):
             if i == n:
                 res.append(sol[:])
                 return
-            backtrack(i + 1)
+            backtrack(i + 1, sol)
 
             sol.append(nums[i])
-            backtrack(i + 1)
+            backtrack(i + 1, sol)
             sol.pop()
         
-        backtrack(0)
+        backtrack(0, [])
 
         return res
 
