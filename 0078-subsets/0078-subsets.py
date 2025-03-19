@@ -8,13 +8,15 @@ class Solution:
             if i == n:
                 res.append(sol[:])
                 return
-            backtrack(i + 1, sol)
+            backtrack(i + 1)
 
             sol.append(nums[i])
-            backtrack(i + 1, sol)
+            backtrack(i + 1)
             sol.pop()
         
         backtrack(0)
+
+        return res
 
         ## Approach two : Using Bit Manipulation
 
