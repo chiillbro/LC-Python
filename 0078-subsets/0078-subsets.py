@@ -16,8 +16,6 @@ class Solution:
         
         backtrack(0, [])
 
-        return res
-
         ## Approach two : Using Bit Manipulation
 
         # for mask in range(1 << n):
