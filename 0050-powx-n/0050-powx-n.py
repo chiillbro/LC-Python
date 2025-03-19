@@ -4,14 +4,14 @@ class Solution:
             return 1
         if not x:
             return 0
-        res = 1
-        sign = -1 if n < 0 else 1
+        extra = 1
+        sign = 0 if n < 0 else 1
         n = abs(n)
         while n > 1:
             if n & 1:
-                res *= x
+                extra *= x
                 n -= 1
             else:
                 x *= x
                 n >>= 1
-        return 1 / (res * x) if sign == -1 else res * x
+        return 1 / (extra * x) if not sign else extra * x
