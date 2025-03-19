@@ -7,11 +7,11 @@ class Solution:
         extra = 1
         sign = 0 if n < 0 else 1
         n = abs(n)
-        while n > 1:
+        while n > 0:
             if n & 1:
                 extra *= x
                 n -= 1
             else:
                 x *= x
                 n >>= 1
-        return 1 / (extra * x) if not sign else extra * x
+        return 1 / extra if not sign else extra
