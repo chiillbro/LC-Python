@@ -4,7 +4,7 @@ class Solution:
             return 1
         if not x:
             return 0
-        extra = 1
+        # extra = 1
         # sign = 0 if n < 0 else 1
         # n = abs(n)
         # while n > 0:
@@ -18,18 +18,11 @@ class Solution:
 
 
         def calculate(x, n):
-            nonlocal extra
             if n == 0:
-                return
+                return 1
+            elif n & 1:
+                return x * calculate(x, n - 1)
             
-            if n & 1:
-                extra *= x
-                n -= 1
-            else:
-                x *= x
-                n >>= 1
-            
-            calculate(x, n)
+            return calculate(x * x, n >> 1)
 
-        calculate(x, abs(n))
-        return extra if n > 0 else 1 / extra
+        return 1/calculate(x, abs(n)) if n < 0 else calculate(x, abs(n))
