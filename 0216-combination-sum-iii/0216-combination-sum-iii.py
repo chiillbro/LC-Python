@@ -7,7 +7,7 @@ class Solution:
             if cnt == k and curRem == 0:
                 res.append(sol[:])
                 return
-            elif i == 9 or cnt > k:
+            elif i == 9:
                 return
             
             if nums[i] <= curRem and cnt < k:
