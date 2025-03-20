@@ -3,14 +3,25 @@ class Solution:
         n = len(candidates)
         res = []
         def calculateSum(curRem, i, sol):
-            if curRem  == 0:
-                res.append(sol[:])
+            if i == n:
+                if curRem == 0:
+                    res.append(sol[:])
                 return
-            elif i == n or curRem < 0:
-                return
-            sol.append(candidates[i])
-            calculateSum(curRem - candidates[i], i, sol)
-            sol.pop()
+            
+            if candidates[i] <= curRem:
+                sol.append(candidates[i])
+                calculateSum(curRem - candidates[i], i, sol)
+                sol.pop()
+            
+
+            # if curRem  == 0:
+            #     res.append(sol[:])
+            #     return
+            # elif i == n or curRem < 0:
+            #     return
+            # sol.append(candidates[i])
+            # calculateSum(curRem - candidates[i], i, sol)
+            # sol.pop()
             calculateSum(curRem, i + 1, sol)
         
         calculateSum(target, 0, [])
