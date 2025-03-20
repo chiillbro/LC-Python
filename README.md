@@ -43,6 +43,7 @@ LeetCode DSA Practice with Python
 | [2690-house-robber-iv](https://github.com/chiillbro/LC-Python/tree/master/2690-house-robber-iv) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/chiillbro/LC-Python/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/chiillbro/LC-Python/tree/master/3643-zero-array-transformation-ii) |
@@ -140,6 +141,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -231,6 +233,7 @@ LeetCode DSA Practice with Python
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/chiillbro/LC-Python/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Stack
 |  |
@@ -277,4 +280,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
+## Graph
+|  |
+| ------- |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 <!---LeetCode Topics End-->
