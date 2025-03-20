@@ -6,9 +6,7 @@ class Solution:
             if curRem  == 0:
                 res.append(sol[:])
                 return
-            elif i == n:
-                return
-            elif curRem < 0:
+            elif i == n or curRem < 0:
                 return
             sol.append(candidates[i])
             calculateSum(curRem - candidates[i], i, sol)
