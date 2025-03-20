@@ -3,10 +3,14 @@ class Solution:
         n = len(candidates)
         res = []
         def calculateSum(curRem, i, sol):
-            if i == n:
-                if curRem == 0:
-                    res.append(sol[:])
+            if curRem == 0:
+                res.append(sol[:])
                 return
+            elif i == n: return
+            # if i == n:
+            #     if curRem == 0:
+            #         res.append(sol[:])
+            #     return
             
             if candidates[i] <= curRem:
                 sol.append(candidates[i])
