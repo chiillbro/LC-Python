@@ -11,9 +11,9 @@ class Solution:
 
             for j in range(i, n):
                 cur = candidates[j]
-                if j > i and cur == candidates[j-1]: continue
                 if cur > curRem:
                     break
+                if j > i and cur == candidates[j-1]: continue
                 sol.append(cur)
                 calculateSum(curRem - cur, j + 1, sol)
                 sol.pop()
