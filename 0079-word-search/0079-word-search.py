@@ -18,10 +18,10 @@ class Solution:
             
             return res
         
-        # count = Counter(word)
+        count = Counter(word)
 
-        # if count[word[0]] > count[word[-1]]:
-        #     word = word[::-1]
+        if count[word[0]] > count[word[-1]]:
+            word = word[::-1]
         
         for r in range(m):
             for c in range(n):
