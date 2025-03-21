@@ -16,6 +16,7 @@ LeetCode DSA Practice with Python
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/chiillbro/LC-Python/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/chiillbro/LC-Python/tree/master/0090-subsets-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
@@ -158,6 +159,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
@@ -172,6 +174,7 @@ LeetCode DSA Practice with Python
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
@@ -198,6 +201,7 @@ LeetCode DSA Practice with Python
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 ## Binary Tree
@@ -228,6 +232,7 @@ LeetCode DSA Practice with Python
 | [0039-combination-sum](https://github.com/chiillbro/LC-Python/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/chiillbro/LC-Python/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/chiillbro/LC-Python/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
