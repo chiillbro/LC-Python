@@ -14,6 +14,8 @@ class Solution:
         #         supplies_set.add(recipe)
         #         res.append(recipe)
 
+
+
         # ** Typical BFS Approach **
 
         # available = set(supplies)
@@ -32,19 +34,57 @@ class Solution:
         #         else:
         #             recipe_queue.append(recipe_idx)
 
+
+
         # ** Typical DFS Approach **
 
-        can_make = {supp : True for supp in supplies}
-        recipe_to_idx = {recipe : idx for idx, recipe in enumerate(recipes)}
+        # can_make = {supp : True for supp in supplies}
+        # recipe_to_idx = {recipe : idx for idx, recipe in enumerate(recipes)}
 
-        def checkRecipe(recipe, visited):
-            if can_make.get(recipe, False): return True
-            if recipe in visited or recipe not in recipe_to_idx: return False
+        # def checkRecipe(recipe, visited):
+        #     if can_make.get(recipe, False): return True
+        #     if recipe in visited or recipe not in recipe_to_idx: return False
 
-            visited.add(recipe)
+        #     visited.add(recipe)
 
-            can_make[recipe] = all(checkRecipe(ingre, visited) for ingre in ingredients[recipe_to_idx[recipe]])
+        #     can_make[recipe] = all(checkRecipe(ingre, visited) for ingre in ingredients[recipe_to_idx[recipe]])
 
-            return can_make[recipe]
+        #     return can_make[recipe]
 
-        return [recipe for recipe in recipes if checkRecipe(recipe, set())]
+        # return [recipe for recipe in recipes if checkRecipe(recipe, set())]
+
+        
+
+        # ** Optimal Solution : Using Topological Sort (Kahn's Algorithm)
+
+        available_supplies = set(supplies)
+        recipe_to_idx = defaultdict(int)
+        dependency_graph = defaultdict(list)
+        in_degree = [0] * len(recipes)
+
+        for i, recipe in enumerate(recipes):
+            recipe_to_idx[recipe] = i
+            for ingre in ingredients[i]:
+                if ingre not in available_supplies:
+                    dependency_graph[ingre].append(recipe)
+                    in_degree[i] += 1
+        
+        queue = deque([idx for idx, i in enumerate(in_degree) if not i])
+        res = []
+
+        while queue:
+            recipe_idx = queue.popleft()
+            recipe = recipes[recipe_idx]
+            res.append(recipe)
+            if recipe not in dependency_graph: continue
+            for dependent_recipe in dependency_graph[recipe]:
+                dependent_recipe_idx = recipe_to_idx[dependent_recipe]
+                in_degree[dependent_recipe_idx] -= 1
+                if not in_degree[dependent_recipe_idx]:
+                    queue.append(dependent_recipe_idx)
+        
+        return res
+
+
+
+
