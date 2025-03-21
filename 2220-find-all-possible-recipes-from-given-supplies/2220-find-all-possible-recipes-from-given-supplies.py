@@ -69,7 +69,7 @@ class Solution:
                     dependency_graph[ingre].append(recipe)
                     in_degree[i] += 1
         
-        queue = deque([idx for idx, i in enumerate(in_degree) if not i])
+        queue = deque(idx for idx, i in enumerate(in_degree) if not i)
         res = []
 
         while queue:
