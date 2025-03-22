@@ -89,5 +89,4 @@ class Solution:
             
             complete_count += 1 if is_complete else 0
 
-        
         return complete_count
