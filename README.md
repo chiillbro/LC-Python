@@ -22,6 +22,7 @@ LeetCode DSA Practice with Python
 | [0090-subsets-ii](https://github.com/chiillbro/LC-Python/tree/master/0090-subsets-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/chiillbro/LC-Python/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/chiillbro/LC-Python/tree/master/0162-find-peak-element) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
@@ -121,6 +122,7 @@ LeetCode DSA Practice with Python
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
@@ -179,6 +181,7 @@ LeetCode DSA Practice with Python
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
@@ -227,6 +230,7 @@ LeetCode DSA Practice with Python
 | [0005-longest-palindromic-substring](https://github.com/chiillbro/LC-Python/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
 ## Backtracking
 |  |
@@ -279,6 +283,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -315,4 +320,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
