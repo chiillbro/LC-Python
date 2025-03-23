@@ -188,6 +188,7 @@ LeetCode DSA Practice with Python
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [1078-remove-outermost-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1078-remove-outermost-parentheses) |
@@ -250,6 +251,7 @@ LeetCode DSA Practice with Python
 | [0090-subsets-ii](https://github.com/chiillbro/LC-Python/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -282,6 +284,7 @@ LeetCode DSA Practice with Python
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
+| [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/chiillbro/LC-Python/tree/master/2050-count-good-numbers) |
 ## Trie
