@@ -11,33 +11,22 @@ class Solution:
             return []
         res = []
         queue = deque([root])
-        cur = 0
+        leftToRight = True
 
         while queue:
             level = []
-            temp = []
             for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
-                temp.append(node)
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
             
-            while temp:
-                node = temp.pop()
-                if not cur:
-                    if node.right:
-                        queue.append(node.right)
-                    
-                    if node.left:
-                        queue.append(node.left)
-                else:
-                    if node.left:
-                        queue.append(node.left)
-                    
-                    if node.right:
-                        queue.append(node.right)
-
+            if not leftToRight:
+                level.reverse()
             
-            cur = 1 if not cur else 0
+            leftToRight = not leftToRight
             res.append(level)
         
         return res
