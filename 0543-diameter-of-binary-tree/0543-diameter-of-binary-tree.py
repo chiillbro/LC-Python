@@ -8,7 +8,7 @@ class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         res = 0
 
-        def dfs(node: Optional[TreeNode]) -> None:
+        def dfs(node: Optional[TreeNode]) -> int:
             nonlocal res
             if not node: return 0
 
