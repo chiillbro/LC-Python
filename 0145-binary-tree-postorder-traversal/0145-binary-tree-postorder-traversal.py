@@ -9,14 +9,20 @@ class Solution:
         if not root:
             return []
         
-        stack, res = [root], []
+        # ** Iterative Approach ** #
 
-        while stack:
-            node = stack.pop()
-            res.append(node.val)
-            if node.left:
-                stack.append(node.left)
-            if node.right:
-                stack.append(node.right)
+        # stack, res = [root], []
+
+        # while stack:
+        #     node = stack.pop()
+        #     res.append(node.val)
+        #     if node.left:
+        #         stack.append(node.left)
+        #     if node.right:
+        #         stack.append(node.right)
         
-        return res[::-1]
+        # return res[::-1]
+
+        # ** Recursive Approach ** #
+
+        return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
