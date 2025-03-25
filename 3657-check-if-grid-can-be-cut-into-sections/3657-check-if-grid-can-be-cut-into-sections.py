@@ -1,24 +1,25 @@
 class Solution:
     def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:
-        y_intervals, x_intervals = [], []
+        # y_intervals, x_intervals = [], []
 
-        for startx, starty, endx, endy in rectangles:
-            y_intervals.append([starty, endy])
-            x_intervals.append([startx, endx])
+        # for startx, starty, endx, endy in rectangles:
+        #     y_intervals.append([starty, endy])
+        #     x_intervals.append([startx, endx])
         
 
-        y_intervals.sort(); x_intervals.sort()
+        # y_intervals.sort(); x_intervals.sort()
 
-        return max(self._mergeIntervals(x_intervals), self._mergeIntervals(y_intervals)) >= 2
+        return max(self._mergeIntervals(rectangles, 0), self._mergeIntervals(rectangles, 1)) >= 2
     
-    def _mergeIntervals(self, intervals: List[List[int]]) -> List[List[int]]:
+    def _mergeIntervals(self, rectangles: List[List[int]], coor: int) -> List[List[int]]:
         cuts = 0
-        prev_e = intervals[0][1]
+        rectangles.sort(key=lambda rect: rect[coor])
+        prev_e = rectangles[0][coor + 2]
 
-        for cur_s, cur_e in intervals[1:]:
-            if prev_e <= cur_s:
+        for interval in rectangles[1:]:
+            if prev_e <= interval[coor]:
                 cuts += 1
             
-            prev_e = max(prev_e, cur_e)
+            prev_e = max(prev_e, interval[coor + 2])
         
         return cuts
