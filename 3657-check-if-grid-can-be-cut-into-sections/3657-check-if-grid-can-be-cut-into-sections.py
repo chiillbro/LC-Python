@@ -9,10 +9,7 @@ class Solution:
 
         y_intervals.sort(); x_intervals.sort()
 
-        merged_x_intervals = self._mergeIntervals(x_intervals)
-        merged_y_intervals = self._mergeIntervals(y_intervals)
-
-        return max(len(merged_x_intervals), len(merged_y_intervals)) >= 3
+        return max(self._mergeIntervals(x_intervals)[1], self._mergeIntervals(y_intervals)[1]) >= 3
     
     def _mergeIntervals(self, intervals: List[List[int]]) -> List[List[int]]:
         merged = [intervals[0]]
@@ -25,4 +22,4 @@ class Solution:
             else:
                 merged.append([cur_s, cur_e])
         
-        return merged
+        return merged, len(merged)
