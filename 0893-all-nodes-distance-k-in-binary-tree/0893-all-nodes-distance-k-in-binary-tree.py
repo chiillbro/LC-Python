@@ -7,7 +7,8 @@
 
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
-        child_to_parent = defaultdict(TreeNode)
+        # child_to_parent = defaultdict(TreeNode) # not common for child parent nodes mapping
+        child_to_parent = dict()
         self._markParent(root, child_to_parent)
 
         queue = deque([target])
@@ -41,7 +42,7 @@ class Solution:
         return res
 
         
-    def _markParent(self, root: TreeNode, child_to_parent: dict) -> None:
+    def _markParent(self, root: TreeNode, child_to_parent: Dict[TreeNode, TreeNode]) -> None:
         queue = deque([root])
 
         while queue:
