@@ -26,20 +26,20 @@ class Solution:
 
         # ** Optimal Approach: leveraging the complete binary tree properties **
 
-        left_depth = self._getDepth(root.left)
-        right_depth = self._getRightDepth(root.right)
+        left_depth = self._getLeftDepth(root)
+        right_depth = self._getRightDepth(root)
 
         if left_depth == right_depth: # means the sub tree is a perfect binary tree
-            return (1 << (left_depth + 1)) - 1
+            return (1 << (left_depth)) - 1
 
         return 1 + self.countNodes(root.left) + self.countNodes(root.right)
 
     
 
-    def _getDepth(self, node: Optional[TreeNode]) -> int:
+    def _getLeftDepth(self, node: Optional[TreeNode]) -> int:
         if not node: return 0
 
-        return 1 + self._getDepth(node.left)
+        return 1 + self._getLeftDepth(node.left)
     
     def _getRightDepth(self, node: Optional[TreeNode]) -> int:
         if not node: return 0
