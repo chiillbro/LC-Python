@@ -17,6 +17,7 @@ class Solution:
             if level not in level_to_node_map:
                 level_to_node_map[level] = node.val
             
+            # if asks left view, just reverse the below if conditions.
             if node.right:
                 queue.append((node.right, level + 1))
             
