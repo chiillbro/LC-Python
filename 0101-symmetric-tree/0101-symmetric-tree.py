@@ -8,11 +8,29 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         # ** Recursive Approach ** #
 
-        def _isMirror(left: Optional[TreeNode], right: Optional[TreeNode]) -> bool:
-            if not left and not right: return True
+        # def _isMirror(left: Optional[TreeNode], right: Optional[TreeNode]) -> bool:
+        #     if not left and not right: return True
+        #     if not left or not right: return False
+        #     if left.val != right.val: return False
+
+        #     return _isMirror(left.left, right.right) and _isMirror(right.left, left.right)
+        
+        # return _isMirror(root, root)
+
+        
+
+        # ** Iterative Approach ** #
+
+        queue = deque([(root, root)])
+
+        while queue:
+            left, right = queue.popleft()
+
+            if not left and not right: continue
             if not left or not right: return False
             if left.val != right.val: return False
 
-            return _isMirror(left.left, right.right) and _isMirror(right.left, left.right)
+            queue.append((left.left, right.right))
+            queue.append((right.left, left.right))
         
-        return _isMirror(root, root)
+        return True
