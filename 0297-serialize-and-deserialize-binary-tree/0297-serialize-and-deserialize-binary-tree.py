@@ -52,36 +52,27 @@ class Codec:
         """
         if not data:
             return
-        
-        root = TreeNode()
 
         s = data.split(',')
-        rootVal = s[0]
-        root.val = int(rootVal)
-        i = 1
+        root = TreeNode(int(s[0]))
         queue = deque([root])
+        i = 1
 
-        while i < len(s):
-            left = s[i]
-            i += 1
+        while queue and i < len(s):
             node = queue.popleft()
 
-            if left == '-':
-                node.left = None
-            else:
-                left_node = TreeNode(int(left))
+            if s[i] != '-':
+                left_node = TreeNode(int(s[i]))
                 node.left = left_node
                 queue.append(node.left)
-
-
-            right = s[i]
             i += 1
-            if right == '-':
-                node.right = None
-            else:
-                right_node = TreeNode(int(right))
+
+
+            if s[i] != '-':
+                right_node = TreeNode(int(s[i]))
                 node.right = right_node
                 queue.append(node.right)
+            i += 1
             
         return root
 
