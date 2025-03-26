@@ -13,20 +13,37 @@ class Solution:
 
         if not root: return
 
-        prev = None
+        # prev = None
 
-        def flattenNode(node: Optional[TreeNode]) -> None:
-            nonlocal prev
-            if not node:
-                return
+        # def flattenNode(node: Optional[TreeNode]) -> None:
+        #     nonlocal prev
+        #     if not node:
+        #         return
             
 
-            flattenNode(node.right)
-            flattenNode(node.left)
+        #     flattenNode(node.right)
+        #     flattenNode(node.left)
 
-            node.right = prev
-            node.left = None
-            prev = node
+        #     node.right = prev
+        #     node.left = None
+        #     prev = node
         
-        flattenNode(root)
+        # flattenNode(root)
+
+        # ** Iterative Approach ** #
+
+        stack = [root]
+
+        while stack:
+            node = stack.pop()
+
+            if node.right:
+                stack.append(node.right)
+            
+            if node.left:
+                stack.append(node.left)
+            
+            if stack:
+                node.right = stack[-1]
+                node.left = None
         
