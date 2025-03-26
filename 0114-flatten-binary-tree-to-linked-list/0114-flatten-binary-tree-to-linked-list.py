@@ -47,7 +47,7 @@ class Solution:
         #         node.right = stack[-1]
         #         node.left = None
 
-        # ** Morris Traversal Approach ** 
+        # ** Morris Traversal Approach : Space Optimized ** 
 
         cur = root
 
