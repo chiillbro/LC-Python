@@ -10,7 +10,7 @@ class Solution:
         res = 0
         for num in flat_grid:
             absolute_value = abs(median - num)
-            if absolute_value  % x != 0:
+            if absolute_value % x:
                 return -1
             res += absolute_value // x
 
