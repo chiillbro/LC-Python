@@ -38,7 +38,7 @@ class Solution:
             nums_left = in_index - inStart
 
             node.left = construct(preStart + 1, preStart + nums_left, inStart, in_index - 1)
-            node.right = construct(preStart + nums_left + 1, preEnd, in_index + 1, inEnd)
+            node.right = construct(preStart + 1 + nums_left, preEnd, in_index + 1, inEnd)
 
             return node
         
