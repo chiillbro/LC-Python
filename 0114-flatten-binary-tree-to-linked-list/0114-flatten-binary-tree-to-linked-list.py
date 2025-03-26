@@ -32,18 +32,35 @@ class Solution:
 
         # ** Iterative Approach ** #
 
-        stack = [root]
+        # stack = [root]
 
-        while stack:
-            node = stack.pop()
+        # while stack:
+        #     node = stack.pop()
 
-            if node.right:
-                stack.append(node.right)
+        #     if node.right:
+        #         stack.append(node.right)
             
-            if node.left:
-                stack.append(node.left)
+        #     if node.left:
+        #         stack.append(node.left)
             
-            if stack:
-                node.right = stack[-1]
-                node.left = None
+        #     if stack:
+        #         node.right = stack[-1]
+        #         node.left = None
+
+        # ** Morris Traversal Approach ** 
+
+        cur = root
+
+        while cur:
+            if cur.left:
+                prev = cur.left
+
+                while prev.right:
+                    prev = prev.right
+                
+                prev.right = cur.right
+                cur.right = cur.left
+                cur.left = None
+            
+            cur = cur.right
         
