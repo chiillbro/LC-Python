@@ -10,7 +10,7 @@ class Solution:
         # if dominant == -1:
         #     return -1
 
-        # to optimize the solution further, there is little room for time complexity optimization, but we can optimize the space in which currently count dict is taking O(n) space, Instead of maintaining a counter to find the dominant element, we ca use some thing like Boyre-Moore Mojority Voting Algorithm
+        # to optimize the solution further, there is little room for time complexity optimization, but we can optimize the space in which currently count dict is taking O(n) space, Instead of maintaining a counter to find the dominant element, we can use some thing like Boyer-Moore Mojority Voting Algorithm which finds the majority element in constant space
         candidate = None
         count = 0
 
