@@ -7,25 +7,27 @@
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
         if not root:
-            return
+            return None
         if root.val == key:
-            return self.delete(root)
+            return self._deleteNodeHelper(root)
         
         cur = root
         while cur:
             if cur.val > key:
                 if cur.left and cur.left.val == key:
-                    cur.left = self.delete(cur.left)
+                    cur.left = self._deleteNodeHelper(cur.left)
+                    break
                 else:
                     cur = cur.left
             else:
                 if cur.right and cur.right.val == key:
-                    cur.right = self.delete(cur.right)
+                    cur.right = self._deleteNodeHelper(cur.right)
+                    break
                 else:
                     cur = cur.right
         return root
     
-    def delete(self, node):
+    def _deleteNodeHelper(self, node: TreeNode) -> Optional[TreeNode]:
         if not node.left:
             return node.right
         
@@ -38,7 +40,7 @@ class Solution:
 
         return node.left
     
-    def findRightMost(self, node):
+    def findRightMost(self, node: TreeNode) -> TreeNode:
         while node.right:
             node = node.right
         
