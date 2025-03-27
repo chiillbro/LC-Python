@@ -24,3 +24,6 @@ class Solution:
         
 
         return helper(float('-inf'), float('inf'))
+
+
+# PS: we can even skip providing the lower bound and compare the cur val for left sub tree and for the current sub tree always compare it with the upper bound and for the base case modification we can just return None if pre[i] > upper we passed as argument
