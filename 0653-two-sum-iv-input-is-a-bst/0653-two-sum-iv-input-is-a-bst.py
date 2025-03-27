@@ -9,30 +9,34 @@ class Solution:
         
         compl_set = set()
 
-        def helper(node, value):
-            if value in compl_set:
+        # ** Recursive Approach ** #
+
+        # def helper(node):
+        #     if not node: return False
+
+        #     if k - node.val in compl_set:
+        #         return True
+            
+        #     compl_set.add(node.val)
+            
+        #     return helper(node.left) or helper(node.right)
+        
+        # return helper(root)
+
+
+
+        # *** Iterative Approach using BFS *** #
+        queue = deque([root])
+        while queue:
+            node = queue.popleft()
+            if k - node.val in compl_set:
                 return True
             
             compl_set.add(node.val)
             
-            if node.left and helper(node.left, k - node.left.val):
-                return True
-            elif node.right and helper(node.right, k - node.right.val):
-                return True
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
             
-            return False
-        
-        return helper(root, k - root.val)
-
-        # cur = root
-        # while cur:
-        #     if k - cur.val in compl_set:
-        #         return True
-        #     compl_set.add(cur.val)
-        #     if k - cur.val > cur.val:
-        #         cur = cur.right
-        #     else:
-        #         cur = cur.left
-        # return False
-
-
+        return False
