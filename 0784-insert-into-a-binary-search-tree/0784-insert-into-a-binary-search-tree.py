@@ -10,18 +10,44 @@ class Solution:
 
         if not root:
             return new_node
-        cur = root
 
-        while cur:
-            if cur.val < val:
-                if not cur.right:
-                    cur.right = new_node
-                    return root
+        # ** Recursive Approach ** #
+
+        def insert(node):
+            if not node: return
+
+            if node.val < val:
+                if not node.right:
+                    node.right = new_node
+                    return
                 else:
-                    cur = cur.right
+                    insert(node.right)
             else:
-                if not cur.left:
-                    cur.left = new_node
-                    return root
+                if not node.left:
+                    node.left = new_node
+                    return
                 else:
-                    cur = cur.left
+                    insert(node.left)
+        
+        insert(root)
+        return root
+
+
+        # ** Iterative Approach ** #
+        # if not root:
+        #     return new_node
+        # cur = root
+
+        # while cur:
+        #     if cur.val < val:
+        #         if not cur.right:
+        #             cur.right = new_node
+        #             return root
+        #         else:
+        #             cur = cur.right
+        #     else:
+        #         if not cur.left:
+        #             cur.left = new_node
+        #             return root
+        #         else:
+        #             cur = cur.left
