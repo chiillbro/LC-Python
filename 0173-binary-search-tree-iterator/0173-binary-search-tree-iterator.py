@@ -6,34 +6,56 @@
 #         self.right = right
 class BSTIterator:
 
-    def __init__(self, root: Optional[TreeNode]):
-        self.inorder = []
-        self.i = -1
-        while root:
-            if not root.left:
-                self.inorder.append(root.val)
-                root = root.right
+    # def __init__(self, root: Optional[TreeNode]):
+    #     self.inorder = []
+    #     self.i = -1
+    #     while root:
+    #         if not root.left:
+    #             self.inorder.append(root.val)
+    #             root = root.right
             
-            else:
-                prev = root.left
-                while prev.right and prev.right != root:
-                    prev = prev.right
+    #         else:
+    #             prev = root.left
+    #             while prev.right and prev.right != root:
+    #                 prev = prev.right
                 
-                if not prev.right:
-                    prev.right = root
-                    root = root.left
-                else:
-                    prev.right = None
-                    self.inorder.append(root.val)
-                    root = root.right
+    #             if not prev.right:
+    #                 prev.right = root
+    #                 root = root.left
+    #             else:
+    #                 prev.right = None
+    #                 self.inorder.append(root.val)
+    #                 root = root.right
 
 
+    # def next(self) -> int:
+    #     self.i += 1
+    #     return self.inorder[self.i]
+
+    # def hasNext(self) -> bool:
+    #     return self.i < len(self.inorder) - 1
+
+
+    # *** Using Stack: Optimized Solution *** #
+    def __init__(self, root: Optional[TreeNode]):
+        self.stack = []
+        self._push_back(root)
+    
+    def _push_back(self, node: Optional[TreeNode]) -> None:
+        while node:
+            self.stack.append(node)
+            node = node.left
+    
     def next(self) -> int:
-        self.i += 1
-        return self.inorder[self.i]
-
+        cur = self.stack.pop()
+        self._push_back(cur.right)
+        
+        return cur.val
+    
     def hasNext(self) -> bool:
-        return self.i < len(self.inorder) - 1
+        return len(self.stack) > 0
+            
+
 
 
 # Your BSTIterator object will be instantiated and called as such:
