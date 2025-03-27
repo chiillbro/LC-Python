@@ -2,7 +2,15 @@ class Solution:
     def minimumIndex(self, nums: List[int]) -> int:
         N = len(nums)
         # count = Counter(nums)
+        # for key, val in count.items():
+        #     if val << 1 > N:
+        #         dominant = key
+        #         break
+        
+        # if dominant == -1:
+        #     return -1
 
+        # to optimize the solution further, there is little room for time complexity optimization, but we can optimize the space in which currently count dict is taking O(n) space, Instead of maintaining a counter to find the dominant element, we ca use some thing like Boyre-Moore Mojority Voting Algorithm
         candidate = None
         count = 0
 
@@ -21,14 +29,6 @@ class Solution:
             return -1
         
         dominant = candidate
-
-        # for key, val in count.items():
-        #     if val << 1 > N:
-        #         dominant = key
-        #         break
-        
-        # if dominant == -1:
-        #     return -1
         
         left_count = 0
         right_count = total
