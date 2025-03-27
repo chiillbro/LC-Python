@@ -6,7 +6,7 @@ class Solution:
         dominant = -1
 
         for key, val in count.items():
-            if val * 2 > N:
+            if val << 1 > N:
                 dominant = key
                 break
         
@@ -21,7 +21,7 @@ class Solution:
                 left_count += 1
                 right_count -=1
 
-            if left_count * 2 > i+1 and right_count * 2 > N - i -1:
+            if left_count << 1 > i+1 and right_count << 1 > N - i -1:
                 return i
         
         return -1
