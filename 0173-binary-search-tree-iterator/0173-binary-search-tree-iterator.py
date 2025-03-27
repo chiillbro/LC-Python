@@ -9,24 +9,23 @@ class BSTIterator:
     def __init__(self, root: Optional[TreeNode]):
         self.inorder = []
         self.i = -1
-        cur = root
-        while cur:
-            if not cur.left:
-                self.inorder.append(cur.val)
-                cur = cur.right
+        while root:
+            if not root.left:
+                self.inorder.append(root.val)
+                root = root.right
             
             else:
-                prev = cur.left
-                while prev.right and prev.right != cur:
+                prev = root.left
+                while prev.right and prev.right != root:
                     prev = prev.right
                 
                 if not prev.right:
-                    prev.right = cur
-                    cur = cur.left
+                    prev.right = root
+                    root = root.left
                 else:
                     prev.right = None
-                    self.inorder.append(cur.val)
-                    cur = cur.right
+                    self.inorder.append(root.val)
+                    root = root.right
 
 
     def next(self) -> int:
