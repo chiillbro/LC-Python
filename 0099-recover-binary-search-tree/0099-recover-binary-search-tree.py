@@ -9,29 +9,19 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        # queue = deque([root])
-        # first, second = None, None
 
-        # while queue:
-        #     node = queue.popleft()
-        #     if node.left and node.left.val > node.val:
-        #         if not first:
-        #             first, second = node, node.left
-        #         else:
-        #             if first.val > node.val:
-        #                 first = 
-        #     elif node.right and node.right.val < node.val:
-        #         if not first:
-        #             first, second = node, node.left
-        #         else:
-        #             if first.val
-
+        # ** Iterative Approach using stack (inorder) ** #
+        
+        stack = []
         prev = first = last = None
-        def inorder(node: Optional[TreeNode]) -> None:
-            nonlocal prev, first, last
-            if not node: return None
+        node = root
 
-            inorder(node.left)
+        while stack or node:
+            while node:
+                stack.append(node)
+                node = node.left
+
+            node = stack.pop()
 
             if prev and node.val < prev.val:
                 if not first:
@@ -39,9 +29,30 @@ class Solution:
                 last = node
             
             prev = node
-            inorder(node.right)
-        
-        inorder(root)
+            node = node.right
 
         if first and last:
             first.val, last.val = last.val, first.val
+
+            
+
+        # ** Recursive Approach ** #
+        # prev = first = last = None
+        # def inorder(node: Optional[TreeNode]) -> None:
+        #     nonlocal prev, first, last
+        #     if not node: return None
+
+        #     inorder(node.left)
+
+        #     if prev and node.val < prev.val:
+        #         if not first:
+        #             first = prev
+        #         last = node
+            
+        #     prev = node
+        #     inorder(node.right)
+        
+        # inorder(root)
+
+        # if first and last:
+        #     first.val, last.val = last.val, first.val
