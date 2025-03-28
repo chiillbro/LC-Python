@@ -12,29 +12,61 @@ class Solution:
 
         # ** Iterative Approach using stack (inorder) ** #
         
-        stack = []
-        prev = first = last = None
-        node = root
+        # stack = []
+        # prev = first = last = None
+        # node = root
 
-        while stack or node:
-            while node:
-                stack.append(node)
-                node = node.left
+        # while stack or node:
+        #     while node:
+        #         stack.append(node)
+        #         node = node.left
 
-            node = stack.pop()
+        #     node = stack.pop()
 
-            if prev and node.val < prev.val:
-                if not first:
-                    first = prev
-                last = node
+        #     if prev and node.val < prev.val:
+        #         if not first:
+        #             first = prev
+        #         last = node
             
-            prev = node
-            node = node.right
+        #     prev = node
+        #     node = node.right
 
+        # if first and last:
+        #     first.val, last.val = last.val, first.val
+
+
+        # ** Morris Traversal: constant space Approach ** #
+
+        prev = first = last = None
+        cur = root
+        
+        while cur:
+            if not cur.left:
+                if prev and cur.val < prev.val:
+                    if not first:
+                        first = prev
+                    last = cur
+                prev = cur
+                cur = cur.right
+            else:
+                pre = cur.left
+                while pre.right and pre.right != cur:
+                    pre = pre.right
+                
+                if not pre.right:
+                    pre.right = cur
+                    cur = cur.left
+                else:
+                    pre.right = None
+                    if prev and cur.val < prev.val:
+                        if not first:
+                            first = prev
+                        last = cur
+                    prev = cur
+                    cur = cur.right
+            
         if first and last:
             first.val, last.val = last.val, first.val
-
-            
 
         # ** Recursive Approach ** #
         # prev = first = last = None
