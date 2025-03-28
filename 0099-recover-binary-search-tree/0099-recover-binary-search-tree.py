@@ -26,20 +26,17 @@ class Solution:
         #         else:
         #             if first.val
 
-        first = middle = last = None
-        prev = TreeNode(float('-inf'))
+        prev = first = last = None
         def inorder(node: Optional[TreeNode]) -> None:
-            nonlocal prev, first, middle, last
+            nonlocal prev, first, last
             if not node: return None
 
             inorder(node.left)
 
-            if node.val < prev.val:
+            if prev and node.val < prev.val:
                 if not first:
                     first = prev
-                    middle = node
-                else:
-                    last = node
+                last = node
             
             prev = node
             inorder(node.right)
@@ -48,6 +45,3 @@ class Solution:
 
         if first and last:
             first.val, last.val = last.val, first.val
-        elif first and middle:
-            first.val, middle.val = middle.val, first.val
-                
