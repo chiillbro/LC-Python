@@ -2,13 +2,13 @@ class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:
         res = [0] * len(queries)
         m, n = len(grid), len(grid[0])
-        visited = set()
+        visited = [[False] * n for _ in range(m)]
         heap = []
         sorted_queries = sorted([(query, i) for i, query in enumerate(queries)])
         heappush(heap, (grid[0][0], 0, 0))
         total_points = 0
         directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
-        visited.add((0, 0))
+        visited[0][0] = True
 
         for query, q_idx in sorted_queries:
             while heap and heap[0][0] < query:
@@ -17,9 +17,9 @@ class Solution:
 
                 for dir_r, dir_c in directions:
                     r, c = row + dir_r, col + dir_c
-                    if (0 <= r < m) and (0 <= c < n) and (r, c) not in visited:
+                    if (0 <= r < m) and (0 <= c < n) and not visited[r][c]:
                         heappush(heap, (grid[r][c], r, c))
-                        visited.add((r, c))
+                        visited[r][c] = True
             
             res[q_idx] = total_points
         
