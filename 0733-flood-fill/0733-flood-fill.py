@@ -1,11 +1,12 @@
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
-        m, n = len(image), len(image[0])
-        queue = deque([(sr, sc)])
-        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
         original = image[sr][sc]
         if color == original:
             return image
+
+        m, n = len(image), len(image[0])
+        queue = deque([(sr, sc)])
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
         while queue:
             for _ in range(len(queue)):
