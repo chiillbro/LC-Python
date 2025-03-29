@@ -9,7 +9,7 @@ class Solution:
 
         # ** DFS Approach ** #
 
-        def dfs(row, col):
+        def dfs(row: int, col: int) -> None:
             if (0 <= row < m) and (0 <= col < n) and image[row][col] == original:
                 image[row][col] = color
 
