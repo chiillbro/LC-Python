@@ -1,23 +1,51 @@
 class Solution:
+    def sieve(self, n):
+        primes_bool = [True] * (n + 1)
+        primes = []
+
+        for i in range(2, n + 1):
+            if primes_bool[i]:
+                primes.append(i)
+                for multiple in range(i * i, n + 1, i):
+                    primes_bool[multiple] = False
+
+        return primes
+
     def maximumScore(self, nums: List[int], k: int) -> int:
         MOD = 10_00_00_00_00 + 7
         n = len(nums)
         prime_scores = []
 
-        for i, num in enumerate(nums):
+        primes = self.sieve(max(nums))
+        for num in nums:
+            # cur = 0
+            # if not num & 1:
+            #     cur += 1
+            
+            # while not num & 1:
+            #     num >>= 1
+            
+            # for factor in range(3, int(math.sqrt(num)) + 1, 2):
+            #     if num % factor == 0:
+            #         cur += 1
+            #         while num % factor == 0:
+            #             num //= factor
+            # if num > 2:
+            #     cur += 1
+            # prime_scores.append(cur)
             cur = 0
-            if not num & 1:
+            for prime in primes:
+                if prime * prime > num:
+                    break
+                
+                if num % prime != 0:
+                    continue
+                
                 cur += 1
+                while num % prime == 0:
+                    num //= prime
             
-            while not num & 1:
-                num >>= 1
-            
-            for factor in range(3, int(math.sqrt(num)) + 1, 2):
-                if num % factor == 0:
-                    cur += 1
-                    while num % factor == 0:
-                        num //= factor
-            if num > 2:
+            if num > 1:
                 cur += 1
             prime_scores.append(cur)
         
@@ -39,10 +67,10 @@ class Solution:
             
             decreasing_prime_score_stack.append(index)
         
-        processing_queue = []
+        # processing_queue = []
 
-        for i, num in enumerate(nums):
-            heappush(processing_queue, (-num, i))
+        # for i, num in enumerate(nums):
+        #     heappush(processing_queue, (-num, i))
         
         def _power(base, exponent):
             res = 1
@@ -55,10 +83,15 @@ class Solution:
                 exponent >>= 1
             return res
         
+        sorted_array = sorted(enumerate(nums), key=lambda x: x[1], reverse=True)
+
+        cur_idx = 0
         score = 1
         while k > 0:
-            num, index = heappop(processing_queue)
-            num = -num
+            # num, index = heappop(processing_queue)
+            index, num = sorted_array[cur_idx]
+            cur_idx += 1
+            # num = -num
 
             sub_arrays_count = (next_dominant[index] - index) * (index - prev_dominant[index])
             operations = min(k, sub_arrays_count)
