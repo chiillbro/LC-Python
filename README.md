@@ -36,6 +36,7 @@ LeetCode DSA Practice with Python
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
@@ -193,6 +194,7 @@ LeetCode DSA Practice with Python
 | [0199-binary-tree-right-side-view](https://github.com/chiillbro/LC-Python/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
@@ -210,6 +212,7 @@ LeetCode DSA Practice with Python
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
@@ -368,6 +371,7 @@ LeetCode DSA Practice with Python
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
 |  |
