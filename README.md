@@ -188,6 +188,7 @@ LeetCode DSA Practice with Python
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
@@ -211,6 +212,7 @@ LeetCode DSA Practice with Python
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
@@ -338,6 +340,7 @@ LeetCode DSA Practice with Python
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
@@ -494,6 +497,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
