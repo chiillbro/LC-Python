@@ -57,6 +57,7 @@ LeetCode DSA Practice with Python
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/chiillbro/LC-Python/tree/master/2665-minimum-time-to-repair-cars) |
+| [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/chiillbro/LC-Python/tree/master/2690-house-robber-iv) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/chiillbro/LC-Python/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -176,6 +177,7 @@ LeetCode DSA Practice with Python
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
+| [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
 ## Union Find
 |  |
@@ -262,6 +264,7 @@ LeetCode DSA Practice with Python
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
@@ -451,6 +454,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 ## Bucket Sort
 |  |
 | ------- |
