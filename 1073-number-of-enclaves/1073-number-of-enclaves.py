@@ -33,11 +33,12 @@ class Solution:
                 if (row == 0 or row == m - 1 or col == 0 or col == n - 1) and grid[row][col] and not visited[row][col]:
                     # dfs(row, col)
                     bfs(row, col)   
-                        
-        enclaves = 0
-        for row in range(1, m):
-            for col in range(1, n):
-                if grid[row][col] and not visited[row][col]:
-                    enclaves += 1
+
+        return sum(grid[i][j] for i in range(m) for j in range(n) if grid[i][j] and not visited[i][j])    
+        # enclaves = 0
+        # for row in range(1, m):
+        #     for col in range(1, n):
+        #         if grid[row][col] and not visited[row][col]:
+        #             enclaves += 1
         
-        return enclaves
+        # return enclaves
