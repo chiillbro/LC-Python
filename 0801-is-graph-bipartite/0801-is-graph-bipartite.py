@@ -1,7 +1,9 @@
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         """
-        Try picking up any two colors and color up all the nodes of the graph with alteranting colors for each edge, by the end if no two adjacent nodes are colored same (i.e., evey edge has perfect alterante colors), then that graph is said to be a Bipartite Graph..
+        1. Try picking up any two colors and color up all the nodes of the graph with alteranting colors for each edge, by the end if no two adjacent nodes are colored same (i.e., evey edge has perfect alterante colors), then that graph is said to be a Bipartite Graph..
+
+        2. One more property of Bipartite graph is, if there is a cycle exists in the graph and the path length of that cycle is odd length, then that graph can never be a Bipartite.
 
         That's what the following bfs does.
         """
