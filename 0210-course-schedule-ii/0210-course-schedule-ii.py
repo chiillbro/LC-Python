@@ -2,8 +2,8 @@ class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         prereq_map = {i : [] for i in range(numCourses)}
 
-        for prereq, crs in prerequisites:
-            prereq_map[prereq].append(crs)
+        for crs, prereq in prerequisites:
+            prereq_map[crs].append(prereq)
         
         visited = [False] * numCourses
         onStack = [False] * numCourses
