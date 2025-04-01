@@ -1,6 +1,8 @@
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
         V = len(graph)
+        
+        # ** reverse graph + Kahn's Algorithm (BFS-based Topological sort) ** #
 
         # rev_graph = [[] for _ in range(V)]
 
@@ -24,6 +26,8 @@ class Solution:
         
         # return sorted(safe_nodes)
 
+
+        # ** DFS based cycle detection Algorithm *8 #
         visited = [False] * V
         cycle = [False] * V
         safe_nodes = []
