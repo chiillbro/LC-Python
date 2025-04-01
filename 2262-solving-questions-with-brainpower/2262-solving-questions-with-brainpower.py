@@ -13,6 +13,13 @@ class Solution:
 
         # ** Optimized Bottom-Up Approach: DP ** #
 
+        # The Recurrence relation is:
+        #        dp[i] = max(points at i + dp[i + skip + 1], dp[i + 1])
+
+        # we can read this as: for the current index, the optimal solution is the maximum points between the below two scenarios:
+        # 1. total pts we get by solving the current idx ques + taking the next solvable ques pts
+        # 2. else by skipping the current question which will allow us to solve the immediate next ques
+
         dp = [0] * n
         dp[n-1] = questions[n-1][0]
 
