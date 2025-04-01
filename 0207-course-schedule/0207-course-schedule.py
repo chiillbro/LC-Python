@@ -8,6 +8,9 @@ class Solution:
         
         visited = [False] * numCourses
         cycle = [False] * numCourses
+
+        # ** Using only one visited array ** #
+
         # def dfs(crs):
         #     if crs in visited:
         #         return False
@@ -19,20 +22,44 @@ class Solution:
         #     crs_preq_map[crs] = []
         #     return True
 
-        def dfs(crs):
-            visited[crs] = True
-            cycle[crs] = True
-            for neigh in crs_preq_map[crs]:
-                if not visited[neigh]:
-                    if not dfs(neigh):
-                        return False
-                elif cycle[neigh]:
-                    return False
+        # ** using two arrays to keep track of visited and cycle ** #
+        # def dfs(crs):
+        #     visited[crs] = True
+        #     cycle[crs] = True
+        #     for neigh in crs_preq_map[crs]:
+        #         if not visited[neigh]:
+        #             if not dfs(neigh):
+        #                 return False
+        #         elif cycle[neigh]:
+        #             return False
             
-            cycle[crs] = False
-            return True
+        #     cycle[crs] = False
+        #     return True
 
-        for crs in crs_preq_map:
-            if not dfs(crs): return False
-            
-        return True
+        # for crs in crs_preq_map:
+        #     if not dfs(crs): return False
+
+        # return True
+
+
+        # ** Kahn's Algorithm or BFS ** #
+
+        in_degree = [0] * numCourses
+
+        for neighs in crs_preq_map.values():
+            for neigh in neighs:
+                in_degree[neigh] += 1
+        
+        queue = deque([node for node, degree in enumerate(in_degree) if not degree])
+
+        topo_count = 0
+        while queue:
+            for _ in range(len(queue)):
+                cur = queue.popleft()
+                topo_count += 1
+                for neigh in crs_preq_map[cur]:
+                    in_degree[neigh] -= 1
+                    if not in_degree[neigh]:
+                        queue.append(neigh)
+        
+        return topo_count == numCourses
