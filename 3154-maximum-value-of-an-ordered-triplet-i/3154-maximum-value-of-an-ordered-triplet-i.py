@@ -22,13 +22,13 @@ class Solution:
 
         # ** Greedy + prefix Suffix Array ** TC: O(n) #
         
-        prefix_sum = [0] * n
-        suffix_sum = [0] * n
+        left_max = [0] * n
+        right_max = [0] * n
         for i in range(1, n):
-            prefix_sum[i] = max(prefix_sum[i-1], nums[i - 1])
-            suffix_sum[n - 1 - i] = max(suffix_sum[n - i], nums[n - i])
+            left_max[i] = max(left_max[i-1], nums[i - 1])
+            right_max[n - 1 - i] = max(right_max[n - i], nums[n - i])
         
         for j in range(1, n-1):
-            max_value = max(max_value, (prefix_sum[j] - nums[j]) * suffix_sum[j])
+            max_value = max(max_value, (left_max[j] - nums[j]) * right_max[j])
 
         return max_value
