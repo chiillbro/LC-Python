@@ -20,7 +20,7 @@ class Solution:
             for dr, dc in directions:
                 new_r, new_c = cur_row + dr, cur_col + dc
 
-                if (0 <= new_r < n) and (0 <= new_c < n) and not grid[new_r][new_c]:
+                if (0 <= new_r < n) and (0 <= new_c < n) and dist[new_r][new_c] == float("inf") and not grid[new_r][new_c]:
                     if distance + 1 < dist[new_r][new_c]:
                         dist[new_r][new_c] = distance + 1
                         heappush(heap, (distance + 1, new_r, new_c))
