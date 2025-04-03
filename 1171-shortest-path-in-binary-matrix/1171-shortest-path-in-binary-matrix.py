@@ -3,13 +3,10 @@ class Solution:
         n = len(grid)
         if grid[0][0] or grid[n-1][n-1]:
             return -1
-        
-        if n == 1 and not grid[0][0]:
-            return 1
 
         # visited = [[False] * n for _ in range(n)]
         dist = [[float("inf")] * n for _ in range(n)]
-        dist[0][0] == 1
+        dist[0][0] = 1
         # visited[0][0] = True
         heap = [(1, 0, 0)]
 
