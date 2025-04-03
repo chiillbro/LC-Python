@@ -28,6 +28,3 @@ class Solution:
             i_max = max(i_max, nums[k])
         
         return res
-
-
-
