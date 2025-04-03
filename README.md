@@ -50,6 +50,7 @@ LeetCode DSA Practice with Python
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chiillbro/LC-Python/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chiillbro/LC-Python/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -96,6 +97,7 @@ LeetCode DSA Practice with Python
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chiillbro/LC-Python/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chiillbro/LC-Python/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/chiillbro/LC-Python/tree/master/2665-minimum-time-to-repair-cars) |
@@ -194,6 +196,7 @@ LeetCode DSA Practice with Python
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -225,6 +228,7 @@ LeetCode DSA Practice with Python
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
@@ -242,6 +246,7 @@ LeetCode DSA Practice with Python
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -356,6 +361,7 @@ LeetCode DSA Practice with Python
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
@@ -481,6 +487,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
+| [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 ## Bucket Sort
