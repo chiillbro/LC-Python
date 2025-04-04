@@ -31,7 +31,6 @@ class Solution:
         def dfs(root):
             if not root:
                 return 0, None
-            
 
             left, right = dfs(root.left), dfs(root.right)
 
