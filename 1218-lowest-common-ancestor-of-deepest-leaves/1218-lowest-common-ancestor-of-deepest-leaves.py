@@ -8,7 +8,9 @@ class Solution:
     def lcaDeepestLeaves(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
             return None
-        
+
+        # ** Approach 1: Using Level Order Traversal (BFS) ** #
+
         queue = deque([root])
         parent = {root: None}
 
@@ -37,6 +39,8 @@ class Solution:
         
         return deepest[0]
 
+
+        # ** Approach 2 : Using DFS - Post-Order Traversal(recursive) ** #
 
         # def dfs(root):
         #     if not root:
