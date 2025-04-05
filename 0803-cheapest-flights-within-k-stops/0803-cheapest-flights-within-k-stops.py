@@ -5,25 +5,46 @@ class Solution:
         for u, v, price in flights:
             adj_list[u].append((v, price))
         
-        # prices = [float("inf")] * n
-        # prices[src] = 0
-        prices = [[float("inf")] * (k + 2) for _ in range(n)]
-        prices[src][0] = 0
-        heap = [(0, src, 0)]
+        # # prices = [float("inf")] * n
+        # # prices[src] = 0
+        # prices = [[float("inf")] * (k + 2) for _ in range(n)]
+        # prices[src][0] = 0
+        # heap = [(0, src, 0)]
 
-        while heap:
-            cur_price, cur_node, stops = heappop(heap)
+        # while heap:
+        #     cur_price, cur_node, stops = heappop(heap)
             
-            if cur_node == dst:
-                return cur_price
+        #     if cur_node == dst:
+        #         return cur_price
 
-            if stops == k + 1: continue
+        #     if stops == k + 1: continue
+
+        #     for neigh, price in adj_list[cur_node]:
+        #         next_cost = cur_price + price
+        #         next_stops = stops + 1
+        #         if next_cost < prices[neigh][next_stops]:
+        #             prices[neigh][next_stops] = next_cost
+        #             heappush(heap, (next_cost, neigh, next_stops))
+
+        # return -1
+
+        # ** Approach 2: Using Modified Dijkstra with Queue ** #
+
+        prices = [float("inf")] * n
+        queue = deque([(0, src, 0)])
+        prices[src] = 0
+
+        while queue:
+            cur_stops, cur_node, cur_cost = queue.popleft()
+
+            if cur_stops == k + 1: continue
 
             for neigh, price in adj_list[cur_node]:
-                next_cost = cur_price + price
-                next_stop = stops + 1
-                if next_cost < prices[neigh][next_stop]:
-                    prices[neigh][next_stop] = next_cost
-                    heappush(heap, (next_cost, neigh, next_stop))
+                next_cost = cur_cost + price
+                next_stops = cur_stops + 1
+                if next_cost < prices[neigh] and next_stops <= k + 1:
+                    prices[neigh] = next_cost
+                    queue.append((next_stops, neigh, next_cost))
+        
 
-        return -1
+        return -1 if prices[dst] == float("inf") else prices[dst]
