@@ -50,5 +50,12 @@ class Solution:
         # It can be proven that sum of the XOR of all th subsets is
 
         # = 2^(n-1) * (bitwise OR of all elements in the nums)
+        
+        OR = 0
+        for num in nums:
+            OR |= num
+        
+        return (1 << (n-1)) * OR
 
-        return (1 << (n - 1)) * reduce(operator.or_, nums, 0)
+        # One-liner
+        # return (1 << (n - 1)) * reduce(operator.or_, nums, 0)
