@@ -25,7 +25,7 @@ class Solution:
         # return ans if ans != float('inf') else -1
 
 
-        # ** Approach 2: Using Bellman Ford - but unnecessary extra complexity, which runs in O(V * E) **
+        # ** Approach 2: Using Bellman Ford - but unnecessary extra complexity, which runs in O(V * E), useful for negative weights and detecting negative cycles **
 
         delays = [float('inf')] * (n + 1)
         delays[k] = 0
