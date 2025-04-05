@@ -3,20 +3,19 @@ class Solution:
         n = len(nums)
 
         ans = 0
-
-        def backtrack(cur: int, path: List[int]) -> None:
+        def backtrack(i: int, path: List[int]) -> None:
             nonlocal ans
-            if cur == n:
-                xor = 0
+            if i == n:
+                subset_XOR_total = 0
                 for num in path:
-                    xor ^= num
+                    subset_XOR_total ^= num
                 
-                ans += xor
+                ans += subset_XOR_total
                 return
             
-            backtrack(cur + 1, path)
-            path.append(nums[cur])
-            backtrack(cur + 1, path)
+            backtrack(i + 1, path)
+            path.append(nums[i])
+            backtrack(i + 1, path)
             path.pop()
         
         backtrack(0, [])
