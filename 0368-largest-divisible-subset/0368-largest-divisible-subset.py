@@ -2,9 +2,10 @@ class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         n = len(nums)
         nums.sort()
-        dp = [1] * n
-        prev = [-1] * n
-        maxi = 0
+
+        dp = [1] * n # dp[i] represents the largest subset ending at i
+        prev = [-1] * n # prev[i] represents predecessors of i (the largest subset ending at i)
+        maxi = 0 # the maximum index until which we can get the largest subset
 
         for i in range(1, n):
             for j in range(i):
@@ -22,4 +23,5 @@ class Solution:
             #     break
             maxi = prev[maxi]
         
+        res.reverse()
         return res
