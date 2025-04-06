@@ -16,11 +16,10 @@ class Solution:
                 maxi = i
         
         res = []
-        while maxi >= 0:
+        while maxi != -1:
             res.append(nums[maxi])
-            if prev[maxi] == -1:
-                break
-            
+            # if prev[maxi] == -1:
+            #     break
             maxi = prev[maxi]
         
         return res
