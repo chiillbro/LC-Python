@@ -1,7 +1,7 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
 
-        # ** Brute Force Approach ** #
+        # ** BRUTE FORCE APPROACH (ITERATIVE) ** #
         # TC: O(2^n), SC: O(n) gives TLE
         n = len(nums)
         _sum = sum(nums)
@@ -21,8 +21,8 @@ class Solution:
         
         # return False
 
-        # ** Brute Force using Recursive Backtracking - TLE(withoug memoization) ** #
-        # If you draw the recursion tree by taking an example, you can see overlapping subproblems, we can add memoization to avoid recomputation
+        # ** BRUTE FORCE USING RECURSIVE BACKTRACKING - TLE(without MEMOIZATION) ** #
+        # If you draw the recursion tree by taking an example, you can see overlapping subproblems, we can add memoization to avoid recomputing this subproblems
 
         # memo = {} # added memoization
         # def backtrack(i, cur_sum):
@@ -44,8 +44,10 @@ class Solution:
 
         # return backtrack(0, target)
 
-        # ** Bottom-Down Approach (DP Tabulation) ** #
 
+
+        # ** BOTTOM-UP APPROACH (DP Tabulation) ** #
+        
         dp = [False] * (target + 1) # dp[i] represents whether a subset can formed with sum i
         dp[0] = True # empty subset forms a sum of 0
 
