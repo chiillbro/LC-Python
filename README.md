@@ -35,6 +35,7 @@ LeetCode DSA Practice with Python
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/chiillbro/LC-Python/tree/master/0416-partition-equal-subset-sum) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0540-single-element-in-a-sorted-array) |
@@ -432,6 +433,7 @@ LeetCode DSA Practice with Python
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/chiillbro/LC-Python/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
