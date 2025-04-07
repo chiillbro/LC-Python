@@ -22,25 +22,40 @@ class Solution:
         # return False
 
         # ** Brute Force using Recursive Backtracking - TLE(withoug memoization) ** #
-        memo = {} # added memoization
-        def backtrack(i, cur_sum):
-            if i == n:
-                return cur_sum == 0
+        # If you draw the recursion tree by taking an example, you can see overlapping subproblems, we can add memoization to avoid recomputation
 
-            if cur_sum < 0:
-                return False
+        # memo = {} # added memoization
+        # def backtrack(i, cur_sum):
+        #     if i == n:
+        #         return cur_sum == 0
 
-            if cur_sum == 0:
-                return True
+        #     if cur_sum < 0:
+        #         return False
+
+        #     if cur_sum == 0:
+        #         return True
             
-            if (i, cur_sum) in memo:
-                return memo[(i, cur_sum)]
+        #     if (i, cur_sum) in memo:
+        #         return memo[(i, cur_sum)]
         
-            res = backtrack(i+1, cur_sum) or backtrack(i+1, cur_sum - nums[i])
-            memo[(i, cur_sum)] = res
-            return res
-            
-        return backtrack(0, target)
+        #     res = backtrack(i+1, cur_sum) or backtrack(i+1, cur_sum - nums[i])
+        #     memo[(i, cur_sum)] = res
+        #     return res
+
+        # return backtrack(0, target)
+
+        # ** Bottom-Down Approach (DP Tabulation) ** #
+
+        dp = [False] * (target + 1) # dp[i] represents whether a subset can formed with sum i
+        dp[0] = True # empty subset forms a sum of 0
+
+        # fill up the dp table
+        for num in nums:
+            for j in range(target, num - 1, -1):
+                dp[j] = dp[j] or dp[j - num]
+        
+        return dp[target]
+
 
 
         
