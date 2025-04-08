@@ -1,6 +1,6 @@
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
-        seen = defaultdict(int)
+        seen = {}
 
         max_duplicate_idx = -1
         for i, num in enumerate(nums):
