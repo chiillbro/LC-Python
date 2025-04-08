@@ -1,12 +1,12 @@
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
-        count = defaultdict(int)
+        seen = defaultdict(int)
 
         max_duplicate_idx = -1
-        for i in range(len(nums)):
-            if nums[i] in count:
-                max_duplicate_idx = max(count[nums[i]], max_duplicate_idx)
+        for i, num in enumerate(nums):
+            if num in seen:
+                max_duplicate_idx = max(seen[num], max_duplicate_idx)
             
-            count[nums[i]] = i
+            seen[num] = i
         
         return 0 if max_duplicate_idx == -1 else math.ceil((max_duplicate_idx + 1) / 3)
