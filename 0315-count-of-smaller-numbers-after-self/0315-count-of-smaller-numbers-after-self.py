@@ -11,7 +11,6 @@ class FenwickTree:
     
     def query(self, index: int) -> int:
         # index += 1
-
         res = 0
         while index > 0:
             res += self.tree[index]
