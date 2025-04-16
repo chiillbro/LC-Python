@@ -1,5 +1,7 @@
 class Solution:
     def countGood(self, nums: List[int], k: int) -> int:
+
+        # Two Pointers (Dynamic Sliding Window) TC: O(n), SC: O(n)
         n = len(nums)
         look_up = defaultdict(int)
 
