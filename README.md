@@ -286,6 +286,7 @@ LeetCode DSA Practice with Python
 | [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
+| [0038-count-and-say](https://github.com/chiillbro/LC-Python/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/chiillbro/LC-Python/tree/master/0126-word-ladder-ii) |
