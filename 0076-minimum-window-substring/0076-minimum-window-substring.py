@@ -7,7 +7,7 @@ class Solution:
         if n < m:
             return ""
         
-        start, max_len = -1, float('inf')
+        start, min_wind = -1, float('inf')
 
         # for i in range(n):
         #     freq_map, count = Counter(t), 0
@@ -16,13 +16,13 @@ class Solution:
 
         #         freq_map[s[j]] -= 1
 
-        #         if count == m and j - i + 1 < max_len:
-        #             max_len = j - i + 1
+        #         if count == m and j - i + 1 < min_wind:
+        #             min_wind = j - i + 1
         #             start = i
         #             break
         
 
-        # return s[start:start + max_len] if max_len != float("inf") else ""
+        # return s[start:start + min_wind] if min_wind != float("inf") else ""
 
 
         # Optimal Solution using Sliding Window
@@ -38,14 +38,14 @@ class Solution:
             freq_map[s[right]] -= 1
 
             while count == m:
-                if right - left + 1 < max_len:
-                    max_len = right - left + 1
+                if right - left + 1 < min_wind:
+                    min_wind = right - left + 1
                     start = left
                 
                 freq_map[s[left]] += 1
                 if freq_map[s[left]] > 0: count -= 1
                 left += 1
         
-        return "" if start == -1 else s[start:start + max_len]
+        return "" if start == -1 else s[start:start + min_wind]
 
         
