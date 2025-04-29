@@ -44,6 +44,7 @@ LeetCode DSA Practice with Python
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/chiillbro/LC-Python/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
@@ -107,6 +108,7 @@ LeetCode DSA Practice with Python
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
+| [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/chiillbro/LC-Python/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/chiillbro/LC-Python/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chiillbro/LC-Python/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -159,6 +161,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chiillbro/LC-Python/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
@@ -499,6 +502,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [2249-count-the-hidden-sequences](https://github.com/chiillbro/LC-Python/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
