@@ -5,7 +5,7 @@ class Solution:
             return sum(nums)
 
         start = n - k
-        length = k * 2
+        length = k << 1
         left = 0
         res = current_sum = 0
 
