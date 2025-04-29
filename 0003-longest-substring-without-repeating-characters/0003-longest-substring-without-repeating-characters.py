@@ -30,13 +30,13 @@ class Solution:
 
         #     res = max(res, right - left + 1)
 
-        mpp = [-1] * 256
+        char_mask = [-1] * 256
 
         for right in range(n):
-            if mpp[ord(s[right])] != -1:
-                left = max(mpp[ord(s[right])] + 1, left)
+            if char_mask[ord(s[right])] != -1:
+                left = max(char_mask[ord(s[right])] + 1, left)
             
-            mpp[ord(s[right])] = right
+            char_mask[ord(s[right])] = right
 
             res = max(res, right - left + 1)
             
