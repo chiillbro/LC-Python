@@ -19,14 +19,24 @@ class Solution:
 
         # More Cleaner and Direct approach using a Set
 
-        unique = set()
+        # unique = set()
+
+        # for right in range(n):
+        #     while s[right] in unique:
+        #         unique.remove(s[left])
+        #         left += 1
+            
+        #     unique.add(s[right])
+
+        #     res = max(res, right - left + 1)
+
+        mpp = [-1] * 256
 
         for right in range(n):
-            while s[right] in unique:
-                unique.remove(s[left])
-                left += 1
+            if mpp[ord(s[right])] != -1:
+                left = max(mpp[ord(s[right])] + 1, left)
             
-            unique.add(s[right])
+            mpp[ord(s[right])] = right
 
             res = max(res, right - left + 1)
             
