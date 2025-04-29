@@ -11,11 +11,10 @@ class Solution:
                 max_ele_count += 1
             
             while max_ele_count == k:
+                res += n - right
                 if nums[left] == max_ele:
                     max_ele_count -= 1
                 
                 left += 1
-            
-            res += left
         
         return res
