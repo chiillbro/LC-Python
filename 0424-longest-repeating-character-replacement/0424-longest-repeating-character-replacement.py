@@ -7,7 +7,7 @@ class Solution:
         for right in range(n):
             track[s[right]] += 1
             considerCharCount = max(track[s[right]], considerCharCount)
-            if right - left + 1 - considerCharCount > k:
+            while right - left + 1 - considerCharCount > k:
                 track[s[left]] -= 1
                 if not track[s[left]]:
                     track.pop(s[left])
