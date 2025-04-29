@@ -7,14 +7,10 @@ class Solution:
         odds = 0
 
         for right in range(n):
-            if nums[right] & 1:
-                odds += 1
-            
+            odds += nums[right] & 1
 
             while left <= right and odds > k:
-                if nums[left] & 1:
-                    odds -= 1
-                
+                odds -= nums[left] & 1
                 left += 1
             
             # if odds == k:
