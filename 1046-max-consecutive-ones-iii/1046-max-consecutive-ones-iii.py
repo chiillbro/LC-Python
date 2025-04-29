@@ -9,7 +9,7 @@ class Solution:
             if nums[right] == 0:
                 zeroes += 1
             
-            if left <= right and zeroes > k:
+            if left <= right and zeroes > k: # no need to use while loop, as zeroes increase by 1 at each step
                 if nums[left] == 0:
                     zeroes -= 1
                 left += 1
