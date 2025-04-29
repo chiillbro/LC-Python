@@ -18,23 +18,28 @@ class Solution:
         return res
 
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
-    #     return self.sliding_window_at_most(nums, goal) - self.sliding_window_at_most(nums, goal - 1)
-        n = len(nums)
-        res = 0
+        # Sliding Window Approach using "At Most" trick
 
-        current_sum = 0
+        return self.sliding_window_at_most(nums, goal) - self.sliding_window_at_most(nums, goal - 1)
 
-        prefix_sum_counts = defaultdict(int)
-        prefix_sum_counts[0] = 1
 
-        for num in nums:
-            current_sum += num
+        # Standard and fundamental Prefix Sum Approach
+        # n = len(nums)
+        # res = 0
 
-            needed_prefix_sum = current_sum - goal
+        # current_sum = 0
 
-            if needed_prefix_sum in prefix_sum_counts:
-                res += prefix_sum_counts[needed_prefix_sum]
+        # prefix_sum_counts = defaultdict(int)
+        # prefix_sum_counts[0] = 1
+
+        # for num in nums:
+        #     current_sum += num
+
+        #     needed_prefix_sum = current_sum - goal
+
+        #     if needed_prefix_sum in prefix_sum_counts:
+        #         res += prefix_sum_counts[needed_prefix_sum]
             
-            prefix_sum_counts[current_sum] += 1
+        #     prefix_sum_counts[current_sum] += 1
         
-        return res
+        # return res
