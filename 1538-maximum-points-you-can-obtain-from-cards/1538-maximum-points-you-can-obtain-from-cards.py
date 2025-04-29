@@ -4,17 +4,29 @@ class Solution:
         if k == n:
             return sum(nums)
 
-        start = n - k
-        length = k << 1
-        left = 0
-        res = current_sum = 0
+        # start = n - k
+        # length = k << 1
+        # left = 0
+        # res = current_sum = 0
 
-        for right in range(length):
-            current_sum += nums[(start + right) % n]
-            while right - left + 1 > k:
-                current_sum -= nums[(left + start) % n]
-                left += 1
+        # for right in range(length):
+        #     current_sum += nums[(start + right) % n]
+        #     while right - left + 1 > k:
+        #         current_sum -= nums[(left + start) % n]
+        #         left += 1
 
-            res = max(res, current_sum)
+        #     res = max(res, current_sum)
+
+
+        # More Straightforward Approach
+
+        current_sum = sum(nums[:k])
+        res = current_sum
+
+        for i in range(k):
+            current_sum -= nums[k - 1 - i] # remove the rightmost element from the beginning
+            current_sum += nums[n - 1 - i] # add the rightmost element from the end
+
+            res = max(current_sum, res)
         
         return res
