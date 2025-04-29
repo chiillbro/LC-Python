@@ -16,7 +16,7 @@ class Solution:
         #         current_sum -= nums[(left + start) % n]
         #         left += 1
 
-            # if right - left + 1 == k:
+            # if right - left + 1 == k:   # no need to use "while" loop here, window grows by 1 each step
             #     res = max(res, current_sum)
 
 
