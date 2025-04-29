@@ -11,11 +11,13 @@ class Solution:
 
         # for right in range(length):
         #     current_sum += nums[(start + right) % n]
-        #     while right - left + 1 > k:
+
+        #     if right - left + 1 > k:
         #         current_sum -= nums[(left + start) % n]
         #         left += 1
 
-        #     res = max(res, current_sum)
+            # if right - left + 1 == k:
+            #     res = max(res, current_sum)
 
 
         # More Straightforward Approach
@@ -24,8 +26,8 @@ class Solution:
         res = current_sum
 
         for i in range(k):
-            current_sum -= nums[k - 1 - i] # remove the rightmost element from the beginning
-            current_sum += nums[n - 1 - i] # add the rightmost element from the end
+            current_sum -= nums[k - 1 - i] # remove the rightmost currently included element from the beginning
+            current_sum += nums[n - 1 - i] # add the rightmost not yet included element from the end
 
             res = max(current_sum, res)
         
