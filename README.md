@@ -45,6 +45,7 @@ LeetCode DSA Practice with Python
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/chiillbro/LC-Python/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -168,6 +169,7 @@ LeetCode DSA Practice with Python
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/chiillbro/LC-Python/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -206,6 +208,7 @@ LeetCode DSA Practice with Python
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1034-subarrays-with-k-different-integers](https://github.com/chiillbro/LC-Python/tree/master/1034-subarrays-with-k-different-integers) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1319-unique-number-of-occurrences](https://github.com/chiillbro/LC-Python/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
@@ -474,6 +477,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
+| [1034-subarrays-with-k-different-integers](https://github.com/chiillbro/LC-Python/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chiillbro/LC-Python/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
