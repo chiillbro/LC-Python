@@ -16,6 +16,3 @@ class Solution:
             cur = ''.join(temp)
         
         return cur
-
-
-            
