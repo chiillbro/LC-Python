@@ -236,6 +236,7 @@ LeetCode DSA Practice with Python
 | [0005-longest-palindromic-substring](https://github.com/chiillbro/LC-Python/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/chiillbro/LC-Python/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
@@ -329,6 +330,7 @@ LeetCode DSA Practice with Python
 | [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/chiillbro/LC-Python/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
@@ -704,5 +706,6 @@ LeetCode DSA Practice with Python
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 <!---LeetCode Topics End-->
