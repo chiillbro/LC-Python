@@ -158,8 +158,8 @@ class Solution:
                 
                 k1 = k - left
 
-                # if k1 < right - k + 1:
-                if k + z[k1] <= right:
+                if z[k1] < right - k + 1:
+                # if k + z[k1] <= right:
                     z[k] = z[k1] 
                 else:
                     left = k
