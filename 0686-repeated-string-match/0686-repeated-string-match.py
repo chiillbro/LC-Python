@@ -90,9 +90,9 @@ class Solution:
         # TC: O(len(a) + len(b)) - linear time, very Optimal
 
 
-        k_base = (len_b - 1) // len_a
+        k_base = (len_b + len_a - 1) // len_a
 
-        max_reps_to_check = k_base + 2
+        max_reps_to_check = k_base + 1
 
         T = a * max_reps_to_check
 
