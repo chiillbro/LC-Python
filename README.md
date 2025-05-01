@@ -67,6 +67,7 @@ LeetCode DSA Practice with Python
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2249-count-the-hidden-sequences](https://github.com/chiillbro/LC-Python/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/chiillbro/LC-Python/tree/master/2262-solving-questions-with-brainpower) |
@@ -123,6 +124,7 @@ LeetCode DSA Practice with Python
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -251,6 +253,7 @@ LeetCode DSA Practice with Python
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/chiillbro/LC-Python/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
 ## Union Find
@@ -368,6 +371,7 @@ LeetCode DSA Practice with Python
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -620,6 +624,7 @@ LeetCode DSA Practice with Python
 ## Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Enumeration
 |  |
@@ -718,4 +723,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 <!---LeetCode Topics End-->
