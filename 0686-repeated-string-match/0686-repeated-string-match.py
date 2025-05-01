@@ -86,7 +86,7 @@ class Solution:
 
 
 
-        # ********** Approach 2: Using KMP (Knuth-Morris-Pratt) Method ********** #
+        # ********** Approach 2: Using KMP (Knuth-Morris-Pratt) Algorithm ********** #
         # TC: O(len(a) + len(b)) - linear time, very Optimal
 
 
@@ -96,19 +96,68 @@ class Solution:
 
         T = a * max_reps_to_check
 
-        lps = self._compute_lps(b)
+        # lps = self._compute_lps(b)
         
-        match_index = self._kmp_search(T, b, lps)
+        # match_index = self._kmp_search(T, b, lps)
 
-        if match_index == -1:
-            return -1
+        # if match_index == -1:
+        #     return -1
         
-        else:
-            required_idx = (match_index + len_b + len_a - 1) // len_a
+        # else:
+        #     required_idx = (match_index + len_b + len_a - 1) // len_a
+
+        #     return required_idx
+
+
+        # ********** Approach 3: Using Rabin-Karp Algorithm ********** #
+        # TC: Average Case: O(len(a) + len(b)), Worst Case: O(len(a) * len(b)), SC: O(1)
+        
+        match_idx =  self._rabin_karp(T, b)
+
+        if match_idx != -1:
+            required_idx = (match_idx + len_b + len_a - 1) // len_a
 
             return required_idx
+        
+        return -1
 
     
+    def _rabin_karp(self, text: str, pattern: str) -> int:
+        n, m = len(text), len(pattern)
+        # A value representing the size of the alphabet or slightly larger
+        d = 31
+        
+        # A large prime number to prevent hash overflow and reduce collisions
+        q = 10**9 + 7
+
+        # used later for removing the leading char's contribution
+        h_factor = pow(d, m-1, q) # in Integer math, this equals to (d^len_b) % q
+
+        h_base = 0 # hash of the pattern
+        h_window = 0 # hash of the first window of text of m characters
+
+
+        for i in range(m):
+            h_base = (d * h_base + ord(pattern[i])) % q
+            h_window = (d * h_window + ord(text[i])) % q
+        
+
+        for i in range(n - m + 1):
+            if h_base == h_window:
+                if text[i: i+m] == pattern:
+                    return i
+            
+            if i < n - m:
+                term1 = (ord(text[i]) * h_factor) % q
+
+                h_window = (h_window - term1 + q) % q
+                h_window = (h_window * d) % q
+
+                term2 = ord(text[i+m])
+                h_window = (h_window + term2) % q
+        
+
+        return -1
 
     def _compute_lps(self, pattern: str) -> List[int]:
         m = len(pattern)
