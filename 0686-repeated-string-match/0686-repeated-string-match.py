@@ -90,7 +90,8 @@ class Solution:
         # TC: O(len(a) + len(b)) - linear time, very Optimal
 
 
-        k_base = (len_b + len_a - 1) // len_a
+        # min_reps = math.ceil(len_b / len_a) # Alternative using math.ceil
+        k_base = (len_b + len_a - 1) // len_a   # Integer arithmetic equivalent
 
         max_reps_to_check = k_base + 1
 
@@ -112,13 +113,36 @@ class Solution:
         # ********** Approach 3: Using Rabin-Karp Algorithm ********** #
         # TC: Average Case: O(len(a) + len(b)), Worst Case: O(len(a) * len(b)), SC: O(1)
         
-        match_idx =  self._rabin_karp(T, b)
+        # match_idx =  self._rabin_karp(T, b)
 
-        if match_idx != -1:
-            required_idx = (match_idx + len_b + len_a - 1) // len_a
+        # if match_idx != -1:
+        #     required_idx = (match_idx + len_b + len_a - 1) // len_a
 
-            return required_idx
+        #     return required_idx
         
+        # return -1
+
+
+
+        # ********** Approach 4: Using Z Algorithm ********** #
+        # TC: O(len(a) + len(b)) - linear time, very Optimal
+
+
+        separator = "#"
+
+        S = b + separator + T
+
+        len_s = len(S)
+        z = self._compute_z_array(S)
+
+        for i in range(len_b + 1, len_s):
+            if z[i] == len_b:
+                match_idx = i - (len_b + 1)
+
+                required_idx = (match_idx + len_b + len_a - 1) // len_a
+
+                return required_idx
+            
         return -1
 
     
@@ -203,6 +227,37 @@ class Solution:
         
         return -1
             
+    
+    def _compute_z_array(self, text: str) -> List[int]:
+        n = len(text)
+
+        z = [0] * n
+        left = right = 0
+        
+        for i in range(1, n):
+            if i > right:
+                left = right = i
+
+                while right < n and text[right] == text[right - left]:
+                    right += 1
+                
+                z[i] = right - left
+                right -= 1
+
+            else:
+                k1 = i - left
+
+                if z[k1] < right - i + 1:
+                    z[i] = z[k1]
+                else:
+                    left = i
+                    while right < n and text[right] == text[right - left]:
+                        right += 1
+                    z[i] = right - left
+                    right -= 1
+
+
+        return z
 
 
 
