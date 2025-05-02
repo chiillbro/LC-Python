@@ -11,7 +11,7 @@ class Solution:
         def check(k: int) -> bool:
             p = pills
 
-            # if k == 0: return True
+            if k == 0: return True
 
             ws = SortedList(workers[m - k:])
 
