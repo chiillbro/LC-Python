@@ -242,6 +242,7 @@ LeetCode DSA Practice with Python
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
+| [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Greedy
@@ -353,6 +354,7 @@ LeetCode DSA Practice with Python
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
+| [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/chiillbro/LC-Python/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1078-remove-outermost-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -511,6 +513,7 @@ LeetCode DSA Practice with Python
 | [0416-partition-equal-subset-sum](https://github.com/chiillbro/LC-Python/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/chiillbro/LC-Python/tree/master/2262-solving-questions-with-brainpower) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
