@@ -30,6 +30,10 @@ class Solution:
         # return ''.join(stack)
 
 
+
+        # ************ Approach 1: Adjacent Symbols ******************* #
+
+
     #     symbols = [(i, c) for i, c in enumerate(dominoes) if c != '.']
 
     #     symbols = [(-1, 'L')] + symbols + [(len(dominoes), 'R')]
@@ -46,6 +50,8 @@ class Solution:
         
     #     return ''.join(ans)
 
+
+        # ****************** Approach 2: Calculate Force ********************* #
 
         N = len(dominoes)
 
