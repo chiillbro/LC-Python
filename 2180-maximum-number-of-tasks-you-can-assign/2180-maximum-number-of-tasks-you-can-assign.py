@@ -1,40 +1,54 @@
 from sortedcontainers import SortedList
 
-
 class Solution:
-    def maxTaskAssign(
-        self, tasks: List[int], workers: List[int], pills: int, strength: int
-    ) -> int:
-        n, m = len(tasks), len(workers)
-        tasks.sort()
-        workers.sort()
+    def maxTaskAssign(self, tasks: List[int], workers: List[int], pills: int, strength: int) -> int:
+        m, n = len(workers), len(tasks)
 
-        def check(mid: int) -> bool:
+        workers.sort()
+        tasks.sort()
+
+
+        def check(k: int) -> bool:
             p = pills
-            # Ordered set of workers
-            ws = SortedList(workers[m - mid :])
-            # Enumerate each task from largest to smallest
-            for i in range(mid - 1, -1, -1):
-                # If the largest element in the ordered set is greater than or equal to tasks[i]
-                if ws[-1] >= tasks[i]:
+
+            # if k == 0: return True
+
+            ws = SortedList(workers[m - k:])
+
+            for i in range(k - 1, -1, -1):
+                current_task_strength = tasks[i]
+
+                if ws[-1] >= current_task_strength:
                     ws.pop()
+                
                 else:
                     if p == 0:
                         return False
-                    rep = ws.bisect_left(tasks[i] - strength)
-                    if rep == len(ws):
-                        return False
-                    p -= 1
-                    ws.pop(rep)
-            return True
 
-        left, right, ans = 1, min(m, n), 0
-        while left <= right:
-            mid = (left + right) // 2
+                    required_strength_without_pill = current_task_strength - strength
+
+                    idx = ws.bisect_left(required_strength_without_pill)
+
+                    if idx == len(ws):
+                        return False
+
+                    p -= 1
+                    ws.pop(idx)
+
+            return True 
+
+
+        low, high = 0, min(m, n)
+        ans = 0
+
+        while low <= high:
+            mid = (high + low) >> 1
+
             if check(mid):
                 ans = mid
-                left = mid + 1
+                low = mid + 1
             else:
-                right = mid - 1
-
+                high = mid - 1
+        
         return ans
+        
