@@ -2,15 +2,14 @@ class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
         n = len(dominoes)
 
-        track = defaultdict(list)
+        track = defaultdict(int)
         res = 0
 
         for i, pair in enumerate(dominoes):
-            pair.sort()
-            pair = tuple(pair)
+            pair = tuple(sorted(pair))
             if pair in track:
-                res += len(track[pair])
+                res += track[pair]
             
-            track[pair].append(i)
+            track[pair] += 1
         
         return res
