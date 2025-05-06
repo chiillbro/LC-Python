@@ -68,6 +68,7 @@ LeetCode DSA Practice with Python
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
+| [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -736,4 +737,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Simulation
+|  |
+| ------- |
+| [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 <!---LeetCode Topics End-->
