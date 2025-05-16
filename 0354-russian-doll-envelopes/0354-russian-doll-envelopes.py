@@ -17,7 +17,7 @@ class Solution:
         LIS = []
         size = 0
 
-        for w, h in envelopes:
+        for _, h in envelopes:
             if not LIS or h > LIS[-1]:
                 LIS.append(h); size += 1
             else:
