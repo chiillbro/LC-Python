@@ -21,12 +21,14 @@ class Solution:
             if not LIS or h > LIS[-1]:
                 LIS.append(h); size += 1
             else:
-                l, r = 0, size
-                while l <= r:
-                    m = (l + r) >> 1
-                    if LIS[m] < h:
-                        l = m + 1
-                    else:
-                        r = m - 1
-                LIS[l] = h
+                insert_idx = bisect_left(LIS, h)
+                # l, r = 0, size
+                # while l <= r:
+                #     m = (l + r) >> 1
+                #     if LIS[m] < h:
+                #         l = m + 1
+                #     else:
+                #         r = m - 1
+                # LIS[l] = h
+                LIS[insert_idx] = h
         return size
