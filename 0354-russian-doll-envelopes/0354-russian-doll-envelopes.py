@@ -14,8 +14,7 @@ class Solution:
 
         envelopes.sort(key=lambda x:(x[0], -x[1]))
 
-        LIS = []
-        size = 0
+        LIS = []; size = 0
 
         for _, h in envelopes:
             if not LIS or h > LIS[-1]:
