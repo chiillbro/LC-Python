@@ -38,10 +38,10 @@ class Solution:
         while i <= h:
             if not nums[i]:
                 nums[i], nums[l] = nums[l], nums[i]
-                l += 1; i += 1
+                l += 1; i += 1 # need to increment i here in order to avoid the iterating pointer getting stuck
             elif nums[i] == 2:
                 nums[i], nums[h] = nums[h], nums[i]
-                h -= 1
+                h -= 1 # should not increment i here, we need to recheck this
             else:
                 i += 1
     
