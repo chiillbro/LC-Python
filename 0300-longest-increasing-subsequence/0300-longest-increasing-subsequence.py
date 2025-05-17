@@ -11,6 +11,8 @@ class Solution:
         
         # return max(dp)
 
+
+        # DP with Binary Search, Optimal solution for LIS problems, TC: O(N)
         LIS = []
 
         for num in nums:
