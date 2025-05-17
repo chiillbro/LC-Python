@@ -17,6 +17,7 @@ LeetCode DSA Practice with Python
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chiillbro/LC-Python/tree/master/0051-n-queens) |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/chiillbro/LC-Python/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -249,6 +250,7 @@ LeetCode DSA Practice with Python
 | [0011-container-with-most-water](https://github.com/chiillbro/LC-Python/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
@@ -381,6 +383,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
 | [0354-russian-doll-envelopes](https://github.com/chiillbro/LC-Python/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
