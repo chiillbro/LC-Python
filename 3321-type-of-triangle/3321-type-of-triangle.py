@@ -3,7 +3,7 @@ class Solution:
         # counter = Counter(nums)
         _sum = sum(nums)
 
-        if nums.count(side := _sum // 3) == 3: return "equilateral"
+        if nums.count(_sum // 3) == 3: return "equilateral"
 
         for num in nums:
             if not (_sum - num > num):
