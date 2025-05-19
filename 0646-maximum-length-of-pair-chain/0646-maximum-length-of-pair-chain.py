@@ -6,8 +6,10 @@ class Solution:
         # return the longest chain, no order ristriction
 
         # Intuition ->
-        # Sort the array based on second element
-        pairs.sort(key=lambda x: (x[1], x[0]))
+        # 1. if we Sort the array based on second element, then 
+        #     we will be left with comparing the cur end value greedily with the start value of current iterating pair
+
+        pairs.sort(key=lambda x: x[1])
         cur_right = float("-inf"); count = 0
 
         for left, right in pairs:
