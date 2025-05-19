@@ -1,6 +1,6 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        # Plain DP Approach TC: O(N^2)
+        # Plain DP Approach, Tabulation TC: O(N^2)
         # n = len(nums)
         # dp = [1] * n # as every element is itself a subsequence with length 1
 
@@ -12,7 +12,7 @@ class Solution:
         # return max(dp)
 
 
-        # DP with Binary Search, Optimal solution for LIS problems, TC: O(N)
+        # Patience Sorting with Binary Search, Optimal solution for LIS problems, TC: O(N)
         LIS = []
 
         for num in nums:
