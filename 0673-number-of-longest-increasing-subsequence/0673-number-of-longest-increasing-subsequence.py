@@ -31,3 +31,10 @@ class Solution:
         max_length = max(lengths)
         return sum(counts[i] for i in range(n) if lengths[i] == max_length)
 
+
+# The above solution runs in O(N^2) and is the standard dynamic programming aproach and is generally what's taught first.
+# Still, there are more complex O(N log N) solutions involving data structures like Fenwick trees or segment trees, combined with coordinate compression and the O(N log N) LIS length algorithm idea. These are much harder to implement correctly, especially under the interview pressure.
+
+# Note: the O(N^2) solution is very often the expected solution. It demonstrates good understanding of DP
+# IF you implement the above solution clearly and explain it well, that's usually a strong pass for this problem
+
