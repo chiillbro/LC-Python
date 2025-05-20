@@ -1,5 +1,7 @@
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
+        if not pairs:
+            return 0
         # n pairs, 
         # pairs[i] = [lefti, righti] and lefti < righti
         # a pair [c, d] follows a pair [a, b] if b < c
@@ -14,6 +16,7 @@ class Solution:
 
         for left, right in pairs:
             if left > cur_right:
+                # This pair can extend the chain
                 count += 1
                 cur_right = right
         
