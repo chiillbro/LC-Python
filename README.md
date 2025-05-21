@@ -16,6 +16,7 @@ LeetCode DSA Practice with Python
 | [0040-combination-sum-ii](https://github.com/chiillbro/LC-Python/tree/master/0040-combination-sum-ii) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chiillbro/LC-Python/tree/master/0051-n-queens) |
+| [0073-set-matrix-zeroes](https://github.com/chiillbro/LC-Python/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
@@ -213,6 +214,7 @@ LeetCode DSA Practice with Python
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/chiillbro/LC-Python/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/chiillbro/LC-Python/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -334,6 +336,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/chiillbro/LC-Python/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/chiillbro/LC-Python/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
