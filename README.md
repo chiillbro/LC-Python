@@ -341,6 +341,7 @@ LeetCode DSA Practice with Python
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/chiillbro/LC-Python/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Matrix
 |  |
 | ------- |
@@ -466,6 +467,7 @@ LeetCode DSA Practice with Python
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/chiillbro/LC-Python/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -505,6 +507,7 @@ LeetCode DSA Practice with Python
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/chiillbro/LC-Python/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Binary Tree
 |  |
 | ------- |
