@@ -12,9 +12,9 @@ class Solution:
             adj_list_1[a].append(b)
             adj_list_1[b].append(a)
         
-        for a, b in edges2:
-            adj_list_2[a].append(b)
-            adj_list_2[b].append(a)
+        for u, v in edges2:
+            adj_list_2[u].append(v)
+            adj_list_2[v].append(u)
 
         def dfs(node, parent, adj, k):
             if k < 0:
