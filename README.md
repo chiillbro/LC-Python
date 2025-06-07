@@ -261,6 +261,7 @@ LeetCode DSA Practice with Python
 | [2856-count-complete-subarrays-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -299,6 +300,7 @@ LeetCode DSA Practice with Python
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 ## Union Find
 |  |
@@ -420,6 +422,7 @@ LeetCode DSA Practice with Python
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3194-find-words-containing-character](https://github.com/chiillbro/LC-Python/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Sorting
@@ -663,6 +666,7 @@ LeetCode DSA Practice with Python
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Math
 |  |
 | ------- |
@@ -704,6 +708,7 @@ LeetCode DSA Practice with Python
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/chiillbro/LC-Python/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/chiillbro/LC-Python/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
