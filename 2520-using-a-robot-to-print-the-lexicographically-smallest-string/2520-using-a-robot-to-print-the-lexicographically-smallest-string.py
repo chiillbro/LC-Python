@@ -1,14 +1,20 @@
 class Solution:
     def robotWithString(self, s: str) -> str:
-        cnt = Counter(s)
+        counts = Counter(s)
+
         stack = []
+        min_char = 'a'
         res = []
-        minCharacter = "a"
+
         for c in s:
             stack.append(c)
-            cnt[c] -= 1
-            while minCharacter != "z" and cnt[minCharacter] == 0:
-                minCharacter = chr(ord(minCharacter) + 1)
-            while stack and stack[-1] <= minCharacter:
+            counts[c] -= 1
+
+            while min_char != 'z' and counts[min_char] == 0:
+                min_char = chr(ord(min_char) + 1)
+            
+            while stack and stack[-1] <= min_char:
                 res.append(stack.pop())
-        return "".join(res)
+        
+
+        return ''.join(res)
