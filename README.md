@@ -509,6 +509,7 @@ LeetCode DSA Practice with Python
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/chiillbro/LC-Python/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0386-lexicographical-numbers](https://github.com/chiillbro/LC-Python/tree/master/0386-lexicographical-numbers) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
@@ -699,6 +700,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0014-longest-common-prefix](https://github.com/chiillbro/LC-Python/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
+| [0386-lexicographical-numbers](https://github.com/chiillbro/LC-Python/tree/master/0386-lexicographical-numbers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
