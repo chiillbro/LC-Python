@@ -13,18 +13,18 @@ func answerString(word string, numFriends int) string {
     return res
 }
 
-func max[T string | int](a, b T) T {
-        if a > b {
-            return a
-        }
+// func max[T string | int](a, b T) T {
+//         if a > b {
+//             return a
+//         }
 
-        return b
-    }
+//         return b
+//}
 
-func min[T string | int](a, b T) T {
-        if b < a {
-            return b
-        }
+// func min[T string | int](a, b T) T {
+//         if b < a {
+//             return b
+//         }
 
-        return a
-    }
+//         return a
+//}
