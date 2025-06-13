@@ -28,3 +28,7 @@ func answerString(word string, numFriends int) string {
 
 //         return a
 //}
+
+
+// TC: O(n^2)
+// SC: O(n)
