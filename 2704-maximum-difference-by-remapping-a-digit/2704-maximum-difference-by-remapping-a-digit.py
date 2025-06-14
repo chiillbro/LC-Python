@@ -2,29 +2,30 @@ class Solution:
     def minMaxDifference(self, num: int) -> int:
         # num: int
 
-        digit_to_arr = [int(digit) for digit in str(num)]
-        print(digit_to_arr)
+        num_str = str(num)
         
         to_map = None
         
-        for i in range(len(digit_to_arr)):
-            if digit_to_arr[i] < 9:
-                to_map = digit_to_arr[i]
+        for i in range(len(num_str)):
+            if num_str[i] != '9':
+                to_map = num_str[i]
                 break
         
         print("to_map", to_map)
+
+        temp = num_str
         
         _max = num
         if to_map != None:
-            _max = int(''.join([str(num) if num != to_map else '9' for num in digit_to_arr]))
+            _max = int(num_str.replace(to_map, '9'))
         
         print("_max", _max)
         
-        first = digit_to_arr[0]
+        first = temp[0]
         
         print('first', first)
 
-        _min = int(''.join([str(num) if num != first else '0' for num in digit_to_arr]))
+        _min = int(temp.replace(first, '0'))
         
         print('_min', _min)
 
