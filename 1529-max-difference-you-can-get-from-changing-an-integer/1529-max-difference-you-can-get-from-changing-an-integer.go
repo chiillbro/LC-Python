@@ -5,34 +5,33 @@ func maxDiff(num int) int {
 
     val_a := num
 
+    replace := func(x, y string) string {
+		return strings.ReplaceAll(sNum, x, y)
+	}
+
     for _, char := range sNum {
         fmt.Println("char", char)
         if char != '9' {
-            valToConvert := strings.ReplaceAll(sNum, string(char), "9")
-            fmt.Println("valToConvert", valToConvert)
-            val_a, _ = strconv.Atoi(valToConvert)
-            fmt.Println("val_a", val_a)
+            val_a, _ = strconv.Atoi(replace(string(char), "9"))
             break
         }
     }
 
-    fmt.Println("val_a", val_a)
+    // fmt.Println("val_a", val_a)
 
 
     val_b := num
 
-    fmt.Println("sNum", sNum)
+    // fmt.Println("sNum", sNum)
     for i, char := range sNum {
         if i == 0 {
             if char != '1' {
-                valToConvert := strings.ReplaceAll(sNum, string(char), "1")
-                val_b, _ = strconv.Atoi(valToConvert)
+                val_b, _ = strconv.Atoi(replace(string(char), "1"))
                 break
             }
         } else {
             if char != '0' && char != '1' {
-                valToConvert := strings.ReplaceAll(sNum, string(char), "0")
-                val_b, _ = strconv.Atoi(valToConvert)
+                val_b, _ = strconv.Atoi(replace(string(char), "0"))
                 break
             }
         }
