@@ -15,7 +15,7 @@ class Solution:
 
         # now, the question is how to optimize this
 
-        # okay, I've thought of a different approach, this approach solves the problem in O(n) but consumes O(n) space
+        # okay, I've thought of a different approach, this approach solves the problem in O(n) but consumes O(n) space, let's see
 
 
         suffix_max = [0] * n
