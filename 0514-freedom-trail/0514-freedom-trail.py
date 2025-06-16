@@ -44,7 +44,7 @@ class Solution:
 
         memo = {}
         def dfs(ring_idx, key_idx, min_steps):
-            mem_key = ring_idx, key_idx, min_steps
+            mem_key = ring_idx, key_idx
 
             if mem_key in memo:
                 return memo[mem_key]
@@ -65,5 +65,8 @@ class Solution:
         
 
         return dfs(0, 0, inf)
-            
 
+
+        # Bottom-Up DP or Tabulation
+
+        dp = []
