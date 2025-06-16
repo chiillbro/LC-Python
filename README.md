@@ -340,6 +340,7 @@ LeetCode DSA Practice with Python
 | [0210-course-schedule-ii](https://github.com/chiillbro/LC-Python/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
+| [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -415,6 +416,7 @@ LeetCode DSA Practice with Python
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
+| [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
@@ -522,6 +524,7 @@ LeetCode DSA Practice with Python
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/chiillbro/LC-Python/tree/master/0386-lexicographical-numbers) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
+| [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
 | [0543-diameter-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -602,6 +605,7 @@ LeetCode DSA Practice with Python
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/chiillbro/LC-Python/tree/master/0416-partition-equal-subset-sum) |
+| [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
