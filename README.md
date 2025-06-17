@@ -688,6 +688,7 @@ LeetCode DSA Practice with Python
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chiillbro/LC-Python/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
@@ -740,6 +741,7 @@ LeetCode DSA Practice with Python
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chiillbro/LC-Python/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/chiillbro/LC-Python/tree/master/2050-count-good-numbers) |
@@ -813,6 +815,7 @@ LeetCode DSA Practice with Python
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chiillbro/LC-Python/tree/master/0002-add-two-numbers) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Binary Search Tree
 |  |
