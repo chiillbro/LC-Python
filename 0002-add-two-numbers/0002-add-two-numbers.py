@@ -24,11 +24,11 @@ class Solution:
 
             cur_sum = digit1 + digit2 + carry
 
-            print("cur_sum before", cur_sum)
+            # print("cur_sum before", cur_sum)
             carry = cur_sum // 10
-            print("carry", carry)
+            # print("carry", carry)
 
-            print("cur_sum after", cur_sum)
+            # print("cur_sum after", cur_sum)
 
             cur.next = ListNode(cur_sum % 10)
             cur = cur.next
