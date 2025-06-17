@@ -19,7 +19,7 @@ class Solution:
 
         carry = 0 # this represents the carry that we should take forward to add to the next addition for accumulating correct digit of the integer
 
-        while p or q:
+        while p or q or carry:
             digit1, digit2 = p.val if p else 0, q.val if q else 0
 
             cur_sum = digit1 + digit2 + carry
@@ -35,8 +35,5 @@ class Solution:
 
             p = p.next if p else None
             q = q.next if q else None
-        
-        if carry:
-            cur.next = ListNode(carry)
         
         return dummyNode.next
