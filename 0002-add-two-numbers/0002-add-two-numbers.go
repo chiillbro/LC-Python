@@ -14,7 +14,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
     carry := 0
 
-    for p != nil || q != nil {
+    for p != nil || q != nil || carry != 0 {
         val1 := 0
         if p != nil {
             val1 = p.Val
@@ -34,10 +34,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
         cur.Next = &ListNode{cur_sum % 10, nil}
         cur = cur.Next
         
-    }
-
-    if carry != 0 {
-        cur.Next = &ListNode{carry, nil}
     }
 
     return dummyNode.Next
