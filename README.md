@@ -285,6 +285,7 @@ LeetCode DSA Practice with Python
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
+| [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
@@ -422,6 +423,7 @@ LeetCode DSA Practice with Python
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
+| [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
@@ -704,6 +706,7 @@ LeetCode DSA Practice with Python
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
+| [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/chiillbro/LC-Python/tree/master/1421-find-numbers-with-even-number-of-digits) |
