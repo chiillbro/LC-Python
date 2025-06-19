@@ -5,17 +5,16 @@ class Solution:
         for i in range(len(nums2) - 1, -1, -1):
             num = nums2[i]
 
-            while stack:
-                if stack[-1] > num:
-                    hashmap[num] = stack[-1]
-                    stack.append(num)
-                    break
-                else:
-                    stack.pop()
+            while stack and stack[-1] <= num:
+                stack.pop()
             
-            if not stack:
+
+            if stack:
+                hashmap[num] = stack[-1]
+            else:
                 hashmap[num] = -1
-                stack.append(num)
+                
+            stack.append(num)
         
         return [hashmap[num] for num in nums1]
 
