@@ -17,16 +17,12 @@ class Solution:
         i = 0
         while i <= n-3:
             num1, num2, num3 = nums[i], nums[i+1], nums[i+2]
-            if num2 - num1 > k or num3 - num2 > k or num3 - num1 > k:
+            if num3 - num1 > k:
                 return []
             
             ans.append([num1, num2, num3])
             i += 3
         
-        return ans
-
-
-
         return ans
 
 
