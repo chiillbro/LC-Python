@@ -95,6 +95,7 @@ LeetCode DSA Practice with Python
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -312,6 +313,7 @@ LeetCode DSA Practice with Python
 | [2089-maximum-matrix-sum](https://github.com/chiillbro/LC-Python/tree/master/2089-maximum-matrix-sum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chiillbro/LC-Python/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/chiillbro/LC-Python/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -464,6 +466,7 @@ LeetCode DSA Practice with Python
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
