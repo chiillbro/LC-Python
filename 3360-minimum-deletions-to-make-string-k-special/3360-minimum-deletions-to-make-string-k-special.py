@@ -22,7 +22,7 @@ class Solution:
                 if a > b:
                     deleted += b
                 elif b - k > a:
-                    deleted += b - (a + k)
+                    deleted += (b - k) - a
             
             res = min(res, deleted)
         
