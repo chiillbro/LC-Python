@@ -8,10 +8,9 @@ class Solution:
         caption = caption.strip()
 
         for i, char in enumerate(caption):
-            if char == " " and i != 0:
+            if char == " ":
                 prev = 1
-                continue
-            if 65 <= ord(char) <= 90 or 97 <= ord(char) <= 122:
+            elif 65 <= ord(char) <= 90 or 97 <= ord(char) <= 122:
                 if prev:
                     res.append(char.capitalize())
                     prev = 0
