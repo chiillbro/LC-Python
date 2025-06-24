@@ -5,25 +5,21 @@ class Solution:
 
         n = len(nums)
 
-        num_to_idx = defaultdict(list)
+        key_indices = []
 
         for i, num in enumerate(nums):
-            num_to_idx[num].append(i)
-        
+            if num == key:
+                key_indices.append(i)
+    
 
-        if not key in num_to_idx:
+        if not key_indices:
             return []
         
         res = []
-        for idx in num_to_idx[key]:
+        for idx in key_indices:
             start_idx = max(res[-1] + 1, idx - k) if res else max(idx - k, 0)
             end_idx = min(idx + k + 1, n)
             for i in range(start_idx, end_idx):
                 res.append(i)
 
-        # res = list(res)
-
-        # res.sort()
-
         return res
-
