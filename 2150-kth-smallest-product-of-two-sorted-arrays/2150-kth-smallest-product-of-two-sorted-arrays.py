@@ -15,7 +15,7 @@ class Solution:
         left, right = -(10**10), 10**10
 
         while left <= right:
-            mid = left + ((right - left) >> 1)
+            mid = (right + left) >> 1
 
             count = 0
 
