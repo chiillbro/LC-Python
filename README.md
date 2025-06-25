@@ -30,6 +30,7 @@ LeetCode DSA Practice with Python
 | [0135-candy](https://github.com/chiillbro/LC-Python/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/chiillbro/LC-Python/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
+| [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/chiillbro/LC-Python/tree/master/0162-find-peak-element) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
@@ -244,6 +245,7 @@ LeetCode DSA Practice with Python
 | [0127-word-ladder](https://github.com/chiillbro/LC-Python/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
+| [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
@@ -726,6 +728,7 @@ LeetCode DSA Practice with Python
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
+| [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
@@ -916,4 +919,8 @@ LeetCode DSA Practice with Python
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [3893-generate-tag-for-video-caption](https://github.com/chiillbro/LC-Python/tree/master/3893-generate-tag-for-video-caption) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
