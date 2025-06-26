@@ -6,37 +6,23 @@
 #         self.right = right
 class Solution:
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
-        
-        compl_set = set()
+        seen = set()
 
-        # ** Recursive Approach ** #
+        stack = [root]
 
-        # def helper(node):
-        #     if not node: return False
+        while stack:
+            cur = stack.pop()
 
-        #     if k - node.val in compl_set:
-        #         return True
-            
-        #     compl_set.add(node.val)
-            
-        #     return helper(node.left) or helper(node.right)
-        
-        # return helper(root)
+            compliment = k - cur.val
 
-
-
-        # *** Iterative Approach using BFS *** #
-        queue = deque([root])
-        while queue:
-            node = queue.popleft()
-            if k - node.val in compl_set:
+            if compliment in seen:
                 return True
             
-            compl_set.add(node.val)
+            seen.add(cur.val)
+            if cur.left:
+                stack.append(cur.left)
             
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
-            
+            if cur.right:
+                stack.append(cur.right)
+        
         return False
