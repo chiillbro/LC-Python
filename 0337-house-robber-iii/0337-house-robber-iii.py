@@ -9,42 +9,41 @@ class Solution:
 
         # Greedy, Dynamic Programming
 
-        # def dfs(node):
-        #     if not node: return 0, 0
+        def dfs(node):
+            if not node: return 0, 0
 
-        #     l1, l2 = dfs(node.left)
-        #     r1, r2 = dfs(node.right)
+            l1, l2 = dfs(node.left)
+            r1, r2 = dfs(node.right)
 
-        #     rob = node.val + l2 + r2
-        #     not_rob = max(l1, l2) + max(r1, r2)
+            rob = node.val + l2 + r2
+            not_rob = max(l1, l2) + max(r1, r2)
 
-        #     return rob, not_rob
+            return rob, not_rob
         
-        # return max(dfs(root))
+        return max(dfs(root))
 
 
         # Brute Recursion
 
         # Memoization
+        # memo = {}
+        # def helper(node):
+        #     if not node: return 0
 
-        memo = {}
-        def helper(node):
-            if not node: return 0
-
-            if node in memo:
-                return memo[node]
+        #     if node in memo:
+        #         return memo[node]
         
-            val = 0
+        #     val = 0
 
-            if node.left:
-                val += helper(node.left.left) + helper(node.left.right)
+        #     if node.left:
+        #         val += helper(node.left.left) + helper(node.left.right)
             
-            if node.right:
-                val += helper(node.right.left) + helper(node.right.right)
+        #     if node.right:
+        #         val += helper(node.right.left) + helper(node.right.right)
             
-            memo[node] = max(val + node.val, helper(node.left) + helper(node.right))
+        #     memo[node] = max(val + node.val, helper(node.left) + helper(node.right))
 
-            return memo[node]
+        #     return memo[node]
         
 
-        return helper(root)
+        # return helper(root)
