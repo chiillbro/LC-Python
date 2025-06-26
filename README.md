@@ -16,6 +16,7 @@ LeetCode DSA Practice with Python
 | [0040-combination-sum-ii](https://github.com/chiillbro/LC-Python/tree/master/0040-combination-sum-ii) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chiillbro/LC-Python/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/chiillbro/LC-Python/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
@@ -176,6 +177,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/chiillbro/LC-Python/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
@@ -631,6 +633,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/chiillbro/LC-Python/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chiillbro/LC-Python/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
