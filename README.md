@@ -32,6 +32,7 @@ LeetCode DSA Practice with Python
 | [0136-single-number](https://github.com/chiillbro/LC-Python/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
+| [0152-maximum-product-subarray](https://github.com/chiillbro/LC-Python/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/chiillbro/LC-Python/tree/master/0162-find-peak-element) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
@@ -641,6 +642,7 @@ LeetCode DSA Practice with Python
 | [0124-binary-tree-maximum-path-sum](https://github.com/chiillbro/LC-Python/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/chiillbro/LC-Python/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/chiillbro/LC-Python/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
