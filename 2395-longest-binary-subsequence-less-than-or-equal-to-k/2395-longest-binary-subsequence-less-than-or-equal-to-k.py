@@ -7,20 +7,19 @@ class Solution:
         j = n-1
         # greedily compute the value based on 
         # the right most set bits and keeping the k constraint in mind
-        while val <= k and j >= 0:
+        while j >= 0:
             if s[j] == '1':
                 set_bit = n - j -1
                 val += 1 << set_bit
             
+            if val > k:
+                break
             j -= 1
         
         # if j becomes -1 which means,
         # all of the binary representation given can contribute to the LBS
         if j == -1 and val <= k:
             return n
-        
-        # get to the last violated set bit
-        j += 1
 
         # as we need longest subsequence and problem states that subsequence can contain leading zeroes
         # count the number of zeroes that can contribute
