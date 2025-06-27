@@ -68,10 +68,11 @@ class Solution:
         for _ in range(k+1):
             temp = dist.copy()
 
-            for u in range(n):
-                if dist[u] == math.inf: continue
-                for v, w in adj_list[u]:
-                    temp[v] = min(temp[v], dist[u] + w)
+            # for u in range(n):
+            #     if dist[u] == math.inf: continue
+            #     for v, w in adj_list[u]:
+            for u, v, w in flights:
+                temp[v] = min(temp[v], dist[u] + w)
 
             dist = temp
         
