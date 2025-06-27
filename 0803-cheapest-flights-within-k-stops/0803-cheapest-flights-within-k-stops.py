@@ -6,23 +6,58 @@ class Solution:
             adj_list[u].append((v, c))
         
 
+        # dist = [math.inf] * n
+
+        # queue = deque([(0, src, 0)])
+
+        # dist[src] = 0
+
+        # while queue:
+        #     cur_cost, cur_stop, cur_stops = queue.popleft()
+
+        #     if cur_stops > k:
+        #         continue
+            
+        #     for neigh, cost in adj_list[cur_stop]:
+        #         if cur_cost + cost < dist[neigh]:
+        #             dist[neigh] = cur_cost + cost
+
+        #             queue.append((cur_cost + cost, neigh, cur_stops + 1))
+        
+        # return dist[dst] if dist[dst] != math.inf else -1
+
+
+
+        # Dikstra's Algorithm
+
         dist = [math.inf] * n
 
-        queue = deque([(0, src, 0)])
+        min_stops = [math.inf] * n
 
-        dist[src] = 0
+        heap = [(0, src, 0)]
+        # dist[src] = 0
 
-        while queue:
-            cur_cost, cur_stop, cur_stops = queue.popleft()
+        min_stops[src] = 0
 
+        while heap:
+            best_cost, cur_stop, cur_stops = heapq.heappop(heap)
+
+            if cur_stop == dst:
+                return best_cost
+            
             if cur_stops > k:
                 continue
             
-            for neigh, cost in adj_list[cur_stop]:
-                if cur_cost + cost < dist[neigh]:
-                    dist[neigh] = cur_cost + cost
+            if cur_stops > min_stops[cur_stop]: continue
 
-                    queue.append((cur_cost + cost, neigh, cur_stops + 1))
+            min_stops[cur_stop] = cur_stops
+            
+
+            for neigh, cost in adj_list[cur_stop]:
+                # if best_cost + cost < dist[neigh]:
+                heapq.heappush(heap, (best_cost + cost, neigh, cur_stops + 1))
         
-        return dist[dst] if dist[dst] != math.inf else -1
+        return -1
+
+
                     
