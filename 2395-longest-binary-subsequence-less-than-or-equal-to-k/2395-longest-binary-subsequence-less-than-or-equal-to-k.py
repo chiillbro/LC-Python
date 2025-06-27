@@ -43,4 +43,8 @@ class Solution:
         return n - j - 1 + zeroes_till_j
 
 
+# ** Complexity Analysis **  #
 
+# TC: O(N), we visit every position at most once and every other arithmetic operations are O(1)
+
+# SC: O(1), just a few variables, no extra space
