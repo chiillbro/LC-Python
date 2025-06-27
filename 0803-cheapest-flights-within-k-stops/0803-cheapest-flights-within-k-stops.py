@@ -30,34 +30,52 @@ class Solution:
 
         # Dikstra's Algorithm
 
-        dist = [math.inf] * n
+        # dist = [math.inf] * n
 
-        min_stops = [math.inf] * n
+        # min_stops = [math.inf] * n
 
-        heap = [(0, src, 0)]
-        # dist[src] = 0
+        # heap = [(0, src, 0)]
+        # # dist[src] = 0
 
-        min_stops[src] = 0
+        # min_stops[src] = 0
 
-        while heap:
-            best_cost, cur_stop, cur_stops = heapq.heappop(heap)
+        # while heap:
+        #     best_cost, cur_stop, cur_stops = heapq.heappop(heap)
 
-            if cur_stop == dst:
-                return best_cost
+        #     if cur_stop == dst:
+        #         return best_cost
             
-            if cur_stops > k:
-                continue
+        #     if cur_stops > k:
+        #         continue
             
-            if cur_stops > min_stops[cur_stop]: continue
+        #     if cur_stops > min_stops[cur_stop]: continue
 
-            min_stops[cur_stop] = cur_stops
+        #     min_stops[cur_stop] = cur_stops
             
 
-            for neigh, cost in adj_list[cur_stop]:
-                # if best_cost + cost < dist[neigh]:
-                heapq.heappush(heap, (best_cost + cost, neigh, cur_stops + 1))
+        #     for neigh, cost in adj_list[cur_stop]:
+        #         # if best_cost + cost < dist[neigh]:
+        #         heapq.heappush(heap, (best_cost + cost, neigh, cur_stops + 1))
         
-        return -1
+        # return -1
 
+
+        # Bellman Ford 
+
+        dist = [math.inf] * n
+        dist[src] = 0
+
+        for _ in range(k+1):
+            temp = dist.copy()
+
+            for u in range(n):
+                if dist[u] == math.inf: continue
+                for v, w in adj_list[u]:
+                    temp[v] = min(temp[v], dist[u] + w)
+
+            dist = temp
+        
+
+        return dist[dst] if dist[dst] != math.inf else -1
 
                     
