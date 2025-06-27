@@ -21,22 +21,26 @@ class Solution:
         
         # get to the last violated set bit
         j += 1
+
+        # as we need longest subsequence and problem states that subsequence can contain leading zeroes
+        # count the number of zeroes that can contribute
+        zeroes_till_j = 0
+
+        for i in range(j):
+            if s[i] == '0':
+                zeroes_till_j += 1
         
         # while processing next left set bit from right, 
         # we might have crossed '0' 's just before val becomes > k
         # so traversing back j
         while j < n-1 and s[j+1] == '0':
             j += 1
+            zeroes_till_j += 1
 
         # now, at this point of time j+1 holds the position where val >= k
-
-        # as we need longest subsequence and problem states that subsequence can contain leading zeroes
-        # count the number of zeroes that can contribute
-        zeroes_till_j = 0
-
-        for i in range(j+1):
-            if s[i] == '0':
-                zeroes_till_j += 1
         
         # n - j - 1 = length of satisfying k length and extra zeroes that can be appended left
         return n - j - 1 + zeroes_till_j
+
+
+
