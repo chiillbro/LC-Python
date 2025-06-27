@@ -7,24 +7,30 @@ class Solution:
         
 
         # dist = [math.inf] * n
+        dist = [[math.inf] * (k+2) for _ in range(n)]
 
-        # queue = deque([(0, src, 0)])
+        queue = deque([(src, 0)])
 
-        # dist[src] = 0
+        dist[src][0] = 0
 
-        # while queue:
-        #     cur_cost, cur_stop, cur_stops = queue.popleft()
+        ans = math.inf
+        while queue:
+            # cur_cost, cur_stop, cur_stops = queue.popleft()
+            cur_stop, cur_stops = queue.popleft()
 
-        #     if cur_stops > k:
-        #         continue
+            if cur_stops > k:
+                continue
             
-        #     for neigh, cost in adj_list[cur_stop]:
-        #         if cur_cost + cost < dist[neigh]:
-        #             dist[neigh] = cur_cost + cost
+            for neigh, cost in adj_list[cur_stop]:
+                new_cost = dist[cur_stop][cur_stops] + cost
+                if new_cost < dist[neigh][cur_stops + 1]:
+                    dist[neigh][cur_stops + 1] = new_cost
 
-        #             queue.append((cur_cost + cost, neigh, cur_stops + 1))
+                    queue.append((neigh, cur_stops + 1))
+                    if neigh == dst:
+                        ans = min(ans, new_cost)
         
-        # return dist[dst] if dist[dst] != math.inf else -1
+        return ans if ans != math.inf else -1
 
 
 
@@ -62,21 +68,19 @@ class Solution:
 
         # Bellman Ford 
 
-        dist = [math.inf] * n
-        dist[src] = 0
+        # dist = [math.inf] * n
+        # dist[src] = 0
 
-        for _ in range(k+1):
-            temp = dist.copy()
+        # for _ in range(k+1):
+        #     temp = dist.copy()
 
-            # for u in range(n):
-            #     if dist[u] == math.inf: continue
-            #     for v, w in adj_list[u]:
-            for u, v, w in flights:
-                temp[v] = min(temp[v], dist[u] + w)
+        #     # for u in range(n):
+        #     #     if dist[u] == math.inf: continue
+        #     #     for v, w in adj_list[u]:
+        #     for u, v, w in flights:
+        #         temp[v] = min(temp[v], dist[u] + w)
 
-            dist = temp
+        #     dist = temp
         
 
-        return dist[dst] if dist[dst] != math.inf else -1
-
-                    
+        # return dist[dst] if dist[dst] != math.inf else -1
