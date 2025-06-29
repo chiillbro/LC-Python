@@ -2,11 +2,11 @@ class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:
         # nums: int[]
         # k: int
-        nums.sort()
+        # nums.sort()
 
-        cur = nums[0]
+        # cur = nums[0]
 
-        partitions = 1
+        # partitions = 1
 
         # Greedy Approach   
         # example walk through
@@ -38,10 +38,35 @@ class Solution:
 
 
 
+        # for num in nums:
+        #     if num - cur > k:
+        #         partitions += 1
+        #         cur = num
+
+
+
+        # Approach 2: Counting Sort -> Slightly Optimal
+
+        n = len(nums)
+
+        max_ele = max(nums)
+        freq = [0] * (max_ele + 1)
+
         for num in nums:
-            if num - cur > k:
-                partitions += 1
-                cur = num
+            freq[num] += 1
+        
+
+        idx = partitions = 0
+
+        while idx <= max_ele:
+            while idx <= max_ele and freq[idx] == 0:
+                idx += 1
+            
+            if idx > max_ele:
+                break
+            
+            partitions += 1
+            idx += k + 1
         
         return partitions
 
