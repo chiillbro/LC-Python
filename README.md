@@ -83,6 +83,7 @@ LeetCode DSA Practice with Python
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/chiillbro/LC-Python/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/chiillbro/LC-Python/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chiillbro/LC-Python/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/chiillbro/LC-Python/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
@@ -166,6 +167,7 @@ LeetCode DSA Practice with Python
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/chiillbro/LC-Python/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chiillbro/LC-Python/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chiillbro/LC-Python/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1646-kth-missing-positive-number](https://github.com/chiillbro/LC-Python/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
@@ -315,6 +317,7 @@ LeetCode DSA Practice with Python
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -501,6 +504,7 @@ LeetCode DSA Practice with Python
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
