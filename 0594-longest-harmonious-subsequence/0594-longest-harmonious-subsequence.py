@@ -3,7 +3,7 @@ class Solution:
         freq = Counter(nums)
 
         res = 0
-        for num in nums:
+        for num in freq:
             max_freq = None
             if num - 1 in freq:
                 max_freq = freq[num-1]
