@@ -6,6 +6,7 @@ LeetCode DSA Practice with Python
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/chiillbro/LC-Python/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/chiillbro/LC-Python/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/chiillbro/LC-Python/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -247,6 +248,7 @@ LeetCode DSA Practice with Python
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/chiillbro/LC-Python/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chiillbro/LC-Python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/chiillbro/LC-Python/tree/master/0017-letter-combinations-of-a-phone-number) |
