@@ -41,6 +41,7 @@ LeetCode DSA Practice with Python
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/chiillbro/LC-Python/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
+| [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0300-longest-increasing-subsequence) |
@@ -264,6 +265,7 @@ LeetCode DSA Practice with Python
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/chiillbro/LC-Python/tree/master/0299-bulls-and-cows) |
@@ -501,6 +503,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
+| [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
 | [0354-russian-doll-envelopes](https://github.com/chiillbro/LC-Python/tree/master/0354-russian-doll-envelopes) |
