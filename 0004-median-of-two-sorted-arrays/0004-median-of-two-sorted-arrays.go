@@ -1,7 +1,7 @@
-const (
-    MaxInt = int(^uint(0) >> 1)
-    MinInt = -MaxInt - 1
-)
+// const (
+//     MaxInt = int(^uint(0) >> 1)
+//     MinInt = -MaxInt - 1
+// )
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 
@@ -21,8 +21,8 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 
         mid2 := elements - mid1
 
-        l1, l2 := MinInt, MinInt
-        r1, r2 := MaxInt, MaxInt
+        l1, l2 := math.MinInt, math.MinInt
+        r1, r2 := math.MaxInt, math.MaxInt
 
         if mid1 > 0 {
             l1 = nums1[mid1-1]
