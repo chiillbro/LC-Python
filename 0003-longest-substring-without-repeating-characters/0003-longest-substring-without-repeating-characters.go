@@ -9,12 +9,12 @@ func lengthOfLongestSubstring(s string) int {
     left := 0
     maxLen := 0
 
-    for right, char := range runes {
-        if prevIdx, seen := lastIndex[char]; seen && prevIdx >= left {
+    for right, r := range runes {
+        if prevIdx, seen := lastIndex[r]; seen && prevIdx >= left {
             left = prevIdx + 1 
         }
 
-        lastIndex[char] = right
+        lastIndex[r] = right
 
         if cur := right - left + 1; cur > maxLen {
             maxLen = cur
