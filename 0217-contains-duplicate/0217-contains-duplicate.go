@@ -1,12 +1,12 @@
 func containsDuplicate(nums []int) bool {
-    seen := make(map[int]int, len(nums))
+    seen := make(map[int]struct{}, len(nums))
 
-    for i, num := range nums {
-        if _, ok := seen[num]; ok {
+    for _, num := range nums {
+        if _, exists := seen[num]; exists {
             return true
         }
 
-        seen[num] = i
+        seen[num] = struct{}{}
     }
 
     return false
