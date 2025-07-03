@@ -323,6 +323,7 @@ LeetCode DSA Practice with Python
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
@@ -462,6 +463,7 @@ LeetCode DSA Practice with Python
 | [0072-edit-distance](https://github.com/chiillbro/LC-Python/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/chiillbro/LC-Python/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/chiillbro/LC-Python/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
