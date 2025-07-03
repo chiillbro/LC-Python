@@ -1,8 +1,8 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
 
-        if not s.strip():
-            return True
+        # if not s.strip():
+        #     return True
 
         n = len(s)
         i, j = 0, n-1
