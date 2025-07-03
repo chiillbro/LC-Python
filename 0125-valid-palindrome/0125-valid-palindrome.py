@@ -7,15 +7,12 @@ class Solution:
         n = len(s)
         i, j = 0, n-1
 
-        while i <= j:
+        while i < j:
             while i < j and not s[i].isalnum():
                 i += 1
             
             while j > i and not s[j].isalnum():
                 j -= 1
-            
-            # if i >= n or j < 0:
-            #     return False
             
             if s[i].lower() != s[j].lower():
                 return False
