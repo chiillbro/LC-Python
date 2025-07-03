@@ -2,7 +2,6 @@ func productExceptSelf(nums []int) []int {
 
     n := len(nums)
 
-    // pref := [n]int{}
     mulLeft := make([]int, n)
 
     mulLeft[0] = nums[0]
@@ -19,7 +18,6 @@ func productExceptSelf(nums []int) []int {
         mulRight[i] = mulRight[i+1] * nums[i]
     }
 
-    // res := [n]int{}
     res := make([]int, n)
 
     res[0] = mulRight[1]
