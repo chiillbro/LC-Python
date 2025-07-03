@@ -17,6 +17,7 @@ LeetCode DSA Practice with Python
 | [0037-sudoku-solver](https://github.com/chiillbro/LC-Python/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/chiillbro/LC-Python/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/chiillbro/LC-Python/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chiillbro/LC-Python/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
@@ -326,6 +327,7 @@ LeetCode DSA Practice with Python
 | [0015-3sum](https://github.com/chiillbro/LC-Python/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
@@ -693,6 +695,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/chiillbro/LC-Python/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/chiillbro/LC-Python/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/chiillbro/LC-Python/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/chiillbro/LC-Python/tree/master/0072-edit-distance) |
@@ -783,6 +786,7 @@ LeetCode DSA Practice with Python
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0144-binary-tree-preorder-traversal) |
@@ -965,6 +969,7 @@ LeetCode DSA Practice with Python
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/chiillbro/LC-Python/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/chiillbro/LC-Python/tree/master/0739-daily-temperatures) |
