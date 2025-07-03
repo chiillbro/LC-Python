@@ -1,12 +1,14 @@
 func isAnagram(s string, t string) bool {
-    freq := make([]int, 26)
 
-    for _, char := range s {
-        freq[char - 97]++
+    if len(s) != len(t) {
+        return false
     }
 
-    for _, char := range t {
-        freq[char-97]--
+    freq := make([]int, 26)
+
+    for i, char := range s {
+        freq[char - 97]++
+        freq[t[i] - 97]--
     }
 
     for _, v := range freq {
