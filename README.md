@@ -238,6 +238,7 @@ LeetCode DSA Practice with Python
 | [0003-longest-substring-without-repeating-characters](https://github.com/chiillbro/LC-Python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
@@ -283,6 +284,7 @@ LeetCode DSA Practice with Python
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/chiillbro/LC-Python/tree/master/0496-next-greater-element-i) |
+| [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0740-delete-and-earn](https://github.com/chiillbro/LC-Python/tree/master/0740-delete-and-earn) |
@@ -335,6 +337,7 @@ LeetCode DSA Practice with Python
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chiillbro/LC-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
+| [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
@@ -487,6 +490,7 @@ LeetCode DSA Practice with Python
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [0514-freedom-trail](https://github.com/chiillbro/LC-Python/tree/master/0514-freedom-trail) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
+| [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
