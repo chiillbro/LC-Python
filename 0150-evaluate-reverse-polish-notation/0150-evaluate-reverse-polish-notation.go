@@ -11,7 +11,6 @@ func evalRPN(tokens []string) int {
             num1, num2 := stack[len(stack)-2], stack[len(stack)-1]
             stack = stack[:len(stack)-2]
 
-            fmt.Println("applyOp, num1, num2, op", num1, num2, s, applyOp(num1, num2, s))
             stack = append(stack, applyOp(num1, num2, s))
 
         } else {
