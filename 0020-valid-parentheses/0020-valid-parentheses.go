@@ -1,38 +1,25 @@
 func isValid(s string) bool {
     n := len(s)
 
+    pairs := map[rune]rune{
+        ')' : '(',
+        ']' : '[',
+        '}' : '{',
+    }
+
     stack := make([]rune, 0, n)
 
     for _, r := range s {
-        if r == '(' || r == '[' || r == '{' {
-            stack = append(stack, r)
-        } else {
-            if len(stack) > 0 {
-                switch r {
-                    case ')':
-                        if stack[len(stack)-1] != '(' {
-                            return false
-                        }
-                    case ']':
-                        if stack[len(stack)-1] != '[' {
-                            return false
-                        }
-                    case '}':
-                        if stack[len(stack)-1] != '{' {
-                            return false
-                        }
-
-                }
-                stack = stack[:len(stack) - 1]
-            } else {
+        if open, isClose := pairs[r]; isClose {
+            if len(stack) == 0 || stack[len(stack)-1] != open {
                 return false
             }
+            
+            stack = stack[:len(stack) - 1]
+        } else {
+            stack = append(stack, r)
         }
     }
 
-    if len(stack) > 0 {
-        return false
-    }
-
-    return true
+    return len(stack) == 0
 }
