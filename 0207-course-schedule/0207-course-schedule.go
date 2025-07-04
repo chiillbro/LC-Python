@@ -26,8 +26,8 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 
     topoCount := 0
     for len(queue) > 0 {
-        size := len(queue)
-        for i := 0; i < size; i++ {
+        // size := len(queue)
+        // for i := 0; i < size; i++ {
             cur := queue[0]
             queue = queue[1:]
             topoCount++
@@ -39,7 +39,7 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
                     queue = append(queue, pre)
                 }
             }
-        }
+        // }
     }
 
     return topoCount == numCourses
