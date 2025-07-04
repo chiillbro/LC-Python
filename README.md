@@ -45,6 +45,7 @@ LeetCode DSA Practice with Python
 | [0162-find-peak-element](https://github.com/chiillbro/LC-Python/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chiillbro/LC-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/chiillbro/LC-Python/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/chiillbro/LC-Python/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
@@ -388,6 +389,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/chiillbro/LC-Python/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -408,6 +410,7 @@ LeetCode DSA Practice with Python
 | [0127-word-ladder](https://github.com/chiillbro/LC-Python/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/chiillbro/LC-Python/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/chiillbro/LC-Python/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chiillbro/LC-Python/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -447,6 +450,7 @@ LeetCode DSA Practice with Python
 | [0074-search-a-2d-matrix](https://github.com/chiillbro/LC-Python/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
@@ -618,6 +622,7 @@ LeetCode DSA Practice with Python
 | [0144-binary-tree-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/chiillbro/LC-Python/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/chiillbro/LC-Python/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chiillbro/LC-Python/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0230-kth-smallest-element-in-a-bst) |
