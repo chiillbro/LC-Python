@@ -11,7 +11,7 @@ func cloneGraph(node *Node) *Node {
     if node == nil {
         return nil
     }
-    clonedNode := &Node{Val :node.Val, Neighbors : []*Node{}}
+    clonedNode := &Node{Val: node.Val, Neighbors : make([]*Node, 0, len(node.Neighbors))}
 
     visited := make(map[*Node]*Node)
 
@@ -25,7 +25,7 @@ func cloneGraph(node *Node) *Node {
 
         for _, neigh := range curNode.Neighbors {
             if _, exists := visited[neigh]; !exists {
-                clonedNeigh := &Node{neigh.Val, []*Node{}}
+                clonedNeigh := &Node{neigh.Val, make([]*Node, 0, len(neigh.Neighbors))}
                 visited[neigh] = clonedNeigh
                 dq = append(dq, neigh)
             }
