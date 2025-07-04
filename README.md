@@ -49,6 +49,7 @@ LeetCode DSA Practice with Python
 | [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/chiillbro/LC-Python/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -237,6 +238,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chiillbro/LC-Python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/chiillbro/LC-Python/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
@@ -856,6 +858,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/chiillbro/LC-Python/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/chiillbro/LC-Python/tree/master/0451-sort-characters-by-frequency) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
@@ -885,6 +888,7 @@ LeetCode DSA Practice with Python
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Enumeration
@@ -1011,6 +1015,7 @@ LeetCode DSA Practice with Python
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Simulation
 |  |
