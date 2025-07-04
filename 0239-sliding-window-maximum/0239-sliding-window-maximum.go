@@ -3,21 +3,33 @@ func maxSlidingWindow(nums []int, k int) []int {
 
     res := make([]int, 0, n - k + 1)
 
-    queue := list.New()
+    // deque := list.New()
+
+    deque := make([]int, 0, n)
 
     for i := 0; i < n; i++ {
-        if queue.Len() > 0 && queue.Front().Value.(int) < i - k + 1 {
-            queue.Remove(queue.Front())
+        // if deque.Len() > 0 && deque.Front().Value.(int) < i - k + 1 {
+        //     deque.Remove(deque.Front())
+        // }
+
+        if len(deque) > 0  && deque[0] <= i - k {
+            deque = deque[1:]
         }
 
-        for queue.Len() > 0  && nums[queue.Back().Value.(int)] < nums[i] {
-            queue.Remove(queue.Back())
+        // for deque.Len() > 0  && nums[deque.Back().Value.(int)] < nums[i] {
+        //     deque.Remove(deque.Back())
+        // }
+
+        for len(deque) > 0 && nums[deque[len(deque)-1]] < nums[i] {
+            deque = deque[:len(deque)-1]
         }
 
-        queue.PushBack(i)
+        // deque.PushBack(i)
+        deque = append(deque, i)
 
         if i >= k - 1 {
-            res = append(res, nums[queue.Front().Value.(int)])
+            // res = append(res, nums[deque.Front().Value.(int)])
+            res = append(res, nums[deque[0]])
         }
 
     }
