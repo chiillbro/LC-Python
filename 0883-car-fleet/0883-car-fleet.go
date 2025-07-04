@@ -35,33 +35,48 @@ func carFleet(target int, position []int, speed []int) int {
 
     n := len(position)
 
-    cars := make([][]int, n)
+    // cars := make([][]int, n)
+
+    // use struct instead to make most of go
+    cars := make([]struct{pos, sp int}, n)
 
     for i, v := range position {
-        cars[i] = []int{v, speed[i]}
+        // cars[i] = []int{v, speed[i]}
+        cars[i] = struct{pos, sp int}{v, speed[i]}
     }
 
-    sort.Slice(cars, func (i, j int) bool { return cars[i][0] < cars[j][0]})
+    // sort.Slice(cars, func (i, j int) bool { return cars[i][0] < cars[j][0]})
+    sort.Slice(cars, func (i, j int) bool { return cars[i].pos < cars[j].pos})
 
     times := make([]float64, n)
 
     for i, v := range cars {
-        times[i] = float64(target - v[0]) / float64(v[1])
+        times[i] = float64(target - v.pos) / float64(v.sp)
     }
 
     ans := 0
+    leadTime := 0.0
 
-    for len(times) > 1 {
-        lead := times[len(times) - 1]
-        times = times[:len(times)-1]
-
-        if lead < times[len(times)-1] {
+    for i := n-1; i >= 0; i-- {
+        if times[i] > leadTime {
             ans++
-        } else {
-            times[len(times)-1] = lead
+            leadTime = times[i]
         }
     }
 
-    return ans + 1
+    return ans
+
+    // for len(times) > 1 {
+    //     lead := times[len(times) - 1]
+    //     times = times[:len(times)-1]
+
+    //     if lead < times[len(times)-1] {
+    //         ans++
+    //     } else {
+    //         times[len(times)-1] = lead
+    //     }
+    // }
+
+    // return ans + 1
 
 }
