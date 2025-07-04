@@ -14,23 +14,23 @@ func maxAreaOfIsland(grid [][]int) int {
     bfs = func (r, c int) int {
         visited[r][c] = true
 
-        dq := make([][]int, 0, n*m)
+        dq := make([][2]int, 0, n*m)
 
-        dq = append(dq, []int{r, c})
+        dq = append(dq, [2]int{r, c})
 
         cur := 0
         for len(dq) > 0 {
-            pair := dq[0]
+            cell := dq[0]
             dq = dq[1:]
 
             cur++
 
             for _, curDir := range dirs {
-                newRow, newCol := pair[0] + curDir[0], pair[1] + curDir[1]
+                newRow, newCol := cell[0] + curDir[0], cell[1] + curDir[1]
 
                 if newRow >= 0 && newRow < n && newCol >= 0 && newCol < m && grid[newRow][newCol] != 0 && !visited[newRow][newCol] {
                     visited[newRow][newCol] = true
-                    dq = append(dq, []int{newRow, newCol})
+                    dq = append(dq, [2]int{newRow, newCol})
                 }
             }
         }
