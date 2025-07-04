@@ -34,7 +34,7 @@ func applyOp(num1, num2 int, operation string) int {
             return num1 * num2
         case "/":
             return num1 / num2
-        default:
-            return -1
     }
+
+    panic("Unknown operator: " + operation)
 }
