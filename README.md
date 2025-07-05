@@ -394,6 +394,7 @@ LeetCode DSA Practice with Python
 | [0130-surrounded-regions](https://github.com/chiillbro/LC-Python/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chiillbro/LC-Python/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/chiillbro/LC-Python/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -426,6 +427,7 @@ LeetCode DSA Practice with Python
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
@@ -648,6 +650,7 @@ LeetCode DSA Practice with Python
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
@@ -945,6 +948,7 @@ LeetCode DSA Practice with Python
 | [0207-course-schedule](https://github.com/chiillbro/LC-Python/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chiillbro/LC-Python/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
