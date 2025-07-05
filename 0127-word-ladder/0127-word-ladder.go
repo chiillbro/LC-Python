@@ -18,11 +18,12 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
     visited := make(map[string]struct{}, n+1)
 
 
-    queue := make([]string, 0, n+1)
+    // queue := make([]string, 0, n+1)
+    queue := []string{beginWord}
 
-    visited[beginWord] = struct{}{} 
+    visited[beginWord] = struct{}{}
 
-    queue = append(queue, beginWord)
+    // queue = append(queue, beginWord)
 
     steps := 1
     for len(queue) > 0 {
@@ -35,30 +36,37 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
                 return steps
             }
             queue = queue[1:]
-            for i, _ := range curWord {
-                fmt.Println("curWord", curWord)
-                for _, chr := range "abcdefghijklmnopqrstuvwxyz" {
-                    var b strings.Builder
+            b := []byte(curWord)
+            for pos := 0; pos < len(b); pos++ {
+                original := b[pos]
 
-                    b.WriteString(curWord[:i])
-                    b.WriteRune(chr)
-                    b.WriteString(curWord[i+1:])
+                // for _, chr := range "abcdefghijklmnopqrstuvwxyz" {
+                for c := byte('a'); c <= byte('z'); c++ {
+                    if c == original {
+                        continue
+                    }
+                    // var b strings.Builder
 
-                    newW := b.String()
+                    // b.WriteString(curWord[:i])
+                    // b.WriteRune(chr)
+                    // b.WriteString(curWord[i+1:])
 
-
-                    fmt.Println("newW", newW)
-
-                    _, exists := wordMap[newW]
-                    _, exists2 := visited[newW]
+                    // newW := b.String()
+                    
+                    b[pos] = c
+                    next := string(b)
+                    _, exists := wordMap[next]
+                    _, exists2 := visited[next]
 
 
                     // if wordMap[newW] == struct{}{} && visited[newW] != struct{}{} {
                     if exists && !exists2 {
-                        visited[newW] = struct{}{}
-                        queue = append(queue, newW)
+                        visited[next] = struct{}{}
+                        queue = append(queue, next)
                     }
                 }
+
+                b[pos] = original
             }
         }
         steps++
