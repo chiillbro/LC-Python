@@ -7,7 +7,7 @@ func findMin(nums []int) int {
     for left <= right {
         mid := (left + right) >> 1
 
-        if nums[0] <= nums[mid] && nums[n-1] < nums[mid] {
+        if nums[left] <= nums[mid] && nums[n-1] < nums[mid] {
             left = mid + 1
         } else {
             right = mid - 1
