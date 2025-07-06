@@ -1,51 +1,61 @@
 type Pair struct {
-    val string
-    time int
+    value string
+    timestamp int
 }
 
 type TimeMap struct {
-    timeMap map[string][]*Pair
+    data map[string][]Pair
 }
 
 
 func Constructor() TimeMap {
-    timeMap := make(map[string][]*Pair)
 
     return TimeMap{
-        timeMap,
+        data: make(map[string][]Pair),
     }
 }
 
 
 func (this *TimeMap) Set(key string, value string, timestamp int)  {
-    this.timeMap[key] = append(this.timeMap[key], &Pair{value, timestamp})
+    this.data[key] = append(this.data[key], Pair{value, timestamp})
 }
 
 
 func (this *TimeMap) Get(key string, timestamp int) string {
-    timeStamps := this.timeMap[key]
+    pairs := this.data[key]
 
-    if len(timeStamps) == 0 {
+    if len(pairs) == 0 {
         return ""
     }
 
-    left, right := 0, len(timeStamps) - 1
 
-    for left <= right {
-        mid := (left + right) >> 1
+    i := sort.Search(len(pairs), func (i int) bool {
+        return pairs[i].timestamp > timestamp
+    })
 
-        if timeStamps[mid].time > timestamp {
-            right = mid - 1
-        } else {
-            left = mid + 1
-        }
-    }
-
-    if right < 0 || timeStamps[right].time > timestamp {
+    if i == 0 {
         return ""
     }
 
-    return timeStamps[right].val
+    return pairs[i-1].value
+
+    // left, right := 0, len(pairs) - 1
+
+    // for left <= right {
+    //     mid := (left + right) >> 1
+
+    //     if pairs[mid].timestamp > timestamp {
+    //         right = mid - 1
+    //     } else {
+    //         left = mid + 1
+    //     }
+    // }
+
+    // if right < 0 || pairs[right].timestamp > timestamp {
+    //     return ""
+    // }
+
+    // return pairs[right].value
 }
 
 
