@@ -14,7 +14,5 @@ func findMin(nums []int) int {
         }
     }
 
-    // fmt.Println("left, right", left, right)
-
     return nums[left]
 }
