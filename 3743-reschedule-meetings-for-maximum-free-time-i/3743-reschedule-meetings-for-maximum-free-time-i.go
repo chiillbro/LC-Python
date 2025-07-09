@@ -5,8 +5,8 @@ func maxFreeTime(eventTime int, k int, startTime []int, endTime []int) int {
 
     gaps = append(gaps, startTime[0] - 0)
 
-    for i := 0; i < n-1; i++ {
-        gaps = append(gaps, startTime[i + 1] - endTime[i])
+    for i := 1; i < n; i++ {
+        gaps = append(gaps, startTime[i] - endTime[i-1])
     }
 
     gaps = append(gaps, eventTime - endTime[n-1])
