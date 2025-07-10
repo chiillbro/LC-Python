@@ -363,6 +363,7 @@ LeetCode DSA Practice with Python
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
+| [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chiillbro/LC-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
@@ -856,6 +857,7 @@ LeetCode DSA Practice with Python
 | [0084-largest-rectangle-in-histogram](https://github.com/chiillbro/LC-Python/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/chiillbro/LC-Python/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chiillbro/LC-Python/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -948,6 +950,7 @@ LeetCode DSA Practice with Python
 | [0002-add-two-numbers](https://github.com/chiillbro/LC-Python/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
+| [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/chiillbro/LC-Python/tree/master/2050-count-good-numbers) |
@@ -1038,6 +1041,7 @@ LeetCode DSA Practice with Python
 | [0023-merge-k-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
+| [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
 ## Binary Search Tree
 |  |
