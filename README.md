@@ -298,6 +298,7 @@ LeetCode DSA Practice with Python
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/chiillbro/LC-Python/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
+| [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
@@ -361,6 +362,7 @@ LeetCode DSA Practice with Python
 | [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/chiillbro/LC-Python/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chiillbro/LC-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
@@ -1035,6 +1037,7 @@ LeetCode DSA Practice with Python
 | [0021-merge-two-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
 ## Binary Search Tree
 |  |
