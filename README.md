@@ -56,6 +56,7 @@ LeetCode DSA Practice with Python
 | [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/chiillbro/LC-Python/tree/master/0347-top-k-frequent-elements) |
@@ -187,6 +188,7 @@ LeetCode DSA Practice with Python
 | [0222-count-complete-tree-nodes](https://github.com/chiillbro/LC-Python/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0354-russian-doll-envelopes](https://github.com/chiillbro/LC-Python/tree/master/0354-russian-doll-envelopes) |
@@ -377,6 +379,7 @@ LeetCode DSA Practice with Python
 | [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chiillbro/LC-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
@@ -858,6 +861,7 @@ LeetCode DSA Practice with Python
 | [0222-count-complete-tree-nodes](https://github.com/chiillbro/LC-Python/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/chiillbro/LC-Python/tree/master/2323-minimum-bit-flips-to-convert-number) |
