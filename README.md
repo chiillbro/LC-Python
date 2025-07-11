@@ -117,6 +117,7 @@ LeetCode DSA Practice with Python
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2089-maximum-matrix-sum](https://github.com/chiillbro/LC-Python/tree/master/2089-maximum-matrix-sum) |
+| [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/chiillbro/LC-Python/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/chiillbro/LC-Python/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -203,6 +204,7 @@ LeetCode DSA Practice with Python
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/chiillbro/LC-Python/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
+| [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/chiillbro/LC-Python/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
@@ -335,6 +337,7 @@ LeetCode DSA Practice with Python
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chiillbro/LC-Python/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/chiillbro/LC-Python/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chiillbro/LC-Python/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -593,6 +596,7 @@ LeetCode DSA Practice with Python
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/chiillbro/LC-Python/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/chiillbro/LC-Python/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -791,6 +795,7 @@ LeetCode DSA Practice with Python
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/chiillbro/LC-Python/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2262-solving-questions-with-brainpower](https://github.com/chiillbro/LC-Python/tree/master/2262-solving-questions-with-brainpower) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
