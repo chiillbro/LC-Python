@@ -304,6 +304,7 @@ LeetCode DSA Practice with Python
 | [0127-word-ladder](https://github.com/chiillbro/LC-Python/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/chiillbro/LC-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/chiillbro/LC-Python/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/chiillbro/LC-Python/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
@@ -1060,6 +1061,7 @@ LeetCode DSA Practice with Python
 | [0021-merge-two-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/chiillbro/LC-Python/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/chiillbro/LC-Python/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
