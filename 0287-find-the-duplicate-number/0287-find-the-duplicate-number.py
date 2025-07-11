@@ -1,10 +1,10 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
-        tortoise = hare = 0
+        tortoise = hare = nums[0]
 
         while True:
-            if not (hare < len(nums) and nums[hare] < len(nums)):
-                return -1
+            # if not (hare < len(nums) and nums[hare] < len(nums)):
+            #     return -1
 
             tortoise = nums[tortoise]
 
@@ -13,8 +13,7 @@ class Solution:
             if tortoise == hare:
                 break
         
-        p1 = 0
-
+        p1 = nums[0]
         p2 = tortoise
 
         while p1 != p2:
