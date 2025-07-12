@@ -309,6 +309,7 @@ LeetCode DSA Practice with Python
 | [0138-copy-list-with-random-pointer](https://github.com/chiillbro/LC-Python/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
@@ -1052,6 +1053,7 @@ LeetCode DSA Practice with Python
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/chiillbro/LC-Python/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/chiillbro/LC-Python/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1068,6 +1070,7 @@ LeetCode DSA Practice with Python
 | [0138-copy-list-with-random-pointer](https://github.com/chiillbro/LC-Python/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
 ## Binary Search Tree
 |  |
@@ -1141,4 +1144,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/chiillbro/LC-Python/tree/master/0347-top-k-frequent-elements) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
