@@ -3,7 +3,7 @@ class Solution:
         n = len(nums)
 
         set_bit_pos = [-1] * 32
-
+        # max_set_bit_idx = -1
         max_or = 0
         res = []
         for i in range(n-1, -1, -1):
@@ -13,6 +13,7 @@ class Solution:
             while cur:
                 if cur & 1:
                     set_bit_pos[pos] = i
+                    # max_set_bit_idx = max(max_set_bit_idx, i)
                 pos += 1
                 
                 cur >>= 1
