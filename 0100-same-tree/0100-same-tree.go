@@ -7,13 +7,13 @@
  * }
  */
 func isSameTree(p *TreeNode, q *TreeNode) bool {
-    if p == nil && q == nil {
-        return true
-    }
+    // if p == nil && q == nil {
+    //     return true
+    // }
 
-    if p == nil || q == nil {
-        return false
-    }
+    // if p == nil || q == nil {
+    //     return false
+    // }
 
     type Pair struct {
         node1, node2 *TreeNode
