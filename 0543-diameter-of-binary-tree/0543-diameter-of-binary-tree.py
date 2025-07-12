@@ -10,15 +10,15 @@ class Solution:
 
         def dfs(node: Optional[TreeNode]) -> int:
             nonlocal res
-            if not node: return 0
-
-            left = dfs(node.left)
-            right = dfs(node.right)
+            if not node:
+                return 0
+                
+            left, right = dfs(node.left), dfs(node.right)
 
             res = max(res, left + right)
 
-            return max(left, right) + 1
-
-
+            return 1 + max(left, right)
+        
         dfs(root)
+
         return res
