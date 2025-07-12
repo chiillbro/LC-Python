@@ -5,7 +5,7 @@ class Solution:
         set_bit_pos = [-1] * 32
         # max_set_bit_idx = -1
         max_or = 0
-        res = []
+        res = [0] * n
         for i in range(n-1, -1, -1):
             cur = nums[i]
             max_or |= cur
@@ -18,11 +18,12 @@ class Solution:
                 
                 cur >>= 1
             
-            max_set_bit_idx = max(set_bit_pos)
-            if max_set_bit_idx == -1:
-                res.append(1)
-            else:
-                res.append(max_set_bit_idx - i + 1)
+            res[i] = max(1, max(set_bit_pos) - i  + 1)
+            # max_set_bit_idx = max(set_bit_pos)
+            # if max_set_bit_idx == -1:
+            #     res.append(1)
+            # else:
+            #     res.append(max_set_bit_idx - i + 1)
         
-        res.reverse()
+        # res.reverse()
         return res
