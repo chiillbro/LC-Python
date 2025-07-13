@@ -20,7 +20,7 @@ class Solution:
         front, back = {beginWord}, {endWord}
         visited = {beginWord, endWord}
 
-        steps = 2
+        steps = 1
 
         while front and back:
             if len(front) > len(back):
@@ -34,7 +34,7 @@ class Solution:
 
                     for word in wildcards[pattern]:
                         if word in back:
-                            return steps
+                            return steps + 1
                         elif word not in visited:
                             visited.add(word)
                             next_front.add(word)
