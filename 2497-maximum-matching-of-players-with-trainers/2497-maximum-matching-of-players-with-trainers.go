@@ -1,6 +1,8 @@
 func matchPlayersAndTrainers(players []int, trainers []int) int {
-    sort.Slice(players, func (i,j int) bool { return players[i] < players[j] })
-    sort.Slice(trainers, func (i,j int) bool { return trainers[i] < trainers[j] })
+    // sort.Slice(players, func (i,j int) bool { return players[i] < players[j] })
+    // sort.Slice(trainers, func (i,j int) bool { return trainers[i] < trainers[j] })
+
+    sort.Ints(players); sort.Ints(trainers)
 
     j := 0
     matches := 0
