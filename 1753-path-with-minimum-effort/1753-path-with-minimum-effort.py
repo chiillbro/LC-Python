@@ -1,28 +1,30 @@
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
-        m, n = len(heights), len(heights[0])
+        n, m = len(heights), len(heights[0])
+
+        dist = [[math.inf] * m for _ in range(n)]
+
+        dist[0][0] = 0
+
+        pq = [(0, 0, 0)]
 
         directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
-        heap = [(0, 0, 0)]
-        dist = [[float("inf")] * n for _ in range(m)]
-        dist[0][0] = 0
+        while pq:
+            cur_effort, cur_r, cur_c = heappop(pq)
 
-        while heap:
-            min_diff, cur_r, cur_c = heappop(heap)
+            if cur_r == n-1 and cur_c == m-1:
+                return cur_effort
+            
+            for dir_r, dir_c in directions:
+                new_r, new_c = cur_r + dir_r, cur_c + dir_c
 
-            if cur_r == m - 1 and cur_c == n - 1:
-                return min_diff
-            for dr, dc in directions:
-                r, c = cur_r + dr, cur_c + dc
+                if 0 <= new_r < n and 0 <= new_c < m:
+                    max_effort = max(abs(heights[new_r][new_c] - heights[cur_r][cur_c]), cur_effort)
 
-                if (0 <= r < m) and (0 <= c < n):
-                    max_diff = max(abs(heights[cur_r][cur_c] - heights[r][c]), min_diff)
-                    
-                    if max_diff < dist[r][c]:
-                        dist[r][c] = max_diff
-                        heappush(heap, (max_diff, r, c))
+                    if max_effort < dist[new_r][new_c]:
+                        dist[new_r][new_c] = max_effort
+                        heappush(pq, (max_effort, new_r, new_c))
         
         return 0
-        
-
+            
