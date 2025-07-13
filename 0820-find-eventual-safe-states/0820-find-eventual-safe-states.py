@@ -1,53 +1,32 @@
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
-        V = len(graph)
-        
-        # ** reverse graph + Kahn's Algorithm (BFS-based Topological sort) ** #
-
-        # rev_graph = [[] for _ in range(V)]
-
-        # in_degree = [0] * V
-        # for i in range(V):
-        #     for neigh in graph[i]:
-        #         rev_graph[neigh].append(i)
-        #         in_degree[i] += 1
-        
-        # queue = deque([node for node, degree in enumerate(in_degree) if not degree])
-
-        # safe_nodes = []
-        # while queue:
-        #     for _ in range(len(queue)):
-        #         cur = queue.popleft()
-        #         safe_nodes.append(cur)
-        #         for neigh in rev_graph[cur]:
-        #             in_degree[neigh] -= 1
-        #             if not in_degree[neigh]:
-        #                 queue.append(neigh)
-        
-        # return sorted(safe_nodes)
+        v = len(graph)
 
 
-        # ** DFS based cycle detection Algorithm *8 #
-        visited = [False] * V
-        cycle = [False] * V
-        safe_nodes = []
-        def dfs(node):
-            visited[node] = True
-            cycle[node] = True
+        visited, on_stack = [0] * v, [0] * v
 
-            for neigh in graph[node]:
+        safe_states = [0] * v
+
+        def dfs(cur):
+            visited[cur] = 1
+
+            on_stack[cur] = 1
+            safe_state = True
+            for neigh in graph[cur]:
                 if not visited[neigh]:
-                    if not dfs(neigh):
-                        return False
-                elif cycle[neigh]:
-                    return False
+                    if dfs(neigh):
+                        return True
+
+                elif on_stack[neigh]:
+                    return True
             
-            safe_nodes.append(node)
-            cycle[node] = False
-            return True
+            on_stack[cur] = 0
+            safe_states[cur] = 1
+            return False
+        
+        for i in range(v):
+            if not visited[i]:
+                dfs(i)
+        
 
-        for node in range(V):
-            if not visited[node]:
-                dfs(node)
-
-        return sorted(safe_nodes)
+        return [i for i, v in enumerate(safe_states) if v]
