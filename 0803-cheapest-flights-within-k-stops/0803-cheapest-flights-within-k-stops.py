@@ -6,27 +6,34 @@ class Solution:
             adj_list[u].append((v, c))
         
 
-        # dist = [math.inf] * n
-        dist = [[math.inf] * (k+2) for _ in range(n)]
+        dist = [math.inf] * n
+        # dist = [[math.inf] * (k+2) for _ in range(n)]
 
-        queue = deque([(src, 0)])
+        # queue = deque([(src, 0)])
+        queue = deque([(0, src, 0)])
 
-        dist[src][0] = 0
+        # dist[src][0] = 0
+        dist[src] = 0
 
         ans = math.inf
         while queue:
             # cur_cost, cur_stop, cur_stops = queue.popleft()
-            cur_stop, cur_stops = queue.popleft()
+            # cur_stop, num_stops = queue.popleft()
+            num_stops, cur_stop, cur_cost = queue.popleft()
 
-            if cur_stops > k:
+            if num_stops > k:
                 continue
             
             for neigh, cost in adj_list[cur_stop]:
-                new_cost = dist[cur_stop][cur_stops] + cost
-                if new_cost < dist[neigh][cur_stops + 1]:
-                    dist[neigh][cur_stops + 1] = new_cost
+                # new_cost = dist[cur_stop][num_stops] + cost
+                new_cost = cur_cost + cost
+                # if new_cost < dist[neigh][num_stops + 1]:
+                if new_cost < dist[neigh]:
+                    # dist[neigh][num_stops + 1] = new_cost
+                    dist[neigh] = new_cost
 
-                    queue.append((neigh, cur_stops + 1))
+                    # queue.append((neigh, num_stops + 1))
+                    queue.append((num_stops + 1, neigh, new_cost))
                     if neigh == dst:
                         ans = min(ans, new_cost)
         
