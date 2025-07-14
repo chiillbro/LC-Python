@@ -76,6 +76,7 @@ LeetCode DSA Practice with Python
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/chiillbro/LC-Python/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/chiillbro/LC-Python/tree/master/0740-delete-and-earn) |
@@ -328,6 +329,7 @@ LeetCode DSA Practice with Python
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/chiillbro/LC-Python/tree/master/0740-delete-and-earn) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
@@ -442,6 +444,7 @@ LeetCode DSA Practice with Python
 | [0547-number-of-provinces](https://github.com/chiillbro/LC-Python/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/chiillbro/LC-Python/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
@@ -477,6 +480,7 @@ LeetCode DSA Practice with Python
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
@@ -562,6 +566,7 @@ LeetCode DSA Practice with Python
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/chiillbro/LC-Python/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -609,6 +614,7 @@ LeetCode DSA Practice with Python
 | [0455-assign-cookies](https://github.com/chiillbro/LC-Python/tree/master/0455-assign-cookies) |
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0883-car-fleet](https://github.com/chiillbro/LC-Python/tree/master/0883-car-fleet) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
@@ -716,6 +722,7 @@ LeetCode DSA Practice with Python
 | [0662-maximum-width-of-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/chiillbro/LC-Python/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chiillbro/LC-Python/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
