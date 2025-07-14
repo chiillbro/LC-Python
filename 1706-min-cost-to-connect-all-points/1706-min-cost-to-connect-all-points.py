@@ -30,48 +30,48 @@ class Solution:
 
         # Prim's Algorithm
 
-        # in_mst = [0] * n
-        # total_cost = 0
-        # min_dist = [math.inf] * n
-        # min_dist[0] = 0
+        in_mst = [0] * n
+        total_cost = 0
+        min_dist = [math.inf] * n
+        min_dist[0] = 0
 
 
-        # for _ in range(n):
-        #     u = -1
-        #     for i in range(n):
-        #         if not in_mst[i] and (u == -1 or min_dist[i] < min_dist[u]):
-        #             u = i
+        for _ in range(n):
+            u = -1
+            for i in range(n):
+                if not in_mst[i] and (u == -1 or min_dist[i] < min_dist[u]):
+                    u = i
             
-        #     in_mst[u] = 1
-        #     total_cost += min_dist[u]
+            in_mst[u] = 1
+            total_cost += min_dist[u]
 
-        #     x1, y1 = points[u]
-        #     for v in range(n):
-        #         if not in_mst[v]:
-        #             x2, y2 = points[v]
-        #             cost = abs(x1 - x2) + abs(y1 - y2)
+            x1, y1 = points[u]
+            for v in range(n):
+                if not in_mst[v]:
+                    x2, y2 = points[v]
+                    cost = abs(x1 - x2) + abs(y1 - y2)
 
-        #             if cost < min_dist[v]:
-        #                 min_dist[v] = cost
+                    if cost < min_dist[v]:
+                        min_dist[v] = cost
             
-        # return total_cost
+        return total_cost
 
 
         # Kruskal's Algorithm
-        edges = []
-        for u in range(n):
-            for v in range(u+1, n):
-                cost = abs(points[u][0] - points[v][0]) + abs(points[u][1] - points[v][1])
-                edges.append((cost, u, v))
+        # edges = []
+        # for u in range(n):
+        #     for v in range(u+1, n):
+        #         cost = abs(points[u][0] - points[v][0]) + abs(points[u][1] - points[v][1])
+        #         edges.append((cost, u, v))
         
-        edges.sort()
+        # edges.sort()
 
-        uf = DSU(n)
+        # uf = DSU(n)
 
-        total_cost = 0
-        for cost, u, v in edges:
-            if uf.union(u, v):
-                total_cost += cost
+        # total_cost = 0
+        # for cost, u, v in edges:
+        #     if uf.union(u, v):
+        #         total_cost += cost
 
-        return total_cost
+        # return total_cost
         
