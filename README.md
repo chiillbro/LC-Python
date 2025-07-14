@@ -82,6 +82,7 @@ LeetCode DSA Practice with Python
 | [0740-delete-and-earn](https://github.com/chiillbro/LC-Python/tree/master/0740-delete-and-earn) |
 | [0792-binary-search](https://github.com/chiillbro/LC-Python/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
+| [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [0883-car-fleet](https://github.com/chiillbro/LC-Python/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
@@ -446,6 +447,7 @@ LeetCode DSA Practice with Python
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
+| [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/chiillbro/LC-Python/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chiillbro/LC-Python/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -486,6 +488,7 @@ LeetCode DSA Practice with Python
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chiillbro/LC-Python/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chiillbro/LC-Python/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0945-snakes-and-ladders](https://github.com/chiillbro/LC-Python/tree/master/0945-snakes-and-ladders) |
@@ -519,6 +522,7 @@ LeetCode DSA Practice with Python
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/chiillbro/LC-Python/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/chiillbro/LC-Python/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
@@ -728,6 +732,7 @@ LeetCode DSA Practice with Python
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chiillbro/LC-Python/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chiillbro/LC-Python/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
