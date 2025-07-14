@@ -4,7 +4,7 @@ class DSU:
 
         self.size = [1] * n
         
-        self.comps = n
+        # self.comps = n
 
     
     def find(self, x):
@@ -24,7 +24,7 @@ class DSU:
         
         self.parent[yRoot] = xRoot
         self.size[xRoot] += self.size[yRoot]
-        self.comps -= 1
+        # self.comps -= 1
 
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
