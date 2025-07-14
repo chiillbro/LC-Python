@@ -935,6 +935,7 @@ LeetCode DSA Practice with Python
 | [0670-maximum-swap](https://github.com/chiillbro/LC-Python/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/chiillbro/LC-Python/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/chiillbro/LC-Python/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/chiillbro/LC-Python/tree/master/1500-count-largest-group) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/chiillbro/LC-Python/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
@@ -1094,6 +1095,7 @@ LeetCode DSA Practice with Python
 | [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/chiillbro/LC-Python/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Binary Search Tree
 |  |
 | ------- |
