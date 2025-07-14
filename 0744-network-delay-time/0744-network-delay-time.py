@@ -1,41 +1,32 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
 
-        # ** Approach one: using Dijkstra's Algorithm, since weights are positive ** #
-        # ** TC: O(E log V), SC: O()
+        adj_list = defaultdict(list)
 
-        adj_list = {i: [] for i in range(1, n+1)}
-        for u, v, w in times:
-            adj_list[u].append((v, w))
+        for u, v, t in times:
+            adj_list[u].append((v, t))
+
+        dist = [math.inf] * (n+1)
+
+        dist[k] = 0
+
+        pq = [(0, k)]
+
+        while pq:
+            cur_time, cur_node = heappop(pq)
+
+            for nei_node, nei_time in adj_list[cur_node]:
+                new_time = cur_time + nei_time
+
+                if new_time < dist[nei_node]:
+                    dist[nei_node] = new_time
+                    heappush(pq, (new_time, nei_node))
+
+        max_time = 0
+        for time in dist[1:]:
+            if time == math.inf:
+                return -1
+            
+            max_time = max(time, max_time)
         
-        delays = [float("inf")] * (n+1)
-        delays[k] = 0
-
-        heap = [(0, k)]
-
-        while heap:
-            cur_delay, cur_node = heappop(heap)
-
-            for neigh, time in adj_list[cur_node]:
-                if cur_delay + time < delays[neigh]:
-                    delays[neigh] = cur_delay + time
-                    heappush(heap, (cur_delay + time, neigh))
-        
-        ans = max(delays[1:])
-        return ans if ans != float('inf') else -1
-
-
-        # ** Approach 2: Using Bellman Ford - but unnecessary extra complexity, which runs in O(V * E), useful for negative weights and detecting negative cycles **
-
-        # delays = [float('inf')] * (n + 1)
-        # delays[k] = 0
-
-        # for _ in range(n):
-        #     for u, v, time in times:
-        #         if delays[u] == float("inf"):
-        #             continue
-        #         if delays[u] + time < delays[v]:
-        #             delays[v] = delays[u] + time
-        
-        # max_time = max(delays[1:])
-        # return -1 if max_time == float('inf') else max_time
+        return max_time
