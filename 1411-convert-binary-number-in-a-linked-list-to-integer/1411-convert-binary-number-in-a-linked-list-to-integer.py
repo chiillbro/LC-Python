@@ -18,7 +18,7 @@ class Solution:
         num = 0
 
         while cur:
-            num += (1 << (i)) * cur.val
+            num |= (1 << (i)) * cur.val
             i -= 1
             cur = cur.next
         
