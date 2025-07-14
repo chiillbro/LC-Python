@@ -445,6 +445,7 @@ LeetCode DSA Practice with Python
 | [0801-is-graph-bipartite](https://github.com/chiillbro/LC-Python/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/chiillbro/LC-Python/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/chiillbro/LC-Python/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
@@ -490,6 +491,7 @@ LeetCode DSA Practice with Python
 | [1171-shortest-path-in-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/chiillbro/LC-Python/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/chiillbro/LC-Python/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -724,6 +726,7 @@ LeetCode DSA Practice with Python
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/chiillbro/LC-Python/tree/master/1073-number-of-enclaves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/chiillbro/LC-Python/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/chiillbro/LC-Python/tree/master/2793-count-the-number-of-complete-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/chiillbro/LC-Python/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -1042,6 +1045,7 @@ LeetCode DSA Practice with Python
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chiillbro/LC-Python/tree/master/0820-find-eventual-safe-states) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/chiillbro/LC-Python/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/chiillbro/LC-Python/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chiillbro/LC-Python/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chiillbro/LC-Python/tree/master/2090-number-of-ways-to-arrive-at-destination) |
