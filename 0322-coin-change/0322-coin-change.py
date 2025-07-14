@@ -26,12 +26,19 @@ class Solution:
 
         # Bottom Up DP
 
-        dp = [amount + 1] * (amount + 1)
+        dp = [math.inf] * (amount + 1)
 
         dp[0] = 0
 
-        for coin in coins:
-            for i in range(coin, amount + 1):
-                dp[i] = min(dp[i], dp[i-coin] + 1)
+        for x in range(1, amount + 1):
+            for coin in coins:
+                if x - coin >= 0:
+                    dp[x] = min(dp[x], dp[x-coin] + 1)
         
-        return dp[amount] if dp[amount] != amount + 1 else -1
+        return dp[amount] if dp[amount] != math.inf else -1
+
+        # for coin in coins:
+        #     for i in range(coin, amount + 1):
+        #         dp[i] = min(dp[i], dp[i-coin] + 1)
+        
+        # return dp[amount] if dp[amount] != amount + 1 else -1
