@@ -52,3 +52,5 @@ class Solution:
         
         return s[start:start+max_len]
         
+
+# There is even more optimized approach to solve this problem which is Manacher's algorithm which has a TC of O(N) and SC of O(N)
