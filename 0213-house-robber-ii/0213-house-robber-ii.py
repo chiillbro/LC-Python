@@ -10,11 +10,17 @@ class Solution:
     def helper(self, nums):
         n = len(nums)
 
-        dp = [0] * (n + 1)
+        # dp = [0] * (n + 1)
 
-        dp[1] = nums[0]
+        # dp[1] = nums[0]
+
+        prev2, prev1 = 0, nums[0]
 
         for i in range(2, n+1):
-            dp[i] = max(nums[i-1] + dp[i-2], dp[i-1])
+            # dp[i] = max(nums[i-1] + dp[i-2], dp[i-1])
+            cur = max(nums[i-1] + prev2, prev1)
 
-        return dp[n]
+            prev1, prev2 = cur, prev1
+
+        # return dp[n]
+        return prev1
