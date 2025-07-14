@@ -1,7 +1,22 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-
         n = len(nums)
+        # Recursive Solution 
+
+        @cache
+        def helper(idx):
+            if idx >= n:
+                return 0
+            
+
+            rob = nums[idx] + helper(idx + 2)
+            skip = helper(idx+1)
+        
+            return max(rob, skip)
+        
+        return helper(0)
+
+        # Bottom Up DP (Tabulation)
 
         # dp = [0] * (n+1)
 
