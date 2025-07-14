@@ -34,7 +34,7 @@ class Solution:
         # return cityNumber
 
 
-        # Using Dijkstra's Algorithm
+        # Using Dijkstra's Algorithm, TC: O(V * E log V), SC: O(V + E)
 
         cnts = [0] * n
 
