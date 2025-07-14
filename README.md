@@ -817,6 +817,7 @@ LeetCode DSA Practice with Python
 | [0042-trapping-rain-water](https://github.com/chiillbro/LC-Python/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/chiillbro/LC-Python/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/chiillbro/LC-Python/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/chiillbro/LC-Python/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/chiillbro/LC-Python/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chiillbro/LC-Python/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -946,6 +947,7 @@ LeetCode DSA Practice with Python
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chiillbro/LC-Python/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
@@ -1087,6 +1089,7 @@ LeetCode DSA Practice with Python
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/chiillbro/LC-Python/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
