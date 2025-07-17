@@ -3,6 +3,17 @@ class Solution:
         if not nums:
             return 0
         
+        # for a k, we would have 0...k-1 remainders
+
+        # let's suppose, two elements in a subsequence form a sum = C, i.e., 
+
+            # r1 = sub[i] % k, r2 = sub[i+1] % k
+            # (r1 + r2) % k = C
+
+            # so the currnet longest subsequence can be formed r1, r2, r1, r2, r1...r2
+        
+        # so, the remainder that we get at every number in nums, we need to find it's remainder pair that sums up to this target sum (C) and the remainder pair can be in the range of 0...k-1
+
         dp = [[0] * k for _ in range(k)]
 
         for num in nums:
