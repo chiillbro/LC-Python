@@ -10,7 +10,7 @@ class Solution:
         # 3 conditions
             # 1. every number in the subsequence should be even
             # 2. every number in the subsequence should be odd
-            # 3. alternate even, odd for every pair of numbers
+            # 3. alternate even, odd for every pair of numbers (even, odd) or (odd, even)
         
         evens = odds = alt_end_even = alt_end_odd = 0
 
