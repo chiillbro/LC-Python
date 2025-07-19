@@ -169,6 +169,7 @@ LeetCode DSA Practice with Python
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
@@ -246,6 +247,7 @@ LeetCode DSA Practice with Python
 | [0347-top-k-frequent-elements](https://github.com/chiillbro/LC-Python/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -260,6 +262,7 @@ LeetCode DSA Practice with Python
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 ## Merge Sort
 |  |
 | ------- |
@@ -873,6 +876,7 @@ LeetCode DSA Practice with Python
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/chiillbro/LC-Python/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/chiillbro/LC-Python/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
