@@ -886,6 +886,7 @@ LeetCode DSA Practice with Python
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/chiillbro/LC-Python/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -1010,6 +1011,7 @@ LeetCode DSA Practice with Python
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [2998-count-symmetric-integers](https://github.com/chiillbro/LC-Python/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/chiillbro/LC-Python/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3201-distribute-candies-among-children-ii](https://github.com/chiillbro/LC-Python/tree/master/3201-distribute-candies-among-children-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
