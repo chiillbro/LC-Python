@@ -125,6 +125,7 @@ LeetCode DSA Practice with Python
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/chiillbro/LC-Python/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/chiillbro/LC-Python/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2089-maximum-matrix-sum](https://github.com/chiillbro/LC-Python/tree/master/2089-maximum-matrix-sum) |
 | [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/chiillbro/LC-Python/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -371,6 +372,7 @@ LeetCode DSA Practice with Python
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chiillbro/LC-Python/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/chiillbro/LC-Python/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2118-maximum-earnings-from-taxi](https://github.com/chiillbro/LC-Python/tree/master/2118-maximum-earnings-from-taxi) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -610,6 +612,7 @@ LeetCode DSA Practice with Python
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chiillbro/LC-Python/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/chiillbro/LC-Python/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chiillbro/LC-Python/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -1029,6 +1032,7 @@ LeetCode DSA Practice with Python
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/chiillbro/LC-Python/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/chiillbro/LC-Python/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1222,6 +1226,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/chiillbro/LC-Python/tree/master/0572-subtree-of-another-tree) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 ## Monotonic Queue
 |  |
 | ------- |
