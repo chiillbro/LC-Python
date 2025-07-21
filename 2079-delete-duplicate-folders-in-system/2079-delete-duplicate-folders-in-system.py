@@ -31,16 +31,16 @@ class Solution:
                 formatPaths(child)
                 cur.append(folder + "(" + child.str_repr + ")")
             
-            print("before sorting", cur)
+            # print("before sorting", cur)
             cur.sort()
-            print("after sorting", cur)
+            # print("after sorting", cur)
 
             node.str_repr = ''.join(cur)
             freq[node.str_repr] += 1
         
         formatPaths(root)
 
-        print(root.children, root.str_repr)
+        # print(root.children, root.str_repr)
         
         ans, path = [], []
         def resolve(node: Trie):
