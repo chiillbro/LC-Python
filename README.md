@@ -193,6 +193,7 @@ LeetCode DSA Practice with Python
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/chiillbro/LC-Python/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/chiillbro/LC-Python/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Binary Search
 |  |
@@ -274,6 +275,7 @@ LeetCode DSA Practice with Python
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Merge Sort
 |  |
@@ -945,6 +947,7 @@ LeetCode DSA Practice with Python
 | [3643-zero-array-transformation-ii](https://github.com/chiillbro/LC-Python/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1106,6 +1109,7 @@ LeetCode DSA Practice with Python
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/chiillbro/LC-Python/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Number Theory
 |  |
 | ------- |
