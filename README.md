@@ -88,6 +88,7 @@ LeetCode DSA Practice with Python
 | [0854-making-a-large-island](https://github.com/chiillbro/LC-Python/tree/master/0854-making-a-large-island) |
 | [0883-car-fleet](https://github.com/chiillbro/LC-Python/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/chiillbro/LC-Python/tree/master/0907-koko-eating-bananas) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/chiillbro/LC-Python/tree/master/0940-fruit-into-baskets) |
 | [0945-snakes-and-ladders](https://github.com/chiillbro/LC-Python/tree/master/0945-snakes-and-ladders) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
@@ -891,6 +892,7 @@ LeetCode DSA Practice with Python
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/chiillbro/LC-Python/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/chiillbro/LC-Python/tree/master/1250-longest-common-subsequence) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/chiillbro/LC-Python/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -963,6 +965,7 @@ LeetCode DSA Practice with Python
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
