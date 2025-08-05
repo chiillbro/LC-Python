@@ -201,6 +201,7 @@ LeetCode DSA Practice with Python
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/chiillbro/LC-Python/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Binary Search
 |  |
@@ -252,6 +253,7 @@ LeetCode DSA Practice with Python
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/chiillbro/LC-Python/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [3643-zero-array-transformation-ii](https://github.com/chiillbro/LC-Python/tree/master/3643-zero-array-transformation-ii) |
+| [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -284,6 +286,7 @@ LeetCode DSA Practice with Python
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Merge Sort
 |  |
@@ -298,6 +301,7 @@ LeetCode DSA Practice with Python
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
+| [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -1277,6 +1281,7 @@ LeetCode DSA Practice with Python
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/chiillbro/LC-Python/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 | [3893-generate-tag-for-video-caption](https://github.com/chiillbro/LC-Python/tree/master/3893-generate-tag-for-video-caption) |
 ## Geometry
 |  |
