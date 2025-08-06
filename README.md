@@ -202,6 +202,7 @@ LeetCode DSA Practice with Python
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Binary Search
 |  |
@@ -254,6 +255,7 @@ LeetCode DSA Practice with Python
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [3643-zero-array-transformation-ii](https://github.com/chiillbro/LC-Python/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -287,6 +289,7 @@ LeetCode DSA Practice with Python
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Merge Sort
 |  |
@@ -302,6 +305,7 @@ LeetCode DSA Practice with Python
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 ## Sliding Window
 |  |
 | ------- |
