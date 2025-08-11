@@ -24,10 +24,16 @@ class Solution:
 
         # Logarithmic Approach
 
-        if n <= 0:
-            return False
+        # if n <= 0:
+        #     return False
 
-        val = math.log2(n)
-        print("val", val)
+        # val = math.log2(n) # gives the power of 2 for the val 'n'
 
-        return 2**round(val) == n
+        # return 2**round(val) == n
+
+
+        # Constant Time Approach (Trick using hardcoded constraints)
+
+        LARGE_POWER_OF_TWO = 2**30
+
+        return n > 0 and not (LARGE_POWER_OF_TWO % n)
