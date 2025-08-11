@@ -32,7 +32,7 @@ class Solution:
         # return 2**round(val) == n
 
 
-        # Constant Time Approach (Trick using hardcoded constraints)
+        # Constant Time Approach (Trick using hardcoded constraints, not preferred due to hardcodedness)
 
         LARGE_POWER_OF_TWO = 2**30
 
