@@ -931,6 +931,7 @@ LeetCode DSA Practice with Python
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/chiillbro/LC-Python/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
