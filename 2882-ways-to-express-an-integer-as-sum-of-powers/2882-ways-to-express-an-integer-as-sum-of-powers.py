@@ -3,20 +3,28 @@ class Solution:
         MOD = 10**9 + 7
 
         # dp[i][k] represents distinct integer selection sets of first i integers whose powers of x sums to k 
-        dp = [[0] * (n+1) for _ in range(n+1)]
+        # dp = [[0] * (n+1) for _ in range(n+1)]
+        # dp[0][0] = 1 # 1 distinct selection to sum upto 0  which is 0^x = 0
 
-        
-        dp[0][0] = 1 # 1 distinct selection to sum upto 0  which is 0^x = 0
+        # Space Optimization
+        prev = [0] * (n+1)
+        prev[0] = 1
 
         for i in range(1, n+1):
-            cur = i**x
+            cur_val = i**x
+            cur = [0] * (n+1)
 
             for k in range(n+1):
                 # skip
-                dp[i][k] = dp[i-1][k]
+                # dp[i][k] = dp[i-1][k]
+                cur[k] = prev[k]
 
                 # take, can only happen, if the x power of current i: <= k
-                if cur <= k:
-                    dp[i][k] = (dp[i-1][k] + dp[i-1][k-cur]) % MOD
+                if cur_val <= k:
+                    # dp[i][k] = (dp[i-1][k] + dp[i-1][k-cur]) % MOD
+                    cur[k] = (prev[k] + prev[k-cur_val]) % MOD
+            
+            prev = cur
         
-        return dp[n][n] # no.of distinct ways of selection sets with first n integers of whose x powers sums to n
+        # return dp[n][n] # no.of distinct ways of selection sets with first n integers of whose x powers sums to n
+        return prev[n]
