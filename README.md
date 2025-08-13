@@ -1048,6 +1048,7 @@ LeetCode DSA Practice with Python
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
+| [0326-power-of-three](https://github.com/chiillbro/LC-Python/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0670-maximum-swap](https://github.com/chiillbro/LC-Python/tree/master/0670-maximum-swap) |
@@ -1124,6 +1125,7 @@ LeetCode DSA Practice with Python
 | [0143-reorder-list](https://github.com/chiillbro/LC-Python/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chiillbro/LC-Python/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/chiillbro/LC-Python/tree/master/0326-power-of-three) |
 | [2050-count-good-numbers](https://github.com/chiillbro/LC-Python/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/chiillbro/LC-Python/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/chiillbro/LC-Python/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
