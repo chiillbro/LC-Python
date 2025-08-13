@@ -6,7 +6,11 @@ class Solution:
         if n <= 2:
             return False
         
-        while n > 3:
-            n /= 3
+        # while n > 3:
+        #     n /= 3
         
-        return n == 3
+        # return n == 3
+
+        LARGE_POWER = 3**30
+
+        return LARGE_POWER % n == 0
