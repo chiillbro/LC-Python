@@ -78,6 +78,7 @@ LeetCode DSA Practice with Python
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0679-24-game](https://github.com/chiillbro/LC-Python/tree/master/0679-24-game) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
@@ -959,6 +960,7 @@ LeetCode DSA Practice with Python
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
+| [0679-24-game](https://github.com/chiillbro/LC-Python/tree/master/0679-24-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/chiillbro/LC-Python/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -1056,6 +1058,7 @@ LeetCode DSA Practice with Python
 | [0368-largest-divisible-subset](https://github.com/chiillbro/LC-Python/tree/master/0368-largest-divisible-subset) |
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0670-maximum-swap](https://github.com/chiillbro/LC-Python/tree/master/0670-maximum-swap) |
+| [0679-24-game](https://github.com/chiillbro/LC-Python/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [0867-new-21-game](https://github.com/chiillbro/LC-Python/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/chiillbro/LC-Python/tree/master/0900-reordered-power-of-2) |
