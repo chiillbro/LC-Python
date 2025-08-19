@@ -1,7 +1,7 @@
 class Solution:
     def judgePoint24(self, cards: List[int]) -> bool:
         # cards: int[...4], each element is in the range 1 to 9
-        THRESHOLD = 10**(-6)
+        THRESHOLD = 10**(-1)
 
         def backtrack(cur):
             if len(cur) == 1:
