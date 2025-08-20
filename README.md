@@ -154,6 +154,7 @@ LeetCode DSA Practice with Python
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/chiillbro/LC-Python/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/chiillbro/LC-Python/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -1074,6 +1075,7 @@ LeetCode DSA Practice with Python
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/chiillbro/LC-Python/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/chiillbro/LC-Python/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/chiillbro/LC-Python/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [2998-count-symmetric-integers](https://github.com/chiillbro/LC-Python/tree/master/2998-count-symmetric-integers) |
