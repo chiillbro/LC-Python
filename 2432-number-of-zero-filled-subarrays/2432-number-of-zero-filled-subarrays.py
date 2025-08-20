@@ -13,16 +13,13 @@ class Solution:
                 left += 1
             
             length = right - left
-            res += (length * ( length + 1 )) >> 1
-
             if length > 0:
+                res += (length * ( length + 1 )) >> 1
                 left = right
         
         if left == 0 and nums[0] == 0:
             return (n * (n + 1)) >> 1
         
-        # while nums[left] != 0 and left < n-1:
-        #     left += 1
         length = (n-1) - left
         res += (length * ( length + 1 )) >> 1
         
