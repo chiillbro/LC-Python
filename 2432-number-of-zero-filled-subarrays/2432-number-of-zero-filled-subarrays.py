@@ -25,18 +25,29 @@ class Solution:
         
         # return res
 
+        # PREFERRED APPROACH
+        # zeroes_streak = res = 0
 
-        zeroes_streak = res = 0
+        # for i in range(n):
+        #     if nums[i] == 0:
+        #         zeroes_streak += 1
+        #     else:
+        #         res += (zeroes_streak * (zeroes_streak + 1)) >> 1
 
-        for i in range(n):
-            if nums[i] == 0:
-                zeroes_streak += 1
-            else:
-                res += (zeroes_streak * (zeroes_streak + 1)) >> 1
-
-                zeroes_streak = 0
+        #         zeroes_streak = 0
         
-        if zeroes_streak > 0:
-            res += (zeroes_streak * (zeroes_streak + 1)) >> 1
+        # if zeroes_streak > 0:
+        #     res += (zeroes_streak * (zeroes_streak + 1)) >> 1
     
+        # return res
+
+
+        # PYTHONIC WAY
+        res = 0
+
+        for key, group in groupby(nums): # groupby groups consecutive identical elements
+            if key == 0: # we only care about '0's
+                length = len(list(group))
+                res += (length * ( length + 1 )) >> 1
+        
         return res
