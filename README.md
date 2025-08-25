@@ -71,6 +71,7 @@ LeetCode DSA Practice with Python
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/chiillbro/LC-Python/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/chiillbro/LC-Python/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/chiillbro/LC-Python/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/0540-single-element-in-a-sorted-array) |
@@ -586,6 +587,7 @@ LeetCode DSA Practice with Python
 | [0240-search-a-2d-matrix-ii](https://github.com/chiillbro/LC-Python/tree/master/0240-search-a-2d-matrix-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chiillbro/LC-Python/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/chiillbro/LC-Python/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/chiillbro/LC-Python/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/chiillbro/LC-Python/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/chiillbro/LC-Python/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/chiillbro/LC-Python/tree/master/0733-flood-fill) |
@@ -1322,6 +1324,7 @@ LeetCode DSA Practice with Python
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/chiillbro/LC-Python/tree/master/0498-diagonal-traverse) |
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
