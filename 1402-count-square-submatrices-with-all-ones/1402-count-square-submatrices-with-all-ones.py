@@ -14,6 +14,13 @@ class Solution:
         #     dp[0][j] = matrix[0][j]
         #     res += dp[0][j]
 
+        # for i in range(1, n):
+        #     for j in range(1, m):
+        #         if matrix[i][j] == 1:
+        #             dp[i][j] = 1 + min(dp[i][j-1], dp[i-1][j-1], dp[i-1][j])
+                
+        #         res += dp[i][j]
+
         # SPACE OPTIMIZATION
 
         prev = 0
@@ -30,13 +37,5 @@ class Solution:
                     res += dp[j]
                 else:
                     dp[j] = 0
-        
-
-        # for i in range(1, n):
-        #     for j in range(1, m):
-        #         if matrix[i][j] == 1:
-        #             dp[i][j] = 1 + min(dp[i][j-1], dp[i-1][j-1], dp[i-1][j])
-                
-        #         res += dp[i][j]
         
         return res
