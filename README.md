@@ -1089,6 +1089,7 @@ LeetCode DSA Practice with Python
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/chiillbro/LC-Python/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/chiillbro/LC-Python/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/chiillbro/LC-Python/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1500-count-largest-group](https://github.com/chiillbro/LC-Python/tree/master/1500-count-largest-group) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/chiillbro/LC-Python/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
