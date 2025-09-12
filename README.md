@@ -683,6 +683,7 @@ LeetCode DSA Practice with Python
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/chiillbro/LC-Python/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3396-valid-word](https://github.com/chiillbro/LC-Python/tree/master/3396-valid-word) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3617-find-the-original-typed-string-i](https://github.com/chiillbro/LC-Python/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
@@ -1116,6 +1117,7 @@ LeetCode DSA Practice with Python
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/chiillbro/LC-Python/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
+| [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/chiillbro/LC-Python/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/chiillbro/LC-Python/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -1373,8 +1375,13 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/chiillbro/LC-Python/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 ## Probability and Statistics
 |  |
 | ------- |
 | [0867-new-21-game](https://github.com/chiillbro/LC-Python/tree/master/0867-new-21-game) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
