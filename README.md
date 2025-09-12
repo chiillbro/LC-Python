@@ -677,6 +677,7 @@ LeetCode DSA Practice with Python
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2887-sort-vowels-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/2887-sort-vowels-in-a-string) |
 | [3194-find-words-containing-character](https://github.com/chiillbro/LC-Python/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/chiillbro/LC-Python/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -728,6 +729,7 @@ LeetCode DSA Practice with Python
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/chiillbro/LC-Python/tree/master/2689-rearranging-fruits) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2887-sort-vowels-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/2887-sort-vowels-in-a-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
