@@ -436,6 +436,7 @@ LeetCode DSA Practice with Python
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/chiillbro/LC-Python/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Two Pointers
 |  |
 | ------- |
@@ -691,6 +692,7 @@ LeetCode DSA Practice with Python
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/chiillbro/LC-Python/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3893-generate-tag-for-video-caption](https://github.com/chiillbro/LC-Python/tree/master/3893-generate-tag-for-video-caption) |
 ## Sorting
 |  |
@@ -905,6 +907,7 @@ LeetCode DSA Practice with Python
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/chiillbro/LC-Python/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/chiillbro/LC-Python/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
 | ------- |
