@@ -406,6 +406,7 @@ LeetCode DSA Practice with Python
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/chiillbro/LC-Python/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/chiillbro/LC-Python/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/chiillbro/LC-Python/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1319-unique-number-of-occurrences](https://github.com/chiillbro/LC-Python/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -667,6 +668,7 @@ LeetCode DSA Practice with Python
 | [1078-remove-outermost-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/chiillbro/LC-Python/tree/master/1250-longest-common-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/chiillbro/LC-Python/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/chiillbro/LC-Python/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/chiillbro/LC-Python/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
