@@ -161,6 +161,7 @@ LeetCode DSA Practice with Python
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/chiillbro/LC-Python/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2478-longest-nice-subarray](https://github.com/chiillbro/LC-Python/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
@@ -320,6 +321,7 @@ LeetCode DSA Practice with Python
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 ## Sliding Window
@@ -424,6 +426,7 @@ LeetCode DSA Practice with Python
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/chiillbro/LC-Python/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chiillbro/LC-Python/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -683,6 +686,7 @@ LeetCode DSA Practice with Python
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chiillbro/LC-Python/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/2887-sort-vowels-in-a-string) |
 | [3194-find-words-containing-character](https://github.com/chiillbro/LC-Python/tree/master/3194-find-words-containing-character) |
@@ -1157,6 +1161,7 @@ LeetCode DSA Practice with Python
 | [2164-two-best-non-overlapping-events](https://github.com/chiillbro/LC-Python/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/chiillbro/LC-Python/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
@@ -1277,6 +1282,7 @@ LeetCode DSA Practice with Python
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1023-time-based-key-value-store](https://github.com/chiillbro/LC-Python/tree/master/1023-time-based-key-value-store) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/chiillbro/LC-Python/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 ## Linked List
 |  |
 | ------- |
