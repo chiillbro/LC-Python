@@ -387,6 +387,7 @@ LeetCode DSA Practice with Python
 | [0141-linked-list-cycle](https://github.com/chiillbro/LC-Python/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/chiillbro/LC-Python/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
+| [0166-fraction-to-recurring-decimal](https://github.com/chiillbro/LC-Python/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/chiillbro/LC-Python/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/chiillbro/LC-Python/tree/master/0229-majority-element-ii) |
@@ -665,6 +666,7 @@ LeetCode DSA Practice with Python
 | [0139-word-break](https://github.com/chiillbro/LC-Python/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/chiillbro/LC-Python/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/chiillbro/LC-Python/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/chiillbro/LC-Python/tree/master/0205-isomorphic-strings) |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
 | [0242-valid-anagram](https://github.com/chiillbro/LC-Python/tree/master/0242-valid-anagram) |
@@ -1112,6 +1114,7 @@ LeetCode DSA Practice with Python
 | [0070-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chiillbro/LC-Python/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/chiillbro/LC-Python/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/chiillbro/LC-Python/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/chiillbro/LC-Python/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
