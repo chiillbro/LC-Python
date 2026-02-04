@@ -211,6 +211,7 @@ LeetCode DSA Practice with Python
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/chiillbro/LC-Python/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3637-trionic-array-i](https://github.com/chiillbro/LC-Python/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/chiillbro/LC-Python/tree/master/3639-zero-array-transformation-i) |
+| [3640-trionic-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3640-trionic-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/chiillbro/LC-Python/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chiillbro/LC-Python/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
@@ -1011,6 +1012,7 @@ LeetCode DSA Practice with Python
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/chiillbro/LC-Python/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/chiillbro/LC-Python/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
+| [3640-trionic-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3640-trionic-array-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chiillbro/LC-Python/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/chiillbro/LC-Python/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Backtracking
