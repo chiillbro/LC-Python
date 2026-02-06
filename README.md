@@ -210,6 +210,7 @@ LeetCode DSA Practice with Python
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/chiillbro/LC-Python/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/chiillbro/LC-Python/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/chiillbro/LC-Python/tree/master/3634-minimum-removals-to-balance-array) |
 | [3637-trionic-array-i](https://github.com/chiillbro/LC-Python/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/chiillbro/LC-Python/tree/master/3639-zero-array-transformation-i) |
 | [3640-trionic-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3640-trionic-array-ii) |
@@ -366,6 +367,7 @@ LeetCode DSA Practice with Python
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/chiillbro/LC-Python/tree/master/3634-minimum-removals-to-balance-array) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/chiillbro/LC-Python/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Hash Table
@@ -776,6 +778,7 @@ LeetCode DSA Practice with Python
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/chiillbro/LC-Python/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
+| [3634-minimum-removals-to-balance-array](https://github.com/chiillbro/LC-Python/tree/master/3634-minimum-removals-to-balance-array) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/chiillbro/LC-Python/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/chiillbro/LC-Python/tree/master/3748-sort-matrix-by-diagonals) |
