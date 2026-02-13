@@ -467,6 +467,7 @@ LeetCode DSA Practice with Python
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/chiillbro/LC-Python/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/chiillbro/LC-Python/tree/master/3678-design-task-manager) |
+| [3713-longest-balanced-substring-i](https://github.com/chiillbro/LC-Python/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/chiillbro/LC-Python/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/chiillbro/LC-Python/tree/master/3721-longest-balanced-subarray-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -735,6 +736,7 @@ LeetCode DSA Practice with Python
 | [3617-find-the-original-typed-string-i](https://github.com/chiillbro/LC-Python/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3713-longest-balanced-substring-i](https://github.com/chiillbro/LC-Python/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -958,6 +960,7 @@ LeetCode DSA Practice with Python
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/chiillbro/LC-Python/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3583-count-special-triplets](https://github.com/chiillbro/LC-Python/tree/master/3583-count-special-triplets) |
+| [3713-longest-balanced-substring-i](https://github.com/chiillbro/LC-Python/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/chiillbro/LC-Python/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/chiillbro/LC-Python/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -1262,6 +1265,7 @@ LeetCode DSA Practice with Python
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/chiillbro/LC-Python/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3713-longest-balanced-substring-i](https://github.com/chiillbro/LC-Python/tree/master/3713-longest-balanced-substring-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/chiillbro/LC-Python/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/chiillbro/LC-Python/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/chiillbro/LC-Python/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
