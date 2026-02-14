@@ -1002,6 +1002,7 @@ LeetCode DSA Practice with Python
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0740-delete-and-earn](https://github.com/chiillbro/LC-Python/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0747-min-cost-climbing-stairs) |
+| [0799-champagne-tower](https://github.com/chiillbro/LC-Python/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chiillbro/LC-Python/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/chiillbro/LC-Python/tree/master/0806-domino-and-tromino-tiling) |
 | [0867-new-21-game](https://github.com/chiillbro/LC-Python/tree/master/0867-new-21-game) |
