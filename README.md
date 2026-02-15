@@ -675,6 +675,7 @@ LeetCode DSA Practice with Python
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/chiillbro/LC-Python/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/chiillbro/LC-Python/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/chiillbro/LC-Python/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/chiillbro/LC-Python/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/chiillbro/LC-Python/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/chiillbro/LC-Python/tree/master/0079-word-search) |
@@ -1088,6 +1089,7 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/chiillbro/LC-Python/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/chiillbro/LC-Python/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/chiillbro/LC-Python/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/chiillbro/LC-Python/tree/master/0136-single-number) |
@@ -1148,6 +1150,7 @@ LeetCode DSA Practice with Python
 | [0013-roman-to-integer](https://github.com/chiillbro/LC-Python/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/chiillbro/LC-Python/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/chiillbro/LC-Python/tree/master/0050-powx-n) |
+| [0067-add-binary](https://github.com/chiillbro/LC-Python/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/chiillbro/LC-Python/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/chiillbro/LC-Python/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chiillbro/LC-Python/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -1428,6 +1431,7 @@ LeetCode DSA Practice with Python
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/chiillbro/LC-Python/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/chiillbro/LC-Python/tree/master/0498-diagonal-traverse) |
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
