@@ -1058,6 +1058,7 @@ LeetCode DSA Practice with Python
 | [0131-palindrome-partitioning](https://github.com/chiillbro/LC-Python/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/chiillbro/LC-Python/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/chiillbro/LC-Python/tree/master/0282-expression-add-operators) |
+| [0401-binary-watch](https://github.com/chiillbro/LC-Python/tree/master/0401-binary-watch) |
 | [0679-24-game](https://github.com/chiillbro/LC-Python/tree/master/0679-24-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/chiillbro/LC-Python/tree/master/2140-longest-subsequence-repeated-k-times) |
@@ -1100,6 +1101,7 @@ LeetCode DSA Practice with Python
 | [0268-missing-number](https://github.com/chiillbro/LC-Python/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/chiillbro/LC-Python/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/chiillbro/LC-Python/tree/master/0401-binary-watch) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
