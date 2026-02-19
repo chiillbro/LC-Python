@@ -501,6 +501,7 @@ LeetCode DSA Practice with Python
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/chiillbro/LC-Python/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chiillbro/LC-Python/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0696-count-binary-substrings](https://github.com/chiillbro/LC-Python/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
@@ -702,6 +703,7 @@ LeetCode DSA Practice with Python
 | [0567-permutation-in-string](https://github.com/chiillbro/LC-Python/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/chiillbro/LC-Python/tree/master/0647-palindromic-substrings) |
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
+| [0696-count-binary-substrings](https://github.com/chiillbro/LC-Python/tree/master/0696-count-binary-substrings) |
 | [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
