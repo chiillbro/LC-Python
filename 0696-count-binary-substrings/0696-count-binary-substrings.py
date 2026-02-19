@@ -19,15 +19,31 @@ class Solution:
         # return ans
 
 
-        groups = [len(list(v)) for _, v in itertools.groupby(s)]
+        # groups = [len(list(v)) for _, v in itertools.groupby(s)]
 
 
-        ans = 0
-        for a, b in zip(groups, groups[1:]):
-            ans += min(a, b)
+        # ans = 0
+        # for a, b in zip(groups, groups[1:]):
+        #     ans += min(a, b)
         
 
-        return ans
+        # return ans
+
+
+        prev, cur, ans = 0, 1, 0
+
+
+        for i in range(1, len(s)):
+            if s[i-1] != s[i]:
+                ans += min(prev, cur)
+                prev, cur = cur, 1
+            
+            else:
+                cur += 1
+        
+        return ans + min(prev, cur)
+
+
 
 
 
