@@ -1102,6 +1102,7 @@ LeetCode DSA Practice with Python
 | [0287-find-the-duplicate-number](https://github.com/chiillbro/LC-Python/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/chiillbro/LC-Python/tree/master/0342-power-of-four) |
 | [0401-binary-watch](https://github.com/chiillbro/LC-Python/tree/master/0401-binary-watch) |
+| [0693-binary-number-with-alternating-bits](https://github.com/chiillbro/LC-Python/tree/master/0693-binary-number-with-alternating-bits) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
