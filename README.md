@@ -299,6 +299,7 @@ LeetCode DSA Practice with Python
 | [0315-count-of-smaller-numbers-after-self](https://github.com/chiillbro/LC-Python/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/chiillbro/LC-Python/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/chiillbro/LC-Python/tree/master/0493-reverse-pairs) |
+| [0761-special-binary-string](https://github.com/chiillbro/LC-Python/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/chiillbro/LC-Python/tree/master/1382-balance-a-binary-search-tree) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
@@ -705,6 +706,7 @@ LeetCode DSA Practice with Python
 | [0686-repeated-string-match](https://github.com/chiillbro/LC-Python/tree/master/0686-repeated-string-match) |
 | [0696-count-binary-substrings](https://github.com/chiillbro/LC-Python/tree/master/0696-count-binary-substrings) |
 | [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/chiillbro/LC-Python/tree/master/0761-special-binary-string) |
 | [0768-partition-labels](https://github.com/chiillbro/LC-Python/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/chiillbro/LC-Python/tree/master/0868-push-dominoes) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/chiillbro/LC-Python/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -768,6 +770,7 @@ LeetCode DSA Practice with Python
 | [0594-longest-harmonious-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/chiillbro/LC-Python/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/chiillbro/LC-Python/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/chiillbro/LC-Python/tree/master/0761-special-binary-string) |
 | [0883-car-fleet](https://github.com/chiillbro/LC-Python/tree/master/0883-car-fleet) |
 | [0900-reordered-power-of-2](https://github.com/chiillbro/LC-Python/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
