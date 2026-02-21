@@ -1108,6 +1108,7 @@ LeetCode DSA Practice with Python
 | [0342-power-of-four](https://github.com/chiillbro/LC-Python/tree/master/0342-power-of-four) |
 | [0401-binary-watch](https://github.com/chiillbro/LC-Python/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/chiillbro/LC-Python/tree/master/0693-binary-number-with-alternating-bits) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/chiillbro/LC-Python/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -1175,6 +1176,7 @@ LeetCode DSA Practice with Python
 | [0556-next-greater-element-iii](https://github.com/chiillbro/LC-Python/tree/master/0556-next-greater-element-iii) |
 | [0670-maximum-swap](https://github.com/chiillbro/LC-Python/tree/master/0670-maximum-swap) |
 | [0679-24-game](https://github.com/chiillbro/LC-Python/tree/master/0679-24-game) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/chiillbro/LC-Python/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [0867-new-21-game](https://github.com/chiillbro/LC-Python/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/chiillbro/LC-Python/tree/master/0900-reordered-power-of-2) |
