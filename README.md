@@ -1109,6 +1109,7 @@ LeetCode DSA Practice with Python
 | [0401-binary-watch](https://github.com/chiillbro/LC-Python/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/chiillbro/LC-Python/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/chiillbro/LC-Python/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
+| [0868-binary-gap](https://github.com/chiillbro/LC-Python/tree/master/0868-binary-gap) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
