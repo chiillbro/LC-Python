@@ -438,6 +438,7 @@ LeetCode DSA Practice with Python
 | [1319-unique-number-of-occurrences](https://github.com/chiillbro/LC-Python/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1500-count-largest-group](https://github.com/chiillbro/LC-Python/tree/master/1500-count-largest-group) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1813-maximum-erasure-value](https://github.com/chiillbro/LC-Python/tree/master/1813-maximum-erasure-value) |
@@ -720,6 +721,7 @@ LeetCode DSA Practice with Python
 | [1302-delete-characters-to-make-fancy-string](https://github.com/chiillbro/LC-Python/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/chiillbro/LC-Python/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/chiillbro/LC-Python/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/chiillbro/LC-Python/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chiillbro/LC-Python/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/chiillbro/LC-Python/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -1111,6 +1113,7 @@ LeetCode DSA Practice with Python
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/chiillbro/LC-Python/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/chiillbro/LC-Python/tree/master/0868-binary-gap) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
@@ -1430,11 +1433,13 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Hash Function
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/chiillbro/LC-Python/tree/master/0572-subtree-of-another-tree) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
 ## Monotonic Queue
 |  |
