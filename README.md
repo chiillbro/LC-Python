@@ -111,6 +111,7 @@ LeetCode DSA Practice with Python
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/chiillbro/LC-Python/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/chiillbro/LC-Python/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/chiillbro/LC-Python/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chiillbro/LC-Python/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -778,6 +779,7 @@ LeetCode DSA Practice with Python
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/chiillbro/LC-Python/tree/master/1129-longest-string-chain) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/chiillbro/LC-Python/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/chiillbro/LC-Python/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/chiillbro/LC-Python/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -964,6 +966,7 @@ LeetCode DSA Practice with Python
 | [0900-reordered-power-of-2](https://github.com/chiillbro/LC-Python/tree/master/0900-reordered-power-of-2) |
 | [1034-subarrays-with-k-different-integers](https://github.com/chiillbro/LC-Python/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/chiillbro/LC-Python/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chiillbro/LC-Python/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/chiillbro/LC-Python/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -1116,6 +1119,7 @@ LeetCode DSA Practice with Python
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/chiillbro/LC-Python/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/chiillbro/LC-Python/tree/master/0868-binary-gap) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/chiillbro/LC-Python/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
