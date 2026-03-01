@@ -1126,6 +1126,7 @@ LeetCode DSA Practice with Python
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/chiillbro/LC-Python/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/chiillbro/LC-Python/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/chiillbro/LC-Python/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/chiillbro/LC-Python/tree/master/2308-divide-array-into-equal-pairs) |
@@ -1202,6 +1203,7 @@ LeetCode DSA Practice with Python
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/chiillbro/LC-Python/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1500-count-largest-group](https://github.com/chiillbro/LC-Python/tree/master/1500-count-largest-group) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/chiillbro/LC-Python/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/chiillbro/LC-Python/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/chiillbro/LC-Python/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/chiillbro/LC-Python/tree/master/2032-largest-odd-number-in-string) |
@@ -1465,6 +1467,7 @@ LeetCode DSA Practice with Python
 | [0067-add-binary](https://github.com/chiillbro/LC-Python/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/chiillbro/LC-Python/tree/master/0498-diagonal-traverse) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/chiillbro/LC-Python/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/chiillbro/LC-Python/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2048-build-array-from-permutation](https://github.com/chiillbro/LC-Python/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/chiillbro/LC-Python/tree/master/2408-number-of-people-aware-of-a-secret) |
