@@ -121,6 +121,7 @@ LeetCode DSA Practice with Python
 | [1510-find-lucky-integer-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/chiillbro/LC-Python/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/chiillbro/LC-Python/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/chiillbro/LC-Python/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chiillbro/LC-Python/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chiillbro/LC-Python/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -657,6 +658,7 @@ LeetCode DSA Practice with Python
 | [1171-shortest-path-in-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/chiillbro/LC-Python/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/chiillbro/LC-Python/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/chiillbro/LC-Python/tree/master/1876-map-of-highest-peak) |
