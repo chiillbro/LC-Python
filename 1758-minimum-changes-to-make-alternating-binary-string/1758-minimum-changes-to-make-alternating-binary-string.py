@@ -13,8 +13,6 @@ class Solution:
             str1 += str1 * ((n-2) >> 1)
             str2 += str2 * ((n-2) >> 1)
         
-        print(str1, str2)
-
         ans1 = 0
         ans2 = 0
 
