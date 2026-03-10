@@ -1062,6 +1062,7 @@ LeetCode DSA Practice with Python
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
+| [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/chiillbro/LC-Python/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -1107,6 +1108,7 @@ LeetCode DSA Practice with Python
 | [2249-count-the-hidden-sequences](https://github.com/chiillbro/LC-Python/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2529-range-product-queries-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2529-range-product-queries-of-powers) |
+| [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/chiillbro/LC-Python/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
 | [3639-zero-array-transformation-i](https://github.com/chiillbro/LC-Python/tree/master/3639-zero-array-transformation-i) |
