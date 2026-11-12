@@ -561,6 +561,7 @@ LeetCode DSA Practice with Python
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/chiillbro/LC-Python/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/chiillbro/LC-Python/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/chiillbro/LC-Python/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Union Find
 |  |
 | ------- |
@@ -1246,6 +1247,7 @@ LeetCode DSA Practice with Python
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/chiillbro/LC-Python/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/chiillbro/LC-Python/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/chiillbro/LC-Python/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 ## Trie
 |  |
