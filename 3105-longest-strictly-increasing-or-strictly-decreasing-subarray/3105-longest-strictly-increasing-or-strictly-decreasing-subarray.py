@@ -5,7 +5,7 @@ class Solution:
 
         res = 1
         inc = dec = 1
-        for i in range(1, len(nums)):
+        for i in range(1, n):
             if nums[i] > nums[i-1]:
                 inc += 1
                 dec = 1
