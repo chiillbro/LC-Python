@@ -223,6 +223,7 @@ LeetCode DSA Practice with Python
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chiillbro/LC-Python/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/chiillbro/LC-Python/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/chiillbro/LC-Python/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3693-climbing-stairs-ii](https://github.com/chiillbro/LC-Python/tree/master/3693-climbing-stairs-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/chiillbro/LC-Python/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/chiillbro/LC-Python/tree/master/3721-longest-balanced-subarray-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/chiillbro/LC-Python/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -1074,6 +1075,7 @@ LeetCode DSA Practice with Python
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
 | [3640-trionic-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3640-trionic-array-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chiillbro/LC-Python/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3693-climbing-stairs-ii](https://github.com/chiillbro/LC-Python/tree/master/3693-climbing-stairs-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/chiillbro/LC-Python/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Backtracking
 |  |
