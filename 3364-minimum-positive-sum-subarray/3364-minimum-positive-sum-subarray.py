@@ -8,12 +8,26 @@ class Solution:
         
 
         res = float("inf")
-        for length in range(l, r+1):
-            for start in range(n+1-length):
-                sub_sum = prefix_sum[start+length] - prefix_sum[start]
-                if sub_sum > 0:
-                    res = min(res, sub_sum)
+        # for length in range(l, r+1):
+        #     for start in range(n+1-length):
+        #         sub_sum = prefix_sum[start+length] - prefix_sum[start]
+        #         if sub_sum > 0:
+        #             res = min(res, sub_sum)
 
+
+        # ** O(n logn) approach using Python's SortedList data structure
+
+        window = SortedList()
+        for j in range(l, n+1):
+            window.add(prefix_sum[j-l])
+
+            if j-r-1 >= 0:
+                window.remove(prefix_sum[j-r-1])
+            
+            idx = window.bisect_left(prefix_sum[j]) - 1
+
+            if idx >= 0:
+                res = min(res, prefix_sum[j] - window[idx])
         
         return -1 if res == float("inf") else res
 
