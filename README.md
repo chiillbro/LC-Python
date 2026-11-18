@@ -201,6 +201,7 @@ LeetCode DSA Practice with Python
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
 | [3324-split-the-array](https://github.com/chiillbro/LC-Python/tree/master/3324-split-the-array) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
 | [3379-transformed-array](https://github.com/chiillbro/LC-Python/tree/master/3379-transformed-array) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
@@ -380,6 +381,7 @@ LeetCode DSA Practice with Python
 | [2626-count-the-number-of-good-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/chiillbro/LC-Python/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1113,6 +1115,7 @@ LeetCode DSA Practice with Python
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/chiillbro/LC-Python/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2529-range-product-queries-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2529-range-product-queries-of-powers) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/chiillbro/LC-Python/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
+| [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/chiillbro/LC-Python/tree/master/3618-find-the-original-typed-string-ii) |
 | [3639-zero-array-transformation-i](https://github.com/chiillbro/LC-Python/tree/master/3639-zero-array-transformation-i) |
