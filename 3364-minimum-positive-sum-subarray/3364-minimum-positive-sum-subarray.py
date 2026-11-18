@@ -8,9 +8,9 @@ class Solution:
         
 
         res = float("inf")
-        for i in range(l, r+1):
-            for j in range(n+1-i):
-                sub_sum = prefix_sum[j+i] - prefix_sum[j]
+        for length in range(l, r+1):
+            for start in range(n+1-length):
+                sub_sum = prefix_sum[start+length] - prefix_sum[start]
                 if sub_sum > 0:
                     res = min(res, sub_sum)
 
