@@ -174,6 +174,7 @@ LeetCode DSA Practice with Python
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/chiillbro/LC-Python/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/chiillbro/LC-Python/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2529-range-product-queries-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2529-range-product-queries-of-powers) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/chiillbro/LC-Python/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/chiillbro/LC-Python/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/chiillbro/LC-Python/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -551,6 +552,7 @@ LeetCode DSA Practice with Python
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/chiillbro/LC-Python/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/chiillbro/LC-Python/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/chiillbro/LC-Python/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/chiillbro/LC-Python/tree/master/2689-rearranging-fruits) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/chiillbro/LC-Python/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -813,6 +815,7 @@ LeetCode DSA Practice with Python
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/chiillbro/LC-Python/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/chiillbro/LC-Python/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/chiillbro/LC-Python/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/chiillbro/LC-Python/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/chiillbro/LC-Python/tree/master/2689-rearranging-fruits) |
