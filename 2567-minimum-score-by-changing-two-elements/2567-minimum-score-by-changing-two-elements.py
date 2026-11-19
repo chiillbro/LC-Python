@@ -8,6 +8,8 @@ class Solution:
         # two_greatest_changed = sorted_nums[-3] - sorted_nums[0]
         # one_each_changed = sorted_nums[-2] - sorted_nums[1]
 
+
+        # O(n log 3) ~ O(n)
         three_smallest = nsmallest(3, nums)
         three_largest = nlargest(3, nums)
 
