@@ -205,6 +205,7 @@ LeetCode DSA Practice with Python
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
 | [3379-transformed-array](https://github.com/chiillbro/LC-Python/tree/master/3379-transformed-array) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/chiillbro/LC-Python/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -329,6 +330,7 @@ LeetCode DSA Practice with Python
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chiillbro/LC-Python/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2280-count-good-triplets-in-an-array) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3719-longest-balanced-subarray-i](https://github.com/chiillbro/LC-Python/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/chiillbro/LC-Python/tree/master/3721-longest-balanced-subarray-ii) |
@@ -384,6 +386,7 @@ LeetCode DSA Practice with Python
 | [2856-count-complete-subarrays-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/chiillbro/LC-Python/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/chiillbro/LC-Python/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1200,6 +1203,7 @@ LeetCode DSA Practice with Python
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/chiillbro/LC-Python/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/chiillbro/LC-Python/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Math
 |  |
@@ -1321,6 +1325,7 @@ LeetCode DSA Practice with Python
 | [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/chiillbro/LC-Python/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3827-implement-router](https://github.com/chiillbro/LC-Python/tree/master/3827-implement-router) |
 ## Enumeration
@@ -1457,6 +1462,7 @@ LeetCode DSA Practice with Python
 | [1628-count-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1628-count-submatrices-with-all-ones) |
 | [2227-sum-of-subarray-ranges](https://github.com/chiillbro/LC-Python/tree/master/2227-sum-of-subarray-ranges) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Iterator
 |  |
 | ------- |
@@ -1493,6 +1499,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/chiillbro/LC-Python/tree/master/0239-sliding-window-maximum) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/chiillbro/LC-Python/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Simulation
 |  |
 | ------- |
