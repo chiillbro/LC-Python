@@ -189,6 +189,7 @@ LeetCode DSA Practice with Python
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/chiillbro/LC-Python/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/chiillbro/LC-Python/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/chiillbro/LC-Python/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -824,6 +825,7 @@ LeetCode DSA Practice with Python
 | [2888-minimum-index-of-a-valid-split](https://github.com/chiillbro/LC-Python/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2919-maximum-number-of-groups-with-increasing-length](https://github.com/chiillbro/LC-Python/tree/master/2919-maximum-number-of-groups-with-increasing-length) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/chiillbro/LC-Python/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/chiillbro/LC-Python/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/chiillbro/LC-Python/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
@@ -1071,6 +1073,7 @@ LeetCode DSA Practice with Python
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/chiillbro/LC-Python/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/chiillbro/LC-Python/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3139-subarrays-distinct-element-sum-of-squares-ii](https://github.com/chiillbro/LC-Python/tree/master/3139-subarrays-distinct-element-sum-of-squares-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
