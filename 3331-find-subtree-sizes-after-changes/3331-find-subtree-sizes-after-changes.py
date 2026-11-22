@@ -11,15 +11,15 @@ class Solution:
         new_parent = parent[:]
 
         def dfs(node):
-            if s[node] in track_ancestors:
+            if track_ancestors[s[node]]:
                 new_parent[node] = track_ancestors[s[node]][-1]
             track_ancestors[s[node]].append(node)
 
             for child in parent_children_list[node]:
                 dfs(child)
             track_ancestors[s[node]].pop()
-            if not track_ancestors[s[node]]:
-                del track_ancestors[s[node]]
+            # if not track_ancestors[s[node]]:
+                # del track_ancestors[s[node]]
         
         dfs(0)
 
@@ -30,10 +30,6 @@ class Solution:
         
         ans = [0] * n
         def subtree_size(node):
-            if node not in new_parent_children_list:
-                ans[node] = 1
-                return 1
-            
             size = 1
             for child in new_parent_children_list[node]:
                 size += subtree_size(child)
