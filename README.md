@@ -528,6 +528,7 @@ LeetCode DSA Practice with Python
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/chiillbro/LC-Python/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/chiillbro/LC-Python/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/chiillbro/LC-Python/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/chiillbro/LC-Python/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Greedy
 |  |
@@ -766,6 +767,7 @@ LeetCode DSA Practice with Python
 | [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/chiillbro/LC-Python/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/2887-sort-vowels-in-a-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/chiillbro/LC-Python/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/chiillbro/LC-Python/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3194-find-words-containing-character](https://github.com/chiillbro/LC-Python/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -1081,6 +1083,7 @@ LeetCode DSA Practice with Python
 | [2408-number-of-people-aware-of-a-secret](https://github.com/chiillbro/LC-Python/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/chiillbro/LC-Python/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/chiillbro/LC-Python/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/chiillbro/LC-Python/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/chiillbro/LC-Python/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/chiillbro/LC-Python/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
