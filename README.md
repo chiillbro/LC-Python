@@ -111,6 +111,7 @@ LeetCode DSA Practice with Python
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/chiillbro/LC-Python/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/chiillbro/LC-Python/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/chiillbro/LC-Python/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/chiillbro/LC-Python/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -1126,6 +1127,7 @@ LeetCode DSA Practice with Python
 | [0410-split-array-largest-sum](https://github.com/chiillbro/LC-Python/tree/master/0410-split-array-largest-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/chiillbro/LC-Python/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/chiillbro/LC-Python/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -1240,6 +1242,7 @@ LeetCode DSA Practice with Python
 | [0797-rabbits-in-forest](https://github.com/chiillbro/LC-Python/tree/master/0797-rabbits-in-forest) |
 | [0867-new-21-game](https://github.com/chiillbro/LC-Python/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/chiillbro/LC-Python/tree/master/0900-reordered-power-of-2) |
+| [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/chiillbro/LC-Python/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/chiillbro/LC-Python/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -1423,6 +1426,7 @@ LeetCode DSA Practice with Python
 | [0173-binary-search-tree-iterator](https://github.com/chiillbro/LC-Python/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chiillbro/LC-Python/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1023-time-based-key-value-store](https://github.com/chiillbro/LC-Python/tree/master/1023-time-based-key-value-store) |
+| [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/chiillbro/LC-Python/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2023-design-movie-rental-system](https://github.com/chiillbro/LC-Python/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/chiillbro/LC-Python/tree/master/2429-design-a-food-rating-system) |
@@ -1562,4 +1566,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/chiillbro/LC-Python/tree/master/3666-minimum-operations-to-equalize-binary-string) |
+## Data Stream
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
