@@ -207,6 +207,7 @@ LeetCode DSA Practice with Python
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/chiillbro/LC-Python/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
 | [3379-transformed-array](https://github.com/chiillbro/LC-Python/tree/master/3379-transformed-array) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/chiillbro/LC-Python/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3430-count-days-without-meetings](https://github.com/chiillbro/LC-Python/tree/master/3430-count-days-without-meetings) |
@@ -388,6 +389,7 @@ LeetCode DSA Practice with Python
 | [2856-count-complete-subarrays-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/chiillbro/LC-Python/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3364-minimum-positive-sum-subarray](https://github.com/chiillbro/LC-Python/tree/master/3364-minimum-positive-sum-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/chiillbro/LC-Python/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/chiillbro/LC-Python/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/chiillbro/LC-Python/tree/master/3483-alternating-groups-ii) |
@@ -1269,6 +1271,7 @@ LeetCode DSA Practice with Python
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/chiillbro/LC-Python/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/chiillbro/LC-Python/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -1352,6 +1355,7 @@ LeetCode DSA Practice with Python
 | [2202-sum-of-k-mirror-numbers](https://github.com/chiillbro/LC-Python/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2998-count-symmetric-integers](https://github.com/chiillbro/LC-Python/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/chiillbro/LC-Python/tree/master/3201-distribute-candies-among-children-ii) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/chiillbro/LC-Python/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/chiillbro/LC-Python/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -1366,6 +1370,7 @@ LeetCode DSA Practice with Python
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/chiillbro/LC-Python/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/chiillbro/LC-Python/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3001-apply-operations-to-maximize-score](https://github.com/chiillbro/LC-Python/tree/master/3001-apply-operations-to-maximize-score) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 ## Graph
 |  |
 | ------- |
