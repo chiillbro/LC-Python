@@ -120,6 +120,7 @@ LeetCode DSA Practice with Python
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/chiillbro/LC-Python/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/chiillbro/LC-Python/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/chiillbro/LC-Python/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/chiillbro/LC-Python/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/chiillbro/LC-Python/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/chiillbro/LC-Python/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/chiillbro/LC-Python/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -1069,6 +1070,7 @@ LeetCode DSA Practice with Python
 | [1352-maximum-profit-in-job-scheduling](https://github.com/chiillbro/LC-Python/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chiillbro/LC-Python/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/chiillbro/LC-Python/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/chiillbro/LC-Python/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/chiillbro/LC-Python/tree/master/1628-count-submatrices-with-all-ones) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/chiillbro/LC-Python/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -1131,6 +1133,7 @@ LeetCode DSA Practice with Python
 | [1046-max-consecutive-ones-iii](https://github.com/chiillbro/LC-Python/tree/master/1046-max-consecutive-ones-iii) |
 | [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chiillbro/LC-Python/tree/master/1370-count-number-of-nice-subarrays) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/chiillbro/LC-Python/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/chiillbro/LC-Python/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/chiillbro/LC-Python/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
@@ -1250,6 +1253,7 @@ LeetCode DSA Practice with Python
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/chiillbro/LC-Python/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/chiillbro/LC-Python/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1500-count-largest-group](https://github.com/chiillbro/LC-Python/tree/master/1500-count-largest-group) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/chiillbro/LC-Python/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/chiillbro/LC-Python/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/chiillbro/LC-Python/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/chiillbro/LC-Python/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
