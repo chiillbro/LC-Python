@@ -1278,6 +1278,7 @@ LeetCode DSA Practice with Python
 | [3243-count-the-number-of-powerful-integers](https://github.com/chiillbro/LC-Python/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/chiillbro/LC-Python/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/chiillbro/LC-Python/tree/master/3321-type-of-triangle) |
+| [3360-stone-removal-game](https://github.com/chiillbro/LC-Python/tree/master/3360-stone-removal-game) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/chiillbro/LC-Python/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3462-vowels-game-in-a-string](https://github.com/chiillbro/LC-Python/tree/master/3462-vowels-game-in-a-string) |
 | [3548-find-the-count-of-good-integers](https://github.com/chiillbro/LC-Python/tree/master/3548-find-the-count-of-good-integers) |
@@ -1539,6 +1540,7 @@ LeetCode DSA Practice with Python
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/chiillbro/LC-Python/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2479-meeting-rooms-iii](https://github.com/chiillbro/LC-Python/tree/master/2479-meeting-rooms-iii) |
+| [3360-stone-removal-game](https://github.com/chiillbro/LC-Python/tree/master/3360-stone-removal-game) |
 | [3379-transformed-array](https://github.com/chiillbro/LC-Python/tree/master/3379-transformed-array) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/chiillbro/LC-Python/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
