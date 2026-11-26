@@ -246,6 +246,7 @@ LeetCode DSA Practice with Python
 | [3797-design-spreadsheet](https://github.com/chiillbro/LC-Python/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/chiillbro/LC-Python/tree/master/3827-implement-router) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 ## Binary Search
 |  |
 | ------- |
@@ -299,6 +300,7 @@ LeetCode DSA Practice with Python
 | [3790-fruits-into-baskets-ii](https://github.com/chiillbro/LC-Python/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/chiillbro/LC-Python/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/chiillbro/LC-Python/tree/master/3827-implement-router) |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -500,6 +502,7 @@ LeetCode DSA Practice with Python
 | [3797-design-spreadsheet](https://github.com/chiillbro/LC-Python/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/chiillbro/LC-Python/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/chiillbro/LC-Python/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 ## Two Pointers
 |  |
 | ------- |
@@ -1509,6 +1512,7 @@ LeetCode DSA Practice with Python
 | ------- |
 | [0214-shortest-palindrome](https://github.com/chiillbro/LC-Python/tree/master/0214-shortest-palindrome) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 ## Hash Function
 |  |
 | ------- |
@@ -1516,6 +1520,7 @@ LeetCode DSA Practice with Python
 | [0572-subtree-of-another-tree](https://github.com/chiillbro/LC-Python/tree/master/0572-subtree-of-another-tree) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/chiillbro/LC-Python/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/chiillbro/LC-Python/tree/master/2079-delete-duplicate-folders-in-system) |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1579,4 +1584,8 @@ LeetCode DSA Practice with Python
 |  |
 | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/chiillbro/LC-Python/tree/master/1352-product-of-the-last-k-numbers) |
+## Suffix Array
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 <!---LeetCode Topics End-->
