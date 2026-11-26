@@ -4,8 +4,17 @@ class Solution:
 
         def feasible(L: int):
             # double hashing to eliminate the collisions on adversarial test cases
-            B1, B2 = 10^5 + 3, 10^5 + 19
-            M1, M2 = 10**9 + 7, 10**9 + 0
+
+            # computing hash
+            # [a, b, c] = a.B^2 + b.B^1 + c.B^0 (mod with a big prime number)
+            # below is the same form of computing above hash using Horner's Method
+
+            # a.B^2 + b.B^1 + c.B^0 == ((0.B + a).B + b).B +c
+
+
+            # always choose Bases such that they are greater than the max number of the given nums
+            B1, B2 = 10**5 + 3, 10**5 + 19
+            M1, M2 = 10**9 + 7, 10**9 + 9
 
             highest_power_1, highest_power_2 = pow(B1, L-1, M1), pow(B2, L-1, M2)
 
