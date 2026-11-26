@@ -1,21 +1,18 @@
 class Solution:
     def digitSum(self, s: str, k: int) -> str:
-        dup_s = s
+        # dup_s = s
         
         def perform_round(x):
             new_str = ""
             for i in range(0, len(x), k):
-                curr = 0
-                for j in range(i, min(i+k, len(x))):
-                    curr += int(x[j])
+                curr = sum(int(c) for c in s[i:i+k])
                 
                 new_str += str(curr)
-                
             
             return new_str
                     
                 
-        while len(dup_s) > k:
-            dup_s = perform_round(dup_s)
+        while len(s) > k:
+            s = perform_round(s)
         
-        return dup_s
+        return s
