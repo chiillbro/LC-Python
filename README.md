@@ -247,6 +247,7 @@ LeetCode DSA Practice with Python
 | [3827-implement-router](https://github.com/chiillbro/LC-Python/tree/master/3827-implement-router) |
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 | [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/chiillbro/LC-Python/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -582,6 +583,7 @@ LeetCode DSA Practice with Python
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/chiillbro/LC-Python/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/chiillbro/LC-Python/tree/master/3789-minimum-cost-to-acquire-required-items) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/chiillbro/LC-Python/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Union Find
 |  |
 | ------- |
@@ -1107,6 +1109,7 @@ LeetCode DSA Practice with Python
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chiillbro/LC-Python/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3693-climbing-stairs-ii](https://github.com/chiillbro/LC-Python/tree/master/3693-climbing-stairs-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/chiillbro/LC-Python/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/chiillbro/LC-Python/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Backtracking
 |  |
 | ------- |
