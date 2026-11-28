@@ -248,6 +248,7 @@ LeetCode DSA Practice with Python
 | [3840-find-x-value-of-array-ii](https://github.com/chiillbro/LC-Python/tree/master/3840-find-x-value-of-array-ii) |
 | [3934-smallest-unique-subarray](https://github.com/chiillbro/LC-Python/tree/master/3934-smallest-unique-subarray) |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/chiillbro/LC-Python/tree/master/3946-maximum-number-of-items-from-sale-i) |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/chiillbro/LC-Python/tree/master/3947-maximum-number-of-items-from-sale-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -584,6 +585,7 @@ LeetCode DSA Practice with Python
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/chiillbro/LC-Python/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/chiillbro/LC-Python/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/chiillbro/LC-Python/tree/master/3946-maximum-number-of-items-from-sale-i) |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/chiillbro/LC-Python/tree/master/3947-maximum-number-of-items-from-sale-ii) |
 ## Union Find
 |  |
 | ------- |
@@ -854,6 +856,7 @@ LeetCode DSA Practice with Python
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/chiillbro/LC-Python/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/chiillbro/LC-Python/tree/master/3748-sort-matrix-by-diagonals) |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/chiillbro/LC-Python/tree/master/3947-maximum-number-of-items-from-sale-ii) |
 ## Tree
 |  |
 | ------- |
@@ -1325,6 +1328,7 @@ LeetCode DSA Practice with Python
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/chiillbro/LC-Python/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/chiillbro/LC-Python/tree/master/3647-zero-array-transformation-iii) |
 | [3678-design-task-manager](https://github.com/chiillbro/LC-Python/tree/master/3678-design-task-manager) |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/chiillbro/LC-Python/tree/master/3947-maximum-number-of-items-from-sale-ii) |
 ## Bucket Sort
 |  |
 | ------- |
